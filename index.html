@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventário de APIs Gratuitas &mdash; 2.801+ APIs catalogadas</title>
-    <meta name="description" content="Inventário massivo de APIs e serviços gratuitos: 2.801+ APIs reais catalogadas por 108 categorias, com busca, filtro e dark mode. Mantido por @lpdigital.me.">
+    <title data-i18n="page.title">Inventario de APIs Gratuitas - 2.983+ APIs catalogadas</title>
+    <meta name="description" data-i18n="page.description" content="Inventario massivo de APIs e servicos gratuitos: 2.983+ APIs reais catalogadas por 109 categorias, com busca, filtro, dark mode e 3 idiomas. Mantido por @lpdigital.me.">
     <meta name="author" content="LP Digital (@lpdigital.me)">
-    <meta name="keywords" content="apis gratuitas, free apis, catalogo apis, desenvolvedor, ia, fintech, clima, imagens, ia ml, saas free tier, lpdigital">
-    <meta property="og:title" content="Inventário de APIs Gratuitas &mdash; 2.801+ APIs">
-    <meta property="og:description" content="Catálogo massivo de APIs e serviços gratuitos com limites conhecidos, organizado por 108 categorias. Por @lpdigital.me.">
+    <meta name="keywords" data-i18n-attr="content" data-i18n="page.keywords" content="apis gratuitas, free apis, catalogo apis, desenvolvedor, ia, fintech, clima, imagens, saas free tier, lpdigital, brasil api, api governo">
+    <meta property="og:title" data-i18n-attr="content" data-i18n="og.title" content="Inventario de APIs Gratuitas - 2.983+ APIs">
+    <meta property="og:description" data-i18n-attr="content" data-i18n="og.description" content="Catalogo massivo de APIs e servicos gratuitos com limites conhecidos, organizado por 109 categorias. Por @lpdigital.me.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://philipecomputacao.github.io/inventario-apis-gratuitas/">
     <meta property="og:locale" content="pt_BR">
@@ -16,97 +16,74 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inventário de APIs Gratuitas &mdash; 2.801+ APIs">
-    <meta name="twitter:description" content="2.801+ APIs gratuitas catalogadas em 108 categorias. Por @lpdigital.me.">
+    <meta name="twitter:title" data-i18n-attr="content" data-i18n="og.title" content="Inventario de APIs Gratuitas - 2.983+ APIs">
+    <meta name="twitter:description" data-i18n-attr="content" data-i18n="og.description" content="Catalogo massivo de APIs e servicos gratuitos com limites conhecidos, organizado por 109 categorias. Por @lpdigital.me.">
     <meta name="twitter:image" content="https://philipecomputacao.github.io/inventario-apis-gratuitas/assets/perfil-1200.jpg">
     <meta name="color-scheme" content="light dark">
     <link rel="canonical" href="https://philipecomputacao.github.io/inventario-apis-gratuitas/">
+
+    <!-- HREFLANG (SEO multilingual) -->
+    <link rel="alternate" hreflang="pt-BR" href="https://philipecomputacao.github.io/inventario-apis-gratuitas/">
+    <link rel="alternate" hreflang="en" href="https://philipecomputacao.github.io/inventario-apis-gratuitas/?lang=en">
+    <link rel="alternate" hreflang="es" href="https://philipecomputacao.github.io/inventario-apis-gratuitas/?lang=es">
+    <link rel="alternate" hreflang="x-default" href="https://philipecomputacao.github.io/inventario-apis-gratuitas/">
+
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A6%3C/text%3E%3C/svg%3E">
     <script>
-        // No-flash theme resolver - executa antes do body renderizar
+        // No-flash theme resolver
         (function() {
             try {
                 var stored = localStorage.getItem('theme');
                 var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
                 var resolved = (stored === 'light' || stored === 'dark') ? stored : (prefersDark ? 'dark' : 'light');
                 document.documentElement.setAttribute('data-theme', resolved);
-            } catch (e) { /* localStorage bloqueado - segue default */ }
+            } catch (e) {}
         })();
     </script>
     <style>
-        /* ============================================
-           TEMA LIGHT (default)
-           ============================================ */
+        /* CSS do tema e do layout - mantido identico */
         :root {
             color-scheme: light;
-
-            --bg: #ffffff;
-            --bg-2: #f6f8fa;
-            --bg-3: #eaeef2;
-            --border: #d0d7de;
-            --text: #1f2328;
-            --text-dim: #656d76;
-            --accent: #00875a;
-            --accent-dim: #006847;
+            --bg: #ffffff; --bg-2: #f6f8fa; --bg-3: #eaeef2;
+            --border: #d0d7de; --text: #1f2328; --text-dim: #656d76;
+            --accent: #00875a; --accent-dim: #006847;
             --accent-soft: rgba(0, 135, 90, 0.10);
             --accent-border: rgba(0, 135, 90, 0.30);
             --accent-contrast: #ffffff;
             --link: #0969da;
             --code-bg: #eef1f4;
-
             --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
             --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
             --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
             --shadow-accent: 0 8px 24px rgba(0, 135, 90, 0.20);
             --shadow-ig: 0 6px 16px rgba(225, 48, 108, 0.25);
-
             --row-hover: #f0f3f6;
             --sticky-bg: rgba(255, 255, 255, 0.85);
             --table-stripe: #f6f8fa;
             --gradient-ig: radial-gradient(circle, rgba(225, 48, 108, 0.06) 0%, transparent 70%);
             --gradient-ig-final: radial-gradient(ellipse at top, rgba(225, 48, 108, 0.10) 0%, transparent 60%);
-
-            --ig-1: #f09433;
-            --ig-2: #e6683c;
-            --ig-3: #dc2743;
-            --ig-4: #cc2366;
-            --ig-5: #bc1888;
+            --ig-1: #f09433; --ig-2: #e6683c; --ig-3: #dc2743; --ig-4: #cc2366; --ig-5: #bc1888;
         }
-
-        /* ============================================
-           TEMA DARK (override)
-           ============================================ */
         [data-theme="dark"] {
             color-scheme: dark;
-
-            --bg: #0f1419;
-            --bg-2: #161b22;
-            --bg-3: #1c2128;
-            --border: #30363d;
-            --text: #e4e6eb;
-            --text-dim: #8b949e;
-            --accent: #00d9a3;
-            --accent-dim: #00b386;
+            --bg: #0f1419; --bg-2: #161b22; --bg-3: #1c2128;
+            --border: #30363d; --text: #e4e6eb; --text-dim: #8b949e;
+            --accent: #00d9a3; --accent-dim: #00b386;
             --accent-soft: rgba(0, 217, 163, 0.12);
             --accent-border: rgba(0, 217, 163, 0.3);
             --accent-contrast: #0a1a14;
-            --link: #58a6ff;
-            --code-bg: #1c2128;
-
+            --link: #58a6ff; --code-bg: #1c2128;
             --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
             --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
             --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
             --shadow-accent: 0 8px 24px rgba(0, 217, 163, 0.25);
             --shadow-ig: 0 6px 16px rgba(225, 48, 108, 0.40);
-
             --row-hover: #1c2128;
             --sticky-bg: rgba(15, 20, 25, 0.85);
             --table-stripe: #161b22;
             --gradient-ig: radial-gradient(circle, rgba(225, 48, 108, 0.10) 0%, transparent 70%);
             --gradient-ig-final: radial-gradient(ellipse at top, rgba(225, 48, 108, 0.15) 0%, transparent 60%);
         }
-
-        /* Transicao suave entre temas (com fallback para reduced-motion) */
         body, .sticky-cta, .stat, .feature, .ig-card, .inline-cta, .toc, .step,
         .cat-grid a, .ig-btn, .cta, .footer-avatar, .final-cta {
             transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
@@ -115,45 +92,32 @@
         html { scroll-behavior: smooth; }
         html, body { margin: 0; padding: 0; }
         body {
-            background: var(--bg);
-            color: var(--text);
+            background: var(--bg); color: var(--text);
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
-            line-height: 1.6;
-            min-height: 100vh;
-            -webkit-font-smoothing: antialiased;
+            line-height: 1.6; min-height: 100vh; -webkit-font-smoothing: antialiased;
         }
         code { font-family: "SF Mono", Monaco, Menlo, Consolas, "Courier New", monospace; background: var(--bg-3); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
         img { display: block; max-width: 100%; }
         .wrap { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
 
-        /* === STICKY BANNER (topo) === */
+        /* === STICKY BANNER === */
         .sticky-cta {
-            position: sticky;
-            top: 0;
-            z-index: 50;
+            position: sticky; top: 0; z-index: 50;
             background: var(--sticky-bg);
             backdrop-filter: saturate(180%) blur(16px);
             -webkit-backdrop-filter: saturate(180%) blur(16px);
             border-bottom: 1px solid var(--border);
         }
         .sticky-inner {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 10px 24px;
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            flex-wrap: wrap;
+            max-width: 1100px; margin: 0 auto; padding: 10px 24px;
+            display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
         }
         .sticky-avatar {
             width: 40px; height: 40px; border-radius: 50%;
             background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5));
             padding: 2px; flex-shrink: 0;
         }
-        .sticky-avatar img {
-            width: 100%; height: 100%; border-radius: 50%;
-            object-fit: cover; border: 2px solid var(--bg);
-        }
+        .sticky-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2px solid var(--bg); }
         .sticky-text { flex: 1; min-width: 200px; font-size: 14px; }
         .sticky-text strong { color: var(--accent); }
         .sticky-text span { color: var(--text-dim); }
@@ -162,8 +126,7 @@
             background: linear-gradient(45deg, var(--ig-2), var(--ig-4));
             color: #fff; padding: 8px 16px; border-radius: 6px;
             text-decoration: none; font-weight: 600; font-size: 13px;
-            transition: transform 0.15s, box-shadow 0.15s;
-            white-space: nowrap;
+            transition: transform 0.15s, box-shadow 0.15s; white-space: nowrap;
         }
         .sticky-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-ig); }
         .sticky-btn svg { width: 14px; height: 14px; fill: currentColor; }
@@ -173,37 +136,40 @@
         }
         .sticky-close:hover { color: var(--text); }
 
-        /* === THEME TOGGLE (3-vias) === */
+        /* === LANGUAGE SWITCHER === */
+        .lang-switcher {
+            display: inline-flex; align-items: center; gap: 2px;
+            background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 8px; padding: 2px;
+        }
+        .lang-switcher button {
+            background: transparent; border: none;
+            color: var(--text-dim); cursor: pointer;
+            padding: 5px 8px; border-radius: 6px;
+            font-size: 14px; line-height: 1;
+            display: flex; align-items: center; gap: 4px;
+            transition: background 0.15s, color 0.15s;
+        }
+        .lang-switcher button:hover { color: var(--text); }
+        .lang-switcher button.active {
+            background: var(--bg); color: var(--accent); box-shadow: var(--shadow-sm);
+        }
+
+        /* === THEME TOGGLE === */
         .theme-toggle {
-            display: inline-flex;
-            background: var(--bg-2);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 2px;
-            gap: 2px;
+            display: inline-flex; background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 8px; padding: 2px; gap: 2px;
         }
         .theme-toggle button {
-            background: transparent;
-            border: none;
-            color: var(--text-dim);
-            cursor: pointer;
-            padding: 6px 8px;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            line-height: 1;
+            background: transparent; border: none; color: var(--text-dim);
+            cursor: pointer; padding: 6px 8px; border-radius: 6px;
+            display: flex; align-items: center; justify-content: center; line-height: 1;
             transition: background 0.15s, color 0.15s;
         }
         .theme-toggle button:hover { color: var(--text); }
-        .theme-toggle button.active {
-            background: var(--bg);
-            color: var(--accent);
-            box-shadow: var(--shadow-sm);
-        }
+        .theme-toggle button.active { background: var(--bg); color: var(--accent); box-shadow: var(--shadow-sm); }
         .theme-toggle svg { width: 16px; height: 16px; fill: currentColor; display: block; }
 
-        /* === A11Y: prefers-reduced-motion === */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
                 animation-duration: 0.01ms !important;
@@ -212,8 +178,6 @@
                 scroll-behavior: auto !important;
             }
         }
-
-        /* === PRINT: sempre tema claro, sem sticky/gradientes === */
         @media print {
             :root, [data-theme="dark"] {
                 --bg: #ffffff; --bg-2: #ffffff; --bg-3: #f6f8fa;
@@ -221,7 +185,7 @@
                 --border: #cccccc; --accent: #006847;
                 --link: #000000; --code-bg: #f0f0f0;
             }
-            .sticky-cta, .ig-btn, .theme-toggle, .final-cta { display: none !important; }
+            .sticky-cta, .ig-btn, .theme-toggle, .final-cta, .lang-switcher { display: none !important; }
             body { background: #fff !important; color: #000 !important; }
             a { text-decoration: underline; color: #000 !important; }
             section { break-inside: avoid; page-break-inside: avoid; }
@@ -236,20 +200,17 @@
         .lead { font-size: 20px; color: var(--text-dim); max-width: 720px; margin: 0 0 40px; }
         .lead strong { color: var(--text); }
 
-        /* HERO STATS */
         .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 48px 0; }
         .stat { background: var(--bg-2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
         .stat .num { font-size: 36px; font-weight: 700; color: var(--accent); line-height: 1; }
         .stat .label { font-size: 14px; color: var(--text-dim); margin-top: 8px; }
 
-        /* CTAs */
         .cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
         .cta { display: inline-block; background: var(--accent); color: #0a1a14; padding: 18px 36px; border-radius: 10px; font-size: 18px; font-weight: 700; text-decoration: none; transition: transform 0.15s, box-shadow 0.15s; box-shadow: 0 8px 24px rgba(0, 217, 163, 0.25); border: none; cursor: pointer; }
         .cta:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(0, 217, 163, 0.35); }
         .cta.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); box-shadow: none; }
         .cta.secondary:hover { border-color: var(--accent); }
 
-        /* SECTIONS */
         section { margin-top: 80px; scroll-margin-top: 24px; }
         .feature-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
         .feature { background: var(--bg-2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
@@ -257,82 +218,43 @@
         .feature p { margin: 0; color: var(--text-dim); font-size: 14px; }
         .feature p code { font-size: 12px; }
 
-        /* TOC */
         .toc { background: var(--bg-2); border: 1px solid var(--border); border-radius: 12px; padding: 24px 28px; }
         .toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 32px; }
         .toc li { margin: 6px 0; break-inside: avoid; }
         .toc a { color: var(--text); text-decoration: none; font-size: 14px; }
         .toc a:hover { color: var(--accent); }
 
-        /* CATEGORIES GRID */
         .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; margin-top: 16px; }
         .cat-grid a { display: flex; align-items: center; gap: 8px; padding: 10px 14px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); font-size: 14px; transition: border-color 0.15s, background 0.15s; }
         .cat-grid a:hover { border-color: var(--accent); background: var(--bg-3); }
         .cat-grid .count { margin-left: auto; color: var(--text-dim); font-size: 12px; font-variant-numeric: tabular-nums; }
 
-        /* USAGE STEPS */
         .steps { counter-reset: step; }
         .step { position: relative; padding: 16px 16px 16px 64px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; }
         .step::before { counter-increment: step; content: counter(step); position: absolute; left: 16px; top: 16px; width: 32px; height: 32px; background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent-border); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; }
         .step strong { display: block; margin-bottom: 4px; }
         .step p { margin: 0; color: var(--text-dim); font-size: 14px; }
 
-        /* INLINE CTA (entre seções) */
         .inline-cta {
             background: linear-gradient(135deg, var(--bg-2) 0%, var(--bg-3) 100%);
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 24px 28px;
-            display: flex;
-            align-items: center;
-            gap: 18px;
-            flex-wrap: wrap;
-            position: relative;
-            overflow: hidden;
+            border: 1px solid var(--border); border-radius: 14px;
+            padding: 24px 28px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+            position: relative; overflow: hidden;
         }
-        .inline-cta::before {
-            content: "";
-            position: absolute; top: -50%; right: -10%;
-            width: 280px; height: 280px;
-            background: var(--gradient-ig);
-            pointer-events: none;
-        }
-        .inline-cta .avatar {
-            width: 64px; height: 64px; border-radius: 50%;
-            background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5));
-            padding: 2.5px; flex-shrink: 0; position: relative; z-index: 1;
-        }
+        .inline-cta::before { content: ""; position: absolute; top: -50%; right: -10%; width: 280px; height: 280px; background: var(--gradient-ig); pointer-events: none; }
+        .inline-cta .avatar { width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5)); padding: 2.5px; flex-shrink: 0; position: relative; z-index: 1; }
         .inline-cta .avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2.5px solid var(--bg); }
         .inline-cta .text { flex: 1; min-width: 220px; position: relative; z-index: 1; }
         .inline-cta .text strong { font-size: 16px; display: block; margin-bottom: 2px; }
         .inline-cta .text span { color: var(--text-dim); font-size: 14px; }
 
-        /* INSTAGRAM BIG CARD */
         .ig-card {
             background: linear-gradient(135deg, var(--bg-2) 0%, var(--bg-3) 100%);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 40px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 32px;
-            position: relative;
-            overflow: hidden;
+            border: 1px solid var(--border); border-radius: 16px; padding: 40px;
+            display: flex; flex-wrap: wrap; align-items: center; gap: 32px; position: relative; overflow: hidden;
         }
-        .ig-card::before {
-            content: "";
-            position: absolute;
-            top: -50%; right: -20%;
-            width: 500px; height: 500px;
-            background: radial-gradient(circle, rgba(225, 48, 108, 0.1) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        .ig-avatar {
-            width: 128px; height: 128px; border-radius: 50%;
-            background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5));
-            padding: 4px; flex-shrink: 0; position: relative; z-index: 1;
-        }
+        .ig-card::before { content: ""; position: absolute; top: -50%; right: -20%; width: 500px; height: 500px; background: var(--gradient-ig); pointer-events: none; }
+        .ig-avatar { width: 128px; height: 128px; border-radius: 50%; background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5)); padding: 4px; flex-shrink: 0; position: relative; z-index: 1; }
         .ig-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 4px solid var(--bg); }
         .ig-info { flex: 1; min-width: 260px; position: relative; z-index: 1; }
         .ig-info .ig-handle { font-size: 26px; font-weight: 700; margin: 0 0 4px; }
@@ -341,56 +263,26 @@
         .ig-info .ig-bio { color: var(--text-dim); font-size: 15px; margin: 0 0 16px; max-width: 560px; }
         .ig-info .ig-meta { display: flex; gap: 20px; font-size: 13px; color: var(--text-dim); margin-bottom: 20px; flex-wrap: wrap; }
         .ig-info .ig-meta strong { color: var(--text); font-weight: 600; }
-        .ig-btn {
-            display: inline-flex; align-items: center; gap: 10px;
-            background: linear-gradient(45deg, var(--ig-2), var(--ig-4));
-            color: #fff; padding: 14px 28px; border-radius: 10px;
-            text-decoration: none; font-weight: 700; font-size: 16px;
-            transition: transform 0.15s, box-shadow 0.15s;
-            position: relative; z-index: 1;
-        }
+        .ig-btn { display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(45deg, var(--ig-2), var(--ig-4)); color: #fff; padding: 14px 28px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 16px; transition: transform 0.15s, box-shadow 0.15s; position: relative; z-index: 1; }
         .ig-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-ig); }
         .ig-btn svg { width: 20px; height: 20px; fill: currentColor; }
         .ig-tip { background: var(--bg-3); border-left: 3px solid var(--accent); padding: 14px 18px; border-radius: 4px; font-size: 14px; color: var(--text-dim); margin-top: 20px; }
         .ig-tip strong { color: var(--accent); }
 
-        /* FINAL BIG CTA */
-        .final-cta {
-            text-align: center;
-            background: linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 100%);
-            border: 1px solid var(--accent-border);
-            border-radius: 20px;
-            padding: 48px 32px;
-            position: relative;
-            overflow: hidden;
-        }
-        .final-cta::before {
-            content: "";
-            position: absolute; inset: 0;
-            background: var(--gradient-ig-final);
-            pointer-events: none;
-        }
-        .final-cta .big-avatar {
-            width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px;
-            background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5));
-            padding: 3px; position: relative; z-index: 1;
-        }
+        .final-cta { text-align: center; background: linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 100%); border: 1px solid var(--accent-border); border-radius: 20px; padding: 48px 32px; position: relative; overflow: hidden; }
+        .final-cta::before { content: ""; position: absolute; inset: 0; background: var(--gradient-ig-final); pointer-events: none; }
+        .final-cta .big-avatar { width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px; background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5)); padding: 3px; position: relative; z-index: 1; }
         .final-cta .big-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 3px solid var(--bg); }
         .final-cta h2 { font-size: 32px; margin: 0 0 12px; position: relative; z-index: 1; }
         .final-cta p { color: var(--text-dim); max-width: 600px; margin: 0 auto 28px; position: relative; z-index: 1; }
         .final-cta .ig-btn { font-size: 18px; padding: 16px 36px; }
         .final-cta .ig-btn svg { width: 22px; height: 22px; }
 
-        /* FOOTER */
         footer { margin-top: 80px; padding-top: 32px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 14px; }
         footer a { color: var(--link); text-decoration: none; }
         footer a:hover { text-decoration: underline; }
         footer .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
-        footer .footer-avatar {
-            width: 48px; height: 48px; border-radius: 50%;
-            background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5));
-            padding: 2px; flex-shrink: 0;
-        }
+        footer .footer-avatar { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(45deg, var(--ig-1), var(--ig-2), var(--ig-3), var(--ig-4), var(--ig-5)); padding: 2px; flex-shrink: 0; }
         footer .footer-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2px solid var(--bg); }
         footer .footer-author { display: flex; align-items: center; gap: 12px; }
         .pill { display: inline-block; padding: 2px 8px; background: var(--bg-3); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; color: var(--text-dim); margin-left: 6px; }
@@ -410,26 +302,20 @@
             const STORAGE_KEY = 'theme';
             const root = document.documentElement;
             const mq = window.matchMedia('(prefers-color-scheme: dark)');
-
             function resolveTheme(mode) {
                 if (mode === 'light' || mode === 'dark') return mode;
                 return mq.matches ? 'dark' : 'light';
             }
-
             function applyTheme(mode) {
                 root.setAttribute('data-theme', resolveTheme(mode));
                 document.querySelectorAll('[data-theme-set]').forEach(btn => {
                     btn.classList.toggle('active', btn.getAttribute('data-theme-set') === mode);
                 });
             }
-
-            // Listener: se modo for "auto", reage a mudanca do SO em tempo real
             mq.addEventListener('change', () => {
                 const stored = localStorage.getItem(STORAGE_KEY) || 'auto';
                 if (stored === 'auto') applyTheme('auto');
             });
-
-            // Click handlers
             document.addEventListener('click', (e) => {
                 const btn = e.target.closest('[data-theme-set]');
                 if (!btn) return;
@@ -437,290 +323,236 @@
                 try { localStorage.setItem(STORAGE_KEY, mode); } catch (_) {}
                 applyTheme(mode);
             });
-
-            // Inicializa estado visual dos botoes (ja tem o tema aplicado pelo no-flash)
             const initial = localStorage.getItem(STORAGE_KEY) || 'auto';
             applyTheme(initial);
         })();
-    </style>
+    </script>
 </head>
 <body>
 
-    <!-- STICKY BANNER NO TOPO -->
+    <!-- STICKY BANNER -->
     <div class="sticky-cta" id="stickyCta">
         <div class="sticky-inner">
             <div class="sticky-avatar">
-                <img src="./assets/perfil-300.jpg" alt="Foto de perfil de Philipe" width="40" height="40" loading="lazy">
+                <img src="./assets/perfil-300.jpg" alt="Philipe" width="40" height="40" loading="lazy" data-i18n-attr="alt" data-i18n="sticky.avatar.alt">
             </div>
             <div class="sticky-text">
-                <strong>Philipe</strong> <span>compartilha APIs, automações e IA toda semana no Instagram</span>
+                <strong data-i18n="sticky.author">Philipe</strong> <span data-i18n="sticky.text">compartilha APIs, automacoes e IA toda semana no Instagram</span>
             </div>
             <a class="sticky-btn" href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener" aria-label="Seguir @lpdigital.me no Instagram">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                Seguir
+                <span data-i18n="sticky.btn">Seguir</span>
             </a>
-            <div class="theme-toggle" role="group" aria-label="Seletor de tema">
-                <button data-theme-set="auto" aria-label="Tema automático" title="Automático (segue o sistema)">
+            <div class="lang-switcher" role="group" data-i18n-attr="aria-label" data-i18n="lang.aria" aria-label="Seletor de idioma">
+                <button data-lang-set="pt-BR" aria-label="Portugues" title="Portugues (Brasil)">
+                    <span aria-hidden="true">&#x1F1E7;&#x1F1F7;</span>
+                </button>
+                <button data-lang-set="en" aria-label="Ingles" title="English">
+                    <span aria-hidden="true">&#x1F1FA;&#x1F1F8;</span>
+                </button>
+                <button data-lang-set="es" aria-label="Espanhol" title="Espanol">
+                    <span aria-hidden="true">&#x1F1EA;&#x1F1F8;</span>
+                </button>
+            </div>
+            <div class="theme-toggle" role="group" data-i18n-attr="aria-label" data-i18n="theme.aria" aria-label="Seletor de tema">
+                <button data-theme-set="auto" data-i18n-attr="aria-label|title" data-i18n="theme.auto" aria-label="Automatico" title="Automatico (segue o sistema)">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 2H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 14H3V4h18v12z"/></svg>
                 </button>
-                <button data-theme-set="light" aria-label="Tema claro" title="Tema claro">
+                <button data-theme-set="light" data-i18n-attr="aria-label|title" data-i18n="theme.light" aria-label="Tema claro" title="Tema claro">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41a.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06z"/></svg>
                 </button>
-                <button data-theme-set="dark" aria-label="Tema escuro" title="Tema escuro">
+                <button data-theme-set="dark" data-i18n-attr="aria-label|title" data-i18n="theme.dark" aria-label="Tema escuro" title="Tema escuro">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
                 </button>
             </div>
-            <button class="sticky-close" onclick="document.getElementById('stickyCta').style.display='none'" aria-label="Fechar banner">&times;</button>
+            <button class="sticky-close" onclick="document.getElementById('stickyCta').style.display='none'" data-i18n-attr="aria-label" data-i18n="sticky.close.aria" aria-label="Fechar banner">&times;</button>
         </div>
     </div>
 
     <div class="wrap">
-        <span class="badge">v1.0 &middot; Atualizado 2026</span>
-        <h1>Inventário de <span class="accent">APIs Gratuitas</span></h1>
-        <p class="lead">Catálogo massivo e curado de <strong>2.801+ APIs e serviços</strong> com plano gratuito real, organizados em <strong>108 categorias</strong>. Dados extraídos de <code>public-apis</code> (1.563) e <code>free-for-dev</code> (1.238) &mdash; as duas maiores listas open-source do mundo.</p>
+        <span class="badge" data-i18n="hero.badge">v1.0 &middot; Atualizado 2026</span>
+        <h1 data-i18n="hero.title">Inventario de <span class="accent">APIs Gratuitas</span></h1>
+        <p class="lead" data-i18n="hero.lead">Catalogo massivo e curado de <strong>2.983+ APIs e servicos</strong> com plano gratuito real, organizados em <strong>109 categorias</strong>. Dados extraidos de <code>public-apis</code> (1.563) e <code>free-for-dev</code> (1.238) - as duas maiores listas open-source do mundo.</p>
 
         <div class="stats">
-            <div class="stat">
-                <div class="num">2.983+</div>
-                <div class="label">APIs e serviços</div>
-            </div>
-            <div class="stat">
-                <div class="num">109</div>
-                <div class="label">Categorias</div>
-            </div>
-            <div class="stat">
-                <div class="num">~270</div>
-                <div class="label">Limites gratuitos conhecidos</div>
-            </div>
-            <div class="stat">
-                <div class="num">2.0&nbsp;MB</div>
-                <div class="label">HTML autocontido</div>
-            </div>
+            <div class="stat"><div class="num">2.983+</div><div class="label" data-i18n="stat.apis">APIs e servicos</div></div>
+            <div class="stat"><div class="num">109</div><div class="label" data-i18n="stat.categories">Categorias</div></div>
+            <div class="stat"><div class="num">~270</div><div class="label" data-i18n="stat.limits">Limites gratuitos conhecidos</div></div>
+            <div class="stat"><div class="num">2.0&nbsp;MB</div><div class="label" data-i18n="stat.size">HTML autocontido</div></div>
         </div>
 
         <div class="cta-row">
-            <a class="cta" href="./inventario-apis.html">Abrir catálogo completo &rarr;</a>
-            <a class="cta secondary" href="https://github.com/philipecomputacao/inventario-apis-gratuitas">Ver no GitHub</a>
+            <a class="cta" href="./inventario-apis.html" data-i18n="cta.open">Abrir catalogo completo &rarr;</a>
+            <a class="cta secondary" href="https://github.com/philipecomputacao/inventario-apis-gratuitas" data-i18n="cta.github">Ver no GitHub</a>
         </div>
 
-        <!-- INLINE CTA 1: depois dos CTAs principais -->
+        <!-- INLINE CTA 1 -->
         <div class="inline-cta" style="margin-top: 32px;">
             <div class="avatar">
                 <img src="./assets/perfil-300.jpg" alt="Philipe" width="64" height="64" loading="lazy">
             </div>
             <div class="text">
-                <strong>Quem mantém esse catálogo?</strong>
-                <span>Eu sou o Philipe (<a href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">@lpdigital.me</a>) e toda semana posto mais dicas de APIs, IA e automações no Instagram.</span>
+                <strong data-i18n="inline1.title">Quem mantem esse catalogo?</strong>
+                <span data-i18n="inline1.text">Eu sou o Philipe...</span>
             </div>
             <a class="ig-btn" href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                Seguir
+                <span data-i18n="inline1.btn">Seguir</span>
             </a>
         </div>
 
         <section id="como-usar">
-            <h2>Como usar</h2>
+            <h2 data-i18n="section.howto">Como usar</h2>
             <div class="steps">
                 <div class="step">
-                    <strong>Abra o catálogo</strong>
-                    <p>Clique em <em>Abrir catálogo completo</em> acima. Tudo carrega num único arquivo, sem build nem instalação.</p>
+                    <strong data-i18n="step1.title">Abra o catalogo</strong>
+                    <p data-i18n="step1.text">Clique em <em>Abrir catalogo completo</em> acima.</p>
                 </div>
                 <div class="step">
-                    <strong>Use a busca</strong>
-                    <p>Digite no campo de busca (atalho: <code>/</code>). Filtra por nome, categoria, URL ou descrição em tempo real.</p>
+                    <strong data-i18n="step2.title">Use a busca</strong>
+                    <p data-i18n="step2.text">Digite no campo de busca (atalho: <code>/</code>).</p>
                 </div>
                 <div class="step">
-                    <strong>Navegue por categoria</strong>
-                    <p>Use o menu lateral para pular direto para Imagens, IA/ML, Finanças, Clima, etc.</p>
+                    <strong data-i18n="step3.title">Navegue por categoria</strong>
+                    <p data-i18n="step3.text">Use o menu lateral para pular direto para Imagens, IA/ML, Financas, Clima, etc.</p>
                 </div>
                 <div class="step">
-                    <strong>Confira o limite gratuito</strong>
-                    <p>Procure o selo <span style="color: var(--accent); font-weight: 700;">FREE</span> &mdash; indica APIs com cota exata conhecida (ex: 50 req/h, 5 GB, 1k req/dia).</p>
+                    <strong data-i18n="step4.title">Confira o limite gratuito</strong>
+                    <p data-i18n="step4.text">Procure o selo <span style="color: var(--accent); font-weight: 700;">FREE</span> - indica APIs com cota exata.</p>
                 </div>
                 <div class="step">
-                    <strong>Salve como favorito</strong>
-                    <p>Funciona offline depois do primeiro carregamento. Pode abrir direto do seu HD ou do celular.</p>
+                    <strong data-i18n="step5.title">Salve como favorito</strong>
+                    <p data-i18n="step5.text">Funciona offline depois do primeiro carregamento.</p>
                 </div>
             </div>
 
-            <!-- INLINE CTA 2: depois de "Como usar" -->
+            <!-- INLINE CTA 2 -->
             <div class="inline-cta" style="margin-top: 24px;">
                 <div class="avatar">
                     <img src="./assets/perfil-300.jpg" alt="Philipe" width="64" height="64" loading="lazy">
                 </div>
                 <div class="text">
-                    <strong>Gostou do catálogo?</strong>
-                    <span>Tem versão nova toda semana no <a href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">@lpdigital.me</a> &mdash; com curadoria de APIs que valem ouro pra quem desenvolve no Brasil.</span>
+                    <strong data-i18n="inline2.title">Gostou do catalogo?</strong>
+                    <span data-i18n="inline2.text">Tem versao nova toda semana no @lpdigital.me.</span>
                 </div>
                 <a class="ig-btn" href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                    Seguir no Instagram
+                    <span data-i18n="inline2.btn">Seguir no Instagram</span>
                 </a>
             </div>
         </section>
 
         <section id="recursos">
-            <h2>Recursos</h2>
+            <h2 data-i18n="section.features">Recursos</h2>
             <div class="feature-list">
-                <div class="feature">
-                    <div class="icon">&#x1F50D;</div>
-                    <h3>Busca em tempo real</h3>
-                    <p>Filtre por nome, categoria ou descrição. Atalho: <code>/</code></p>
-                </div>
-                <div class="feature">
-                    <div class="icon">&#x1F4F1;</div>
-                    <h3>100% responsivo</h3>
-                    <p>Funciona em desktop, tablet e celular. Dark mode nativo.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">&#x1F4CA;</div>
-                    <h3>Limites gratuitos reais</h3>
-                    <p>~270 APIs já trazem a cota exata (ex: 50 req/h, 5 GB, 1k req/dia).</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">&#x1F310;</div>
-                    <h3>Zero dependências</h3>
-                    <p>HTML+CSS+JS puros. Funciona offline depois do primeiro carregamento.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">&#x1F3AF;</div>
-                    <h3>108 categorias</h3>
-                    <p>De IA/ML a geolocalização, clima, fintech, jogos, segurança e mais.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">&#x1F4E6;</div>
-                    <h3>Sem build, sem framework</h3>
-                    <p>Basta abrir o .html no navegador. Sem React, sem Bootstrap, sem npm.</p>
-                </div>
+                <div class="feature"><div class="icon">&#x1F50D;</div><h3 data-i18n="feat1.title">Busca em tempo real</h3><p data-i18n="feat1.text">Filtre por nome, categoria ou descricao. Atalho: <code>/</code></p></div>
+                <div class="feature"><div class="icon">&#x1F4F1;</div><h3 data-i18n="feat2.title">100% responsivo</h3><p data-i18n="feat2.text">Funciona em desktop, tablet e celular. Dark mode nativo.</p></div>
+                <div class="feature"><div class="icon">&#x1F4CA;</div><h3 data-i18n="feat3.title">Limites gratuitos reais</h3><p data-i18n="feat3.text">~270 APIs ja trazem a cota exata (ex: 50 req/h, 5 GB, 1k req/dia).</p></div>
+                <div class="feature"><div class="icon">&#x1F310;</div><h3 data-i18n="feat4.title">Zero dependencias</h3><p data-i18n="feat4.text">HTML+CSS+JS puros. Funciona offline depois do primeiro carregamento.</p></div>
+                <div class="feature"><div class="icon">&#x1F3AF;</div><h3 data-i18n="feat5.title">109 categorias</h3><p data-i18n="feat5.text">De IA/ML a geolocalizacao, clima, fintech, jogos, seguranca e mais.</p></div>
+                <div class="feature"><div class="icon">&#x1F4E6;</div><h3 data-i18n="feat6.title">Sem build, sem framework</h3><p data-i18n="feat6.text">Basta abrir o .html no navegador. Sem React, sem Bootstrap, sem npm.</p></div>
             </div>
         </section>
 
         <section id="categorias">
-            <h2>Categorias em destaque</h2>
-            <p style="color: var(--text-dim); margin-top: 0;">Amostra das categorias do catálogo completo:</p>
+            <h2 data-i18n="section.categories">Categorias em destaque</h2>
+            <p style="color: var(--text-dim); margin-top: 0;" data-i18n="categories.lead">Amostra das categorias do catalogo completo:</p>
             <div class="cat-grid">
-                <a href="./inventario-apis.html#governo-brasileiro" style="border-color: var(--accent); background: var(--accent-soft);"><span>&#x1F1E7;&#x1F1F7;</span> <strong>Governo Brasileiro</strong> <span class="count" style="color: var(--accent);">182</span></a>
-                <a href="./inventario-apis.html#imagens"><span>&#x1F5BC;</span> Imagens <span class="count">~30</span></a>
-                <a href="./inventario-apis.html#videos"><span>&#x1F4F9;</span> Vídeos <span class="count">~20</span></a>
-                <a href="./inventario-apis.html#musica"><span>&#x1F3B5;</span> Música <span class="count">~25</span></a>
-                <a href="./inventario-apis.html#clima"><span>&#x26C5;</span> Clima <span class="count">~15</span></a>
-                <a href="./inventario-apis.html#ia-ml"><span>&#x1F916;</span> IA / Machine Learning <span class="count">~40</span></a>
-                <a href="./inventario-apis.html#geolocalizacao"><span>&#x1F4CD;</span> Geolocalização <span class="count">~25</span></a>
-                <a href="./inventario-apis.html#financas"><span>&#x1F4B0;</span> Finanças <span class="count">~50</span></a>
-                <a href="./inventario-apis.html#criptomoedas"><span>&#x1FA99;</span> Criptomoedas <span class="count">~60</span></a>
-                <a href="./inventario-apis.html#governo"><span>&#x1F3DB;</span> Governo / Dados Abertos <span class="count">~30</span></a>
-                <a href="./inventario-apis.html#noticias"><span>&#x1F4F0;</span> Notícias <span class="count">~20</span></a>
-                <a href="./inventario-apis.html#email"><span>&#x2709;</span> Email / SMS <span class="count">~25</span></a>
-                <a href="./inventario-apis.html#redes-sociais"><span>&#x1F465;</span> Redes Sociais <span class="count">~15</span></a>
-                <a href="./inventario-apis.html#jogos"><span>&#x1F3AE;</span> Jogos <span class="count">~20</span></a>
-                <a href="./inventario-apis.html#desenvolvimento"><span>&#x1F6E0;</span> Ferramentas Dev <span class="count">~130</span></a>
-                <a href="./inventario-apis.html#hospedagem"><span>&#x2601;</span> Hospedagem / DevOps <span class="count">~50</span></a>
-                <a href="./inventario-apis.html#traducao"><span>&#x1F310;</span> Tradução <span class="count">~10</span></a>
-                <a href="./inventario-apis.html#governo-brasileiro" style="border-color: var(--accent); background: var(--accent-soft);"><span>&#x1F1E7;&#x1F1F7;</span> <strong>Governo Brasileiro</strong> <span class="count" style="color: var(--accent);">182</span></a>
+                <a href="./inventario-apis.html#governo-brasileiro" style="border-color: var(--accent); background: var(--accent-soft);"><span>&#x1F1E7;&#x1F1F7;</span> <strong data-i18n="cat.govbr">Governo Brasileiro</strong> <span class="count" style="color: var(--accent);">182</span></a>
+                <a href="./inventario-apis.html#imagens"><span>&#x1F5BC;</span> <span data-i18n="cat.images">Imagens</span> <span class="count">~30</span></a>
+                <a href="./inventario-apis.html#videos"><span>&#x1F4F9;</span> <span data-i18n="cat.videos">Videos</span> <span class="count">~20</span></a>
+                <a href="./inventario-apis.html#musica"><span>&#x1F3B5;</span> <span data-i18n="cat.music">Musica</span> <span class="count">~25</span></a>
+                <a href="./inventario-apis.html#clima"><span>&#x26C5;</span> <span data-i18n="cat.weather">Clima</span> <span class="count">~15</span></a>
+                <a href="./inventario-apis.html#ia-ml"><span>&#x1F916;</span> <span data-i18n="cat.ia">IA / Machine Learning</span> <span class="count">~40</span></a>
+                <a href="./inventario-apis.html#geolocalizacao"><span>&#x1F4CD;</span> <span data-i18n="cat.geo">Geolocalizacao</span> <span class="count">~25</span></a>
+                <a href="./inventario-apis.html#financas"><span>&#x1F4B0;</span> <span data-i18n="cat.finance">Financas</span> <span class="count">~50</span></a>
+                <a href="./inventario-apis.html#criptomoedas"><span>&#x1FA99;</span> <span data-i18n="cat.crypto">Criptomoedas</span> <span class="count">~60</span></a>
+                <a href="./inventario-apis.html#governo"><span>&#x1F3DB;</span> <span data-i18n="cat.gov">Governo / Dados Abertos</span> <span class="count">~30</span></a>
+                <a href="./inventario-apis.html#noticias"><span>&#x1F4F0;</span> <span data-i18n="cat.news">Noticias</span> <span class="count">~20</span></a>
+                <a href="./inventario-apis.html#email"><span>&#x2709;</span> <span data-i18n="cat.email">Email / SMS</span> <span class="count">~25</span></a>
+                <a href="./inventario-apis.html#redes-sociais"><span>&#x1F465;</span> <span data-i18n="cat.social">Redes Sociais</span> <span class="count">~15</span></a>
+                <a href="./inventario-apis.html#jogos"><span>&#x1F3AE;</span> <span data-i18n="cat.games">Jogos</span> <span class="count">~20</span></a>
+                <a href="./inventario-apis.html#desenvolvimento"><span>&#x1F6E0;</span> <span data-i18n="cat.dev">Ferramentas Dev</span> <span class="count">~130</span></a>
+                <a href="./inventario-apis.html#hospedagem"><span>&#x2601;</span> <span data-i18n="cat.devops">Hospedagem / DevOps</span> <span class="count">~50</span></a>
+                <a href="./inventario-apis.html#traducao"><span>&#x1F310;</span> <span data-i18n="cat.translate">Traducao</span> <span class="count">~10</span></a>
             </div>
         </section>
 
         <section id="governo-brasileiro-destaque">
-            <h2>🇧🇷 APIs do Governo Brasileiro</h2>
-            <p style="color: var(--text-dim); margin-top: 0; margin-bottom: 20px;">Nova seção dedicada com <strong style="color: var(--text);">182 APIs governamentais brasileiras</strong> organizadas em 11 subcategorias. Inclui a <strong>BrasilAPI</strong> (43 endpoints abertos sem autenticação), o <strong>Catálogo Conecta gov.br</strong> e dezenas de bases de dados públicos (IBGE, BCB, CVM, IPEA, ANATEL, ANP, etc).</p>
+            <h2>&#x1F1E7;&#x1F1F7; <span data-i18n="section.govbr">APIs do Governo Brasileiro</span></h2>
+            <p style="color: var(--text-dim); margin-top: 0; margin-bottom: 20px;" data-i18n="govbr.lead">Nova secao dedicada com 182 APIs governamentais brasileiras...</p>
 
             <div class="feature-list">
-                <div class="feature">
-                    <div class="icon">🇧🇷</div>
-                    <h3>BrasilAPI</h3>
-                    <p>43 endpoints: CEP, CNPJ, CPF, IBGE, FIPE, B3, CVM, Câmbio, Taxas, PIX, Feriados, DDD, ISBN, NCM, TUSS, clima CPTEC. <strong>Sem autenticação</strong>.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">🏛️</div>
-                    <h3>Conecta gov.br</h3>
-                    <p>~90 APIs do programa Conecta (Login Único, gov.br ID, CNPJ Receita, INSS, BPC, CadÚnico, SIAPE, SIAFI, SIOP, TCU, CGU).</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">📊</div>
-                    <h3>Bancos de Dados Públicos</h3>
-                    <p>IBGE SIDRA, BCB (Selic/IPCA/CDI/PTAX), CVM, IPEA, ANATEL, ANP, ANEEL, DATASUS, Comprasnet, Câmara, Senado, TCU.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">🔑</div>
-                    <h3>API Minha Receita</h3>
-                    <p>CNPJ gratuito via BrasilAPI. Acesse dados de qualquer empresa brasileira sem custo, sem rate limit agressivo.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">💰</div>
-                    <h3>BCB Open Data</h3>
-                    <p>Cotações PTAX, séries temporais Selic/IPCA/CDI, expectativas de mercado (Focus), dados do Sistema Financeiro.</p>
-                </div>
-                <div class="feature">
-                    <div class="icon">⚖️</div>
-                    <h3>CADE & TCU</h3>
-                    <p>Atos de concentração, condutas antitruste, auditorias, processos do Tribunal de Contas da União.</p>
-                </div>
+                <div class="feature"><div class="icon">&#x1F1E7;&#x1F1F7;</div><h3 data-i18n="govbr.feat1.title">BrasilAPI</h3><p data-i18n="govbr.feat1.text">43 endpoints: CEP, CNPJ...</p></div>
+                <div class="feature"><div class="icon">&#x1F3DB;&#xFE0F;</div><h3 data-i18n="govbr.feat2.title">Conecta gov.br</h3><p data-i18n="govbr.feat2.text">~90 APIs do programa Conecta...</p></div>
+                <div class="feature"><div class="icon">&#x1F4CA;</div><h3 data-i18n="govbr.feat3.title">Bancos de Dados Publicos</h3><p data-i18n="govbr.feat3.text">IBGE SIDRA, BCB...</p></div>
+                <div class="feature"><div class="icon">&#x1F511;</div><h3 data-i18n="govbr.feat4.title">API Minha Receita</h3><p data-i18n="govbr.feat4.text">CNPJ gratuito via BrasilAPI...</p></div>
+                <div class="feature"><div class="icon">&#x1F4B0;</div><h3 data-i18n="govbr.feat5.title">BCB Open Data</h3><p data-i18n="govbr.feat5.text">Cotacoes PTAX, series temporais...</p></div>
+                <div class="feature"><div class="icon">&#x2696;&#xFE0F;</div><h3 data-i18n="govbr.feat6.title">CADE & TCU</h3><p data-i18n="govbr.feat6.text">Atos de concentracao...</p></div>
             </div>
 
             <div style="margin-top: 28px;">
-                <a class="cta" href="./inventario-apis.html#governo-brasileiro">Ver 182 APIs do Governo BR &rarr;</a>
+                <a class="cta" href="./inventario-apis.html#governo-brasileiro" data-i18n="govbr.cta">Ver 182 APIs do Governo BR &rarr;</a>
             </div>
 
-            <div class="ig-tip" style="margin-top: 20px;">
-                <strong>Atenção:</strong> APIs do <strong>Conecta gov.br</strong> marcadas como &ldquo;Gov-a-Gov&rdquo; são destinadas à integração <em>entre órgãos públicos</em>. Para uso cidadão/dev/empresa, foque na <strong>BrasilAPI</strong>, <strong>IBGE</strong>, <strong>BCB</strong> e demais bancos de dados abertos.
+            <div class="ig-tip" style="margin-top: 20px;" data-i18n="govbr.tip">
+                <strong>Atencao:</strong> APIs do <strong>Conecta gov.br</strong>...
             </div>
         </section>
 
         <section id="fontes">
-            <h2>Fontes dos dados</h2>
+            <h2 data-i18n="section.sources">Fontes dos dados</h2>
             <div class="toc">
                 <ol>
-                    <li><a href="https://github.com/public-apis/public-apis" rel="noopener" target="_blank">public-apis/public-apis</a> &mdash; 1.563 APIs (CC0)</li>
-                    <li><a href="https://github.com/ripienaar/free-for-dev" rel="noopener" target="_blank">ripienaar/free-for-dev</a> &mdash; 1.238 serviços (CC-BY-SA)</li>
-                    <li><a href="https://github.com/n0shake/Public-APIs" rel="noopener" target="_blank">n0shake/Public-APIs</a> &mdash; lista complementar</li>
-                    <li><a href="https://github.com/marcelomaia/awesome-apis" rel="noopener" target="_blank">marcelomaia/awesome-apis</a> &mdash; lista em português</li>
-                    <li><a href="https://rapidapi.com/hub" rel="noopener" target="_blank">RapidAPI Hub</a> &mdash; free tier APIs</li>
-                    <li><a href="https://www.programmableweb.com/" rel="noopener" target="_blank">ProgrammableWeb</a> &mdash; diretório histórico</li>
-                    <li><a href="https://cloud.google.com/free" rel="noopener" target="_blank">Google Cloud Free Tier</a> &mdash; Maps, Translate, Gemini, etc.</li>
+                    <li><a href="https://github.com/public-apis/public-apis" rel="noopener" target="_blank">public-apis/public-apis</a> &mdash; <span data-i18n="source1">1.563 APIs (CC0)</span></li>
+                    <li><a href="https://github.com/ripienaar/free-for-dev" rel="noopener" target="_blank">ripienaar/free-for-dev</a> &mdash; <span data-i18n="source2">1.238 servicos (CC-BY-SA)</span></li>
+                    <li><a href="https://github.com/n0shake/Public-APIs" rel="noopener" target="_blank">n0shake/Public-APIs</a> &mdash; <span data-i18n="source3">lista complementar</span></li>
+                    <li><a href="https://github.com/marcelomaia/awesome-apis" rel="noopener" target="_blank">marcelomaia/awesome-apis</a> &mdash; <span data-i18n="source4">lista em portugues</span></li>
+                    <li><a href="https://rapidapi.com/hub" rel="noopener" target="_blank">RapidAPI Hub</a> &mdash; <span data-i18n="source5">free tier APIs</span></li>
+                    <li><a href="https://www.programmableweb.com/" rel="noopener" target="_blank">ProgrammableWeb</a> &mdash; <span data-i18n="source6">diretorio historico</span></li>
+                    <li><a href="https://cloud.google.com/free" rel="noopener" target="_blank">Google Cloud Free Tier</a> &mdash; <span data-i18n="source7">Maps, Translate, Gemini, etc.</span></li>
                 </ol>
             </div>
         </section>
 
-        <!-- BLOCO INSTAGRAM GRANDE -->
         <section id="siga-lpdigital">
-            <h2>Mais conteúdo &mdash; siga no Instagram</h2>
-            <p style="color: var(--text-dim); margin-top: 0; margin-bottom: 24px;">Esse projeto nasceu da curadoria que rola no <strong>@lpdigital.me</strong>. Lá você encontra mais dicas sobre APIs, automações, IA e ferramentas para construir produtos digitais sem gastar fortunas.</p>
+            <h2 data-i18n="section.follow">Mais conteudo - siga no Instagram</h2>
+            <p style="color: var(--text-dim); margin-top: 0; margin-bottom: 24px;" data-i18n="ig.lead">Esse projeto nasceu da curadoria que rola no @lpdigital.me.</p>
 
             <div class="ig-card">
                 <div class="ig-avatar">
-                    <img src="./assets/perfil-300.jpg" alt="Foto de perfil de Philipe - @lpdigital.me" width="128" height="128" loading="lazy">
+                    <img src="./assets/perfil-300.jpg" alt="Philipe" width="128" height="128" loading="lazy" data-i18n-attr="alt" data-i18n="ig.avatar.alt">
                 </div>
                 <div class="ig-info">
                     <p class="ig-handle"><a href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener">@lpdigital.me</a></p>
-                    <p class="ig-bio">APIs, automações, IA e ferramentas para construir produtos digitais. Curadoria quinzenal de serviços gratuitos, integrações low-code e atalhos dev que economizam horas.</p>
+                    <p class="ig-bio" data-i18n="ig.bio">APIs, automacoes, IA e ferramentas para construir produtos digitais.</p>
                     <div class="ig-meta">
-                        <span><strong>Dicas práticas</strong> toda semana</span>
-                        <span><strong>100%</strong> gratuito</span>
-                        <span><strong>Comunidade ativa</strong> de devs</span>
+                        <span><strong data-i18n="ig.meta1">Dicas praticas</strong> <span data-i18n="ig.meta1b">toda semana</span></span>
+                        <span><strong data-i18n="ig.meta2">100%</strong> <span data-i18n="ig.meta2b">gratuito</span></span>
+                        <span><strong data-i18n="ig.meta3">Comunidade ativa</strong> <span data-i18n="ig.meta3b">de devs</span></span>
                     </div>
-                    <a class="ig-btn" href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener" aria-label="Seguir @lpdigital.me no Instagram">
+                    <a class="ig-btn" href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                        Seguir @lpdigital.me
+                        <span data-i18n="ig.btn">Seguir @lpdigital.me</span>
                     </a>
                 </div>
             </div>
 
-            <div class="ig-tip">
-                <strong>Dica:</strong> Siga agora e ative o sino de notifica&ccedil;&otilde;es. Toda semana tem post novo com APIs, integra&ccedil;&otilde;es e ferramentas que valem ouro pra quem desenvolve no Brasil.
+            <div class="ig-tip" data-i18n="ig.tip">
+                <strong>Dica:</strong> Siga agora e ative o sino de notificacoes.
             </div>
         </section>
 
-        <!-- CTA FINAL GIGANTE -->
         <section style="margin-top: 80px;">
             <div class="final-cta">
                 <div class="big-avatar">
-                    <img src="./assets/perfil-300.jpg" alt="Philipe - @lpdigital.me" width="100" height="100" loading="lazy">
+                    <img src="./assets/perfil-300.jpg" alt="Philipe" width="100" height="100" loading="lazy">
                 </div>
-                <h2>Não perca a próxima lista</h2>
-                <p>Toda semana uma curadoria nova de APIs gratuitas, automações e ferramentas no <strong style="color: var(--accent);">@lpdigital.me</strong>. É só clicar no botão e seguir.</p>
+                <h2 data-i18n="final.heading">Nao perca a proxima lista</h2>
+                <p data-i18n="final.lead">Toda semana uma curadoria nova no <strong style="color: var(--accent);">@lpdigital.me</strong>.</p>
                 <a class="ig-btn" href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                    Seguir @lpdigital.me agora
+                    <span data-i18n="final.btn">Seguir @lpdigital.me agora</span>
                 </a>
             </div>
         </section>
@@ -732,19 +564,461 @@
                         <img src="./assets/perfil-300.jpg" alt="Philipe" width="48" height="48" loading="lazy">
                     </div>
                     <div>
-                        <p style="margin: 0;"><strong style="color: var(--text);">Philipe</strong> &middot; <a href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener">@lpdigital.me</a></p>
-                        <p style="margin: 4px 0 0;"><strong>Inventário de APIs Gratuitas</strong> &middot; <a href="https://philipecomputacao.github.io/inventario-apis-gratuitas/">philipecomputacao.github.io</a></p>
+                        <p style="margin: 0;"><strong style="color: var(--text);" data-i18n="sticky.author">Philipe</strong> &middot; <a href="https://www.instagram.com/lpdigital.me/" target="_blank" rel="noopener" data-i18n="footer.handle">@lpdigital.me</a></p>
+                        <p style="margin: 4px 0 0;"><strong data-i18n="footer.project">Inventario de APIs Gratuitas</strong> &middot; <a href="https://philipecomputacao.github.io/inventario-apis-gratuitas/">philipecomputacao.github.io</a></p>
                     </div>
                 </div>
                 <div style="text-align: right;">
                     <p style="margin: 0;">
-                        Fontes: <a href="https://github.com/public-apis/public-apis">public-apis</a> <span class="pill">CC0</span>
+                        <span data-i18n="footer.label.sources">Fontes</span>: <a href="https://github.com/public-apis/public-apis">public-apis</a> <span class="pill">CC0</span>
                         &middot; <a href="https://github.com/ripienaar/free-for-dev">free-for-dev</a> <span class="pill">CC-BY-SA</span>
                     </p>
-                    <p style="margin: 4px 0 0;">Hospedado via GitHub Pages &middot; 100% gratuito</p>
+                    <p style="margin: 4px 0 0;" data-i18n="footer.license">Hospedado via GitHub Pages &middot; 100% gratuito</p>
                 </div>
             </div>
         </footer>
     </div>
+
+    <noscript><div style="padding:20px;background:#fee;color:#900;text-align:center;border:2px solid #900;margin:20px;" data-i18n="noscript.warning">JavaScript desabilitado. Site funciona com conteudo estatico (PT-BR).</div></noscript>
+
+    <script>
+        // === I18N CONTROLLER (PT-BR / EN / ES) ===
+        const TRANSLATIONS = {
+  "pt-BR": {
+    "page.title": "Inventario de APIs Gratuitas - 2.983+ APIs catalogadas",
+    "page.description": "Inventario massivo de APIs e servicos gratuitos: 2.983+ APIs reais catalogadas por 109 categorias, com busca, filtro, dark mode e 3 idiomas. Mantido por @lpdigital.me.",
+    "page.keywords": "apis gratuitas, free apis, catalogo apis, desenvolvedor, ia, fintech, clima, imagens, saas free tier, lpdigital, brasil api, api governo",
+    "og.title": "Inventario de APIs Gratuitas - 2.983+ APIs",
+    "og.description": "Catalogo massivo de APIs e servicos gratuitos com limites conhecidos, organizado por 109 categorias. Por @lpdigital.me.",
+    "sticky.avatar.alt": "Foto de perfil de Philipe",
+    "sticky.author": "Philipe",
+    "sticky.text": "compartilha APIs, automacoes e IA toda semana no Instagram",
+    "sticky.btn": "Seguir",
+    "sticky.close.aria": "Fechar banner",
+    "lang.aria": "Seletor de idioma",
+    "lang.pt": "Portugues",
+    "lang.en": "Ingles",
+    "lang.es": "Espanhol",
+    "theme.aria": "Seletor de tema",
+    "theme.auto": "Automatico (segue o sistema)",
+    "theme.light": "Tema claro",
+    "theme.dark": "Tema escuro",
+    "hero.badge": "v1.0 &middot; Atualizado 2026",
+    "hero.title": "Inventario de <span class=\"accent\">APIs Gratuitas</span>",
+    "hero.lead": "Catalogo massivo e curado de <strong>2.983+ APIs e servicos</strong> com plano gratuito real, organizados em <strong>109 categorias</strong>. Dados extraidos de <code>public-apis</code> (1.563) e <code>free-for-dev</code> (1.238) - as duas maiores listas open-source do mundo.",
+    "stat.apis": "APIs e servicos",
+    "stat.categories": "Categorias",
+    "stat.limits": "Limites gratuitos conhecidos",
+    "stat.size": "HTML autocontido",
+    "cta.open": "Abrir catalogo completo &rarr;",
+    "cta.github": "Ver no GitHub",
+    "inline1.title": "Quem mantem esse catalogo?",
+    "inline1.text": "Eu sou o Philipe (<a href=\"https://www.instagram.com/lpdigital.me/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent); text-decoration: none;\">@lpdigital.me</a>) e toda semana posto mais dicas de APIs, IA e automacoes no Instagram.",
+    "inline1.btn": "Seguir",
+    "section.howto": "Como usar",
+    "step1.title": "Abra o catalogo",
+    "step1.text": "Clique em <em>Abrir catalogo completo</em> acima. Tudo carrega num unico arquivo, sem build nem instalacao.",
+    "step2.title": "Use a busca",
+    "step2.text": "Digite no campo de busca (atalho: <code>/</code>). Filtra por nome, categoria, URL ou descricao em tempo real.",
+    "step3.title": "Navegue por categoria",
+    "step3.text": "Use o menu lateral para pular direto para Imagens, IA/ML, Financas, Clima, etc.",
+    "step4.title": "Confira o limite gratuito",
+    "step4.text": "Procure o selo <span style=\"color: var(--accent); font-weight: 700;\">FREE</span> - indica APIs com cota exata conhecida (ex: 50 req/h, 5 GB, 1k req/dia).",
+    "step5.title": "Salve como favorito",
+    "step5.text": "Funciona offline depois do primeiro carregamento. Pode abrir direto do seu HD ou do celular.",
+    "inline2.title": "Gostou do catalogo?",
+    "inline2.text": "Tem versao nova toda semana no <a href=\"https://www.instagram.com/lpdigital.me/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent); text-decoration: none;\">@lpdigital.me</a> - com curadoria de APIs que valem ouro pra quem desenvolve no Brasil.",
+    "inline2.btn": "Seguir no Instagram",
+    "section.features": "Recursos",
+    "feat1.title": "Busca em tempo real",
+    "feat1.text": "Filtre por nome, categoria ou descricao. Atalho: <code>/</code>",
+    "feat2.title": "100% responsivo",
+    "feat2.text": "Funciona em desktop, tablet e celular. Dark mode nativo.",
+    "feat3.title": "Limites gratuitos reais",
+    "feat3.text": "~270 APIs ja trazem a cota exata (ex: 50 req/h, 5 GB, 1k req/dia).",
+    "feat4.title": "Zero dependencias",
+    "feat4.text": "HTML+CSS+JS puros. Funciona offline depois do primeiro carregamento.",
+    "feat5.title": "109 categorias",
+    "feat5.text": "De IA/ML a geolocalizacao, clima, fintech, jogos, seguranca e mais.",
+    "feat6.title": "Sem build, sem framework",
+    "feat6.text": "Basta abrir o .html no navegador. Sem React, sem Bootstrap, sem npm.",
+    "section.categories": "Categorias em destaque",
+    "categories.lead": "Amostra das categorias do catalogo completo:",
+    "cat.govbr": "Governo Brasileiro",
+    "cat.images": "Imagens",
+    "cat.videos": "Videos",
+    "cat.music": "Musica",
+    "cat.weather": "Clima",
+    "cat.ia": "IA / Machine Learning",
+    "cat.geo": "Geolocalizacao",
+    "cat.finance": "Financas",
+    "cat.crypto": "Criptomoedas",
+    "cat.gov": "Governo / Dados Abertos",
+    "cat.news": "Noticias",
+    "cat.email": "Email / SMS",
+    "cat.social": "Redes Sociais",
+    "cat.games": "Jogos",
+    "cat.dev": "Ferramentas Dev",
+    "cat.devops": "Hospedagem / DevOps",
+    "cat.translate": "Traducao",
+    "section.govbr": "APIs do Governo Brasileiro",
+    "govbr.lead": "Nova secao dedicada com <strong style=\"color: var(--text);\">182 APIs governamentais brasileiras</strong> organizadas em 11 subcategorias. Inclui a <strong>BrasilAPI</strong> (43 endpoints abertos sem autenticacao), o <strong>Catalogo Conecta gov.br</strong> e dezenas de bases de dados publicos (IBGE, BCB, CVM, IPEA, ANATEL, ANP, etc).",
+    "govbr.feat1.title": "BrasilAPI",
+    "govbr.feat1.text": "43 endpoints: CEP, CNPJ, CPF, IBGE, FIPE, B3, CVM, Cambio, Taxas, PIX, Feriados, DDD, ISBN, NCM, TUSS, clima CPTEC. <strong>Sem autenticacao</strong>.",
+    "govbr.feat2.title": "Conecta gov.br",
+    "govbr.feat2.text": "~90 APIs do programa Conecta (Login Unico, gov.br ID, CNPJ Receita, INSS, BPC, CadUnico, SIAPE, SIAFI, SIOP, TCU, CGU).",
+    "govbr.feat3.title": "Bancos de Dados Publicos",
+    "govbr.feat3.text": "IBGE SIDRA, BCB (Selic/IPCA/CDI/PTAX), CVM, IPEA, ANATEL, ANP, ANEEL, DATASUS, Comprasnet, Camara, Senado, TCU.",
+    "govbr.feat4.title": "API Minha Receita",
+    "govbr.feat4.text": "CNPJ gratuito via BrasilAPI. Acesse dados de qualquer empresa brasileira sem custo, sem rate limit agressivo.",
+    "govbr.feat5.title": "BCB Open Data",
+    "govbr.feat5.text": "Cotacoes PTAX, series temporais Selic/IPCA/CDI, expectativas de mercado (Focus), dados do Sistema Financeiro.",
+    "govbr.feat6.title": "CADE & TCU",
+    "govbr.feat6.text": "Atos de concentracao, condutas antitruste, auditorias, processos do Tribunal de Contas da Uniao.",
+    "govbr.cta": "Ver 182 APIs do Governo BR &rarr;",
+    "govbr.tip": "<strong>Atencao:</strong> APIs do <strong>Conecta gov.br</strong> marcadas como &ldquo;Gov-a-Gov&rdquo; sao destinadas a integracao <em>entre orgaos publicos</em>. Para uso cidadao/dev/empresa, foque na <strong>BrasilAPI</strong>, <strong>IBGE</strong>, <strong>BCB</strong> e demais bancos de dados abertos.",
+    "section.sources": "Fontes dos dados",
+    "source1": "1.563 APIs (CC0)",
+    "source2": "1.238 servicos (CC-BY-SA)",
+    "source3": "lista complementar",
+    "source4": "lista em portugues",
+    "source5": "free tier APIs",
+    "source6": "diretorio historico",
+    "source7": "Maps, Translate, Gemini, etc.",
+    "section.follow": "Mais conteudo - siga no Instagram",
+    "ig.lead": "Esse projeto nasceu da curadoria que rola no <strong>@lpdigital.me</strong>. La voce encontra mais dicas sobre APIs, automacoes, IA e ferramentas para construir produtos digitais sem gastar fortunas.",
+    "ig.avatar.alt": "Foto de perfil de Philipe - @lpdigital.me",
+    "ig.bio": "APIs, automacoes, IA e ferramentas para construir produtos digitais. Curadoria quinzenal de servicos gratuitos, integracoes low-code e atalhos dev que economizam horas.",
+    "ig.meta1": "Dicas praticas",
+    "ig.meta1b": "toda semana",
+    "ig.meta2": "100%",
+    "ig.meta2b": "gratuito",
+    "ig.meta3": "Comunidade ativa",
+    "ig.meta3b": "de devs",
+    "ig.btn": "Seguir @lpdigital.me",
+    "ig.tip": "<strong>Dica:</strong> Siga agora e ative o sino de notificacoes. Toda semana tem post novo com APIs, integracoes e ferramentas que valem ouro pra quem desenvolve no Brasil.",
+    "final.heading": "Nao perca a proxima lista",
+    "final.lead": "Toda semana uma curadoria nova de APIs gratuitas, automacoes e ferramentas no <strong style=\"color: var(--accent);\">@lpdigital.me</strong>. E so clicar no botao e seguir.",
+    "final.btn": "Seguir @lpdigital.me agora",
+    "footer.handle": "@lpdigital.me",
+    "footer.project": "Inventario de APIs Gratuitas",
+    "footer.label.sources": "Fontes",
+    "footer.license": "Hospedado via GitHub Pages &middot; 100% gratuito",
+    "noscript.warning": "JavaScript esta desabilitado. O site funciona com conteudo estatico (PT-BR). Para alternar idiomas, habilite JavaScript."
+  },
+  "en": {
+    "page.title": "Free APIs Inventory - 2,983+ APIs cataloged",
+    "page.description": "Massive inventory of free APIs and services: 2,983+ real APIs across 109 categories, with search, filter, dark mode and 3 languages. Maintained by @lpdigital.me.",
+    "page.keywords": "free apis, api catalog, developer tools, ai, fintech, weather, images, saas free tier, lpdigital, brazil api, government api",
+    "og.title": "Free APIs Inventory - 2,983+ APIs",
+    "og.description": "Massive catalog of free APIs and services with known limits, across 109 categories. By @lpdigital.me.",
+    "sticky.avatar.alt": "Philipe's profile photo",
+    "sticky.author": "Philipe",
+    "sticky.text": "shares APIs, automations and AI every week on Instagram",
+    "sticky.btn": "Follow",
+    "sticky.close.aria": "Close banner",
+    "lang.aria": "Language selector",
+    "lang.pt": "Portuguese",
+    "lang.en": "English",
+    "lang.es": "Spanish",
+    "theme.aria": "Theme selector",
+    "theme.auto": "Auto (follows system)",
+    "theme.light": "Light theme",
+    "theme.dark": "Dark theme",
+    "hero.badge": "v1.0 &middot; Updated 2026",
+    "hero.title": "Free <span class=\"accent\">APIs Inventory</span>",
+    "hero.lead": "Massive curated catalog of <strong>2,983+ APIs and services</strong> with a real free tier, organized into <strong>109 categories</strong>. Data extracted from <code>public-apis</code> (1,563) and <code>free-for-dev</code> (1,238) - the two largest open-source lists in the world.",
+    "stat.apis": "APIs and services",
+    "stat.categories": "Categories",
+    "stat.limits": "Known free limits",
+    "stat.size": "Self-contained HTML",
+    "cta.open": "Open full catalog &rarr;",
+    "cta.github": "View on GitHub",
+    "inline1.title": "Who maintains this catalog?",
+    "inline1.text": "I'm Philipe (<a href=\"https://www.instagram.com/lpdigital.me/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent); text-decoration: none;\">@lpdigital.me</a>) and every week I post more tips on APIs, AI and automations on Instagram.",
+    "inline1.btn": "Follow",
+    "section.howto": "How to use",
+    "step1.title": "Open the catalog",
+    "step1.text": "Click <em>Open full catalog</em> above. Everything loads from a single file, no build or install required.",
+    "step2.title": "Use the search",
+    "step2.text": "Type in the search field (shortcut: <code>/</code>). Filters by name, category, URL or description in real time.",
+    "step3.title": "Browse by category",
+    "step3.text": "Use the side menu to jump straight to Images, AI/ML, Finance, Weather, etc.",
+    "step4.title": "Check the free limit",
+    "step4.text": "Look for the <span style=\"color: var(--accent); font-weight: 700;\">FREE</span> badge - it indicates APIs with a known exact quota (e.g., 50 req/h, 5 GB, 1k req/day).",
+    "step5.title": "Save as favorite",
+    "step5.text": "Works offline after first load. You can open it directly from your HDD or phone.",
+    "inline2.title": "Liked the catalog?",
+    "inline2.text": "A new version drops every week at <a href=\"https://www.instagram.com/lpdigital.me/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent); text-decoration: none;\">@lpdigital.me</a> - with curated APIs worth their weight in gold for anyone building in Brazil.",
+    "inline2.btn": "Follow on Instagram",
+    "section.features": "Features",
+    "feat1.title": "Real-time search",
+    "feat1.text": "Filter by name, category or description. Shortcut: <code>/</code>",
+    "feat2.title": "100% responsive",
+    "feat2.text": "Works on desktop, tablet and mobile. Native dark mode.",
+    "feat3.title": "Real free limits",
+    "feat3.text": "~270 APIs already include the exact quota (e.g., 50 req/h, 5 GB, 1k req/day).",
+    "feat4.title": "Zero dependencies",
+    "feat4.text": "Pure HTML+CSS+JS. Works offline after first load.",
+    "feat5.title": "109 categories",
+    "feat5.text": "From AI/ML to geolocation, weather, fintech, games, security and more.",
+    "feat6.title": "No build, no framework",
+    "feat6.text": "Just open the .html in your browser. No React, no Bootstrap, no npm.",
+    "section.categories": "Featured categories",
+    "categories.lead": "Sample of categories from the full catalog:",
+    "cat.govbr": "Brazilian Government",
+    "cat.images": "Images",
+    "cat.videos": "Videos",
+    "cat.music": "Music",
+    "cat.weather": "Weather",
+    "cat.ia": "AI / Machine Learning",
+    "cat.geo": "Geolocation",
+    "cat.finance": "Finance",
+    "cat.crypto": "Cryptocurrencies",
+    "cat.gov": "Government / Open Data",
+    "cat.news": "News",
+    "cat.email": "Email / SMS",
+    "cat.social": "Social Networks",
+    "cat.games": "Games",
+    "cat.dev": "Dev Tools",
+    "cat.devops": "Hosting / DevOps",
+    "cat.translate": "Translation",
+    "section.govbr": "Brazilian Government APIs",
+    "govbr.lead": "New dedicated section with <strong style=\"color: var(--text);\">182 Brazilian government APIs</strong> organized into 11 subcategories. Includes <strong>BrasilAPI</strong> (43 open endpoints without authentication), the <strong>Conecta gov.br Catalog</strong> and dozens of public databases (IBGE, BCB, CVM, IPEA, ANATEL, ANP, etc).",
+    "govbr.feat1.title": "BrasilAPI",
+    "govbr.feat1.text": "43 endpoints: ZIP code (CEP), CNPJ, CPF, IBGE, FIPE, B3, CVM, Exchange rates, Tax rates, PIX, Holidays, Area code (DDD), ISBN, NCM, TUSS, CPTEC weather. <strong>No auth required</strong>.",
+    "govbr.feat2.title": "Conecta gov.br",
+    "govbr.feat2.text": "~90 APIs from the Conecta program (Single Sign-On, gov.br ID, CNPJ from IRS, INSS, BPC, CadUnico, SIAPE, SIAFI, SIOP, TCU, CGU).",
+    "govbr.feat3.title": "Public Databases",
+    "govbr.feat3.text": "IBGE SIDRA, BCB (Selic/IPCA/CDI/PTAX), CVM, IPEA, ANATEL, ANP, ANEEL, DATASUS, Comprasnet, Chamber, Senate, TCU.",
+    "govbr.feat4.title": "Minha Receita API",
+    "govbr.feat4.text": "Free CNPJ via BrasilAPI. Access any Brazilian company's data at no cost, no aggressive rate limit.",
+    "govbr.feat5.title": "BCB Open Data",
+    "govbr.feat5.text": "PTAX quotes, Selic/IPCA/CDI time series, market expectations (Focus), Financial System data.",
+    "govbr.feat6.title": "CADE & TCU",
+    "govbr.feat6.text": "Merger filings, antitrust cases, audits, Federal Court of Accounts proceedings.",
+    "govbr.cta": "View 182 BR Government APIs &rarr;",
+    "govbr.tip": "<strong>Note:</strong> <strong>Conecta gov.br</strong> APIs marked as &ldquo;Gov-to-Gov&rdquo; are intended for integration <em>between public agencies</em>. For citizen/developer/company use, focus on <strong>BrasilAPI</strong>, <strong>IBGE</strong>, <strong>BCB</strong> and other open databases.",
+    "section.sources": "Data sources",
+    "source1": "1,563 APIs (CC0)",
+    "source2": "1,238 services (CC-BY-SA)",
+    "source3": "complementary list",
+    "source4": "list in Portuguese",
+    "source5": "free tier APIs",
+    "source6": "historic directory",
+    "source7": "Maps, Translate, Gemini, etc.",
+    "section.follow": "More content - follow on Instagram",
+    "ig.lead": "This project was born from the curation that happens on <strong>@lpdigital.me</strong>. There you'll find more tips on APIs, automations, AI and tools to build digital products without breaking the bank.",
+    "ig.avatar.alt": "Philipe's profile photo - @lpdigital.me",
+    "ig.bio": "APIs, automations, AI and tools to build digital products. Biweekly curation of free services, low-code integrations and dev shortcuts that save hours.",
+    "ig.meta1": "Practical tips",
+    "ig.meta1b": "every week",
+    "ig.meta2": "100%",
+    "ig.meta2b": "free",
+    "ig.meta3": "Active community",
+    "ig.meta3b": "of devs",
+    "ig.btn": "Follow @lpdigital.me",
+    "ig.tip": "<strong>Tip:</strong> Follow now and turn on notifications. Every week there's a new post with APIs, integrations and tools that are pure gold for anyone building in Brazil.",
+    "final.heading": "Don't miss the next list",
+    "final.lead": "Every week a fresh curation of free APIs, automations and tools on <strong style=\"color: var(--accent);\">@lpdigital.me</strong>. Just click the button and follow.",
+    "final.btn": "Follow @lpdigital.me now",
+    "footer.handle": "@lpdigital.me",
+    "footer.project": "Free APIs Inventory",
+    "footer.label.sources": "Sources",
+    "footer.license": "Hosted via GitHub Pages &middot; 100% free",
+    "noscript.warning": "JavaScript is disabled. The site works with static content (PT-BR). To switch languages, please enable JavaScript."
+  },
+  "es": {
+    "page.title": "Inventario de APIs Gratuitas - 2.983+ APIs catalogadas",
+    "page.description": "Inventario masivo de APIs y servicios gratuitos: mas de 2.983 APIs reales en 109 categorias, con busqueda, filtro, modo oscuro y 3 idiomas. Mantenido por @lpdigital.me.",
+    "page.keywords": "apis gratuitas, catalogo apis, herramientas desarrollador, ia, fintech, clima, imagenes, saas gratis, lpdigital, brasil api, api gobierno",
+    "og.title": "Inventario de APIs Gratuitas - 2.983+ APIs",
+    "og.description": "Catalogo masivo de APIs y servicios gratuitos con limites conocidos, en 109 categorias. Por @lpdigital.me.",
+    "sticky.avatar.alt": "Foto de perfil de Philipe",
+    "sticky.author": "Philipe",
+    "sticky.text": "comparte APIs, automatizaciones e IA cada semana en Instagram",
+    "sticky.btn": "Seguir",
+    "sticky.close.aria": "Cerrar banner",
+    "lang.aria": "Selector de idioma",
+    "lang.pt": "Portugues",
+    "lang.en": "Ingles",
+    "lang.es": "Espanol",
+    "theme.aria": "Selector de tema",
+    "theme.auto": "Auto (sigue el sistema)",
+    "theme.light": "Tema claro",
+    "theme.dark": "Tema oscuro",
+    "hero.badge": "v1.0 &middot; Actualizado 2026",
+    "hero.title": "Inventario de <span class=\"accent\">APIs Gratuitas</span>",
+    "hero.lead": "Catalogo masivo y curado de <strong>mas de 2.983 APIs y servicios</strong> con plan gratuito real, organizados en <strong>109 categorias</strong>. Datos extraidos de <code>public-apis</code> (1.563) y <code>free-for-dev</code> (1.238) - las dos listas open-source mas grandes del mundo.",
+    "stat.apis": "APIs y servicios",
+    "stat.categories": "Categorias",
+    "stat.limits": "Limites gratuitos conocidos",
+    "stat.size": "HTML autocontenido",
+    "cta.open": "Abrir catalogo completo &rarr;",
+    "cta.github": "Ver en GitHub",
+    "inline1.title": "Quien mantiene este catalogo?",
+    "inline1.text": "Soy Philipe (<a href=\"https://www.instagram.com/lpdigital.me/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent); text-decoration: none;\">@lpdigital.me</a>) y cada semana publico mas consejos sobre APIs, IA y automatizaciones en Instagram.",
+    "inline1.btn": "Seguir",
+    "section.howto": "Como usar",
+    "step1.title": "Abre el catalogo",
+    "step1.text": "Haz clic en <em>Abrir catalogo completo</em> arriba. Todo carga desde un unico archivo, sin build ni instalacion.",
+    "step2.title": "Usa la busqueda",
+    "step2.text": "Escribe en el campo de busqueda (atajo: <code>/</code>). Filtra por nombre, categoria, URL o descripcion en tiempo real.",
+    "step3.title": "Navega por categoria",
+    "step3.text": "Usa el menu lateral para saltar directamente a Imagenes, IA/ML, Finanzas, Clima, etc.",
+    "step4.title": "Consulta el limite gratuito",
+    "step4.text": "Busca el sello <span style=\"color: var(--accent); font-weight: 700;\">FREE</span> - indica APIs con cuota exacta conocida (ej: 50 req/h, 5 GB, 1k req/dia).",
+    "step5.title": "Guarda como favorito",
+    "step5.text": "Funciona offline despues de la primera carga. Puedes abrirlo directo desde tu disco o telefono.",
+    "inline2.title": "Te gusto el catalogo?",
+    "inline2.text": "Hay version nueva cada semana en <a href=\"https://www.instagram.com/lpdigital.me/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent); text-decoration: none;\">@lpdigital.me</a> - con APIs curadas que valen oro para quien desarrolla en Brasil.",
+    "inline2.btn": "Seguir en Instagram",
+    "section.features": "Caracteristicas",
+    "feat1.title": "Busqueda en tiempo real",
+    "feat1.text": "Filtra por nombre, categoria o descripcion. Atajo: <code>/</code>",
+    "feat2.title": "100% responsive",
+    "feat2.text": "Funciona en escritorio, tablet y celular. Modo oscuro nativo.",
+    "feat3.title": "Limites gratuitos reales",
+    "feat3.text": "~270 APIs ya incluyen la cuota exacta (ej: 50 req/h, 5 GB, 1k req/dia).",
+    "feat4.title": "Cero dependencias",
+    "feat4.text": "HTML+CSS+JS puros. Funciona offline despues de la primera carga.",
+    "feat5.title": "109 categorias",
+    "feat5.text": "De IA/ML a geolocalizacion, clima, fintech, juegos, seguridad y mas.",
+    "feat6.title": "Sin build, sin framework",
+    "feat6.text": "Solo abre el .html en el navegador. Sin React, sin Bootstrap, sin npm.",
+    "section.categories": "Categorias destacadas",
+    "categories.lead": "Muestra de categorias del catalogo completo:",
+    "cat.govbr": "Gobierno Brasileno",
+    "cat.images": "Imagenes",
+    "cat.videos": "Videos",
+    "cat.music": "Musica",
+    "cat.weather": "Clima",
+    "cat.ia": "IA / Machine Learning",
+    "cat.geo": "Geolocalizacion",
+    "cat.finance": "Finanzas",
+    "cat.crypto": "Criptomonedas",
+    "cat.gov": "Gobierno / Datos Abiertos",
+    "cat.news": "Noticias",
+    "cat.email": "Email / SMS",
+    "cat.social": "Redes Sociales",
+    "cat.games": "Juegos",
+    "cat.dev": "Herramientas Dev",
+    "cat.devops": "Hosting / DevOps",
+    "cat.translate": "Traduccion",
+    "section.govbr": "APIs del Gobierno Brasileno",
+    "govbr.lead": "Nueva seccion dedicada con <strong style=\"color: var(--text);\">182 APIs gubernamentales brasilenas</strong> organizadas en 11 subcategorias. Incluye <strong>BrasilAPI</strong> (43 endpoints abiertos sin autenticacion), el <strong>Catalogo Conecta gov.br</strong> y decenas de bases de datos publicos (IBGE, BCB, CVM, IPEA, ANATEL, ANP, etc).",
+    "govbr.feat1.title": "BrasilAPI",
+    "govbr.feat1.text": "43 endpoints: CEP, CNPJ, CPF, IBGE, FIPE, B3, CVM, Cambio, Tasas, PIX, Feriados, DDD, ISBN, NCM, TUSS, clima CPTEC. <strong>Sin autenticacion</strong>.",
+    "govbr.feat2.title": "Conecta gov.br",
+    "govbr.feat2.text": "~90 APIs del programa Conecta (Login Unico, gov.br ID, CNPJ Receita, INSS, BPC, CadUnico, SIAPE, SIAFI, SIOP, TCU, CGU).",
+    "govbr.feat3.title": "Bases de Datos Publicos",
+    "govbr.feat3.text": "IBGE SIDRA, BCB (Selic/IPCA/CDI/PTAX), CVM, IPEA, ANATEL, ANP, ANEEL, DATASUS, Comprasnet, Camara, Senado, TCU.",
+    "govbr.feat4.title": "API Minha Receita",
+    "govbr.feat4.text": "CNPJ gratuito via BrasilAPI. Accede a datos de cualquier empresa brasilena sin costo, sin rate limit agresivo.",
+    "govbr.feat5.title": "BCB Open Data",
+    "govbr.feat5.text": "Cotizaciones PTAX, series temporales Selic/IPCA/CDI, expectativas de mercado (Focus), datos del Sistema Financiero.",
+    "govbr.feat6.title": "CADE & TCU",
+    "govbr.feat6.text": "Actos de concentracion, conductas antimonopolio, auditorias, procesos del Tribunal de Cuentas de la Union.",
+    "govbr.cta": "Ver 182 APIs del Gobierno BR &rarr;",
+    "govbr.tip": "<strong>Atencion:</strong> APIs del <strong>Conecta gov.br</strong> marcadas como &ldquo;Gob-a-Gob&rdquo; son para integracion <em>entre organismos publicos</em>. Para uso ciudadano/dev/empresa, enfocate en <strong>BrasilAPI</strong>, <strong>IBGE</strong>, <strong>BCB</strong> y demas bases de datos abiertas.",
+    "section.sources": "Fuentes de datos",
+    "source1": "1.563 APIs (CC0)",
+    "source2": "1.238 servicios (CC-BY-SA)",
+    "source3": "lista complementaria",
+    "source4": "lista en portugues",
+    "source5": "free tier APIs",
+    "source6": "directorio historico",
+    "source7": "Maps, Translate, Gemini, etc.",
+    "section.follow": "Mas contenido - sigue en Instagram",
+    "ig.lead": "Este proyecto nacio de la curaduria que ocurre en <strong>@lpdigital.me</strong>. Alli encontraras mas consejos sobre APIs, automatizaciones, IA y herramientas para construir productos digitales sin gastar fortunas.",
+    "ig.avatar.alt": "Foto de perfil de Philipe - @lpdigital.me",
+    "ig.bio": "APIs, automatizaciones, IA y herramientas para construir productos digitales. Curaduria quincenal de servicios gratuitos, integraciones low-code y atajos dev que ahorran horas.",
+    "ig.meta1": "Consejos practicos",
+    "ig.meta1b": "cada semana",
+    "ig.meta2": "100%",
+    "ig.meta2b": "gratuito",
+    "ig.meta3": "Comunidad activa",
+    "ig.meta3b": "de devs",
+    "ig.btn": "Seguir @lpdigital.me",
+    "ig.tip": "<strong>Consejo:</strong> Sigue ahora y activa las notificaciones. Cada semana hay un post nuevo con APIs, integraciones y herramientas que valen oro para quien desarrolla en Brasil.",
+    "final.heading": "No te pierdas la proxima lista",
+    "final.lead": "Cada semana una curaduria nueva de APIs gratuitas, automatizaciones y herramientas en <strong style=\"color: var(--accent);\">@lpdigital.me</strong>. Solo haz clic en el boton y sigue.",
+    "final.btn": "Seguir @lpdigital.me ahora",
+    "footer.handle": "@lpdigital.me",
+    "footer.project": "Inventario de APIs Gratuitas",
+    "footer.label.sources": "Fuentes",
+    "footer.license": "Alojado via GitHub Pages &middot; 100% gratuito",
+    "noscript.warning": "JavaScript esta deshabilitado. El sitio funciona con contenido estatico (PT-BR). Para cambiar de idioma, habilita JavaScript."
+  }
+};
+
+        (function() {
+            const STORAGE_KEY = 'lang';
+            const VALID = ['pt-BR', 'en', 'es'];
+            const root = document.documentElement;
+            const DEFAULT = 'pt-BR';
+
+            // Resolver idioma: URL > localStorage > navigator.language > DEFAULT
+            function getInitialLang() {
+                const params = new URLSearchParams(window.location.search);
+                const urlLang = params.get('lang');
+                if (urlLang && VALID.includes(urlLang)) return urlLang;
+                try {
+                    const stored = localStorage.getItem(STORAGE_KEY);
+                    if (stored && VALID.includes(stored)) return stored;
+                } catch (_) {}
+                const nav = (navigator.language || '').toLowerCase();
+                if (nav.startsWith('en')) return 'en';
+                if (nav.startsWith('es')) return 'es';
+                if (nav.startsWith('pt')) return 'pt-BR';
+                return DEFAULT;
+            }
+
+            function t(key) {
+                const lang = root.getAttribute('data-lang') || DEFAULT;
+                return (TRANSLATIONS[lang] && TRANSLATIONS[lang][key]) || (TRANSLATIONS[DEFAULT][key]) || key;
+            }
+
+            function applyLang(lang) {
+                if (!VALID.includes(lang)) lang = DEFAULT;
+                root.setAttribute('data-lang', lang);
+                root.setAttribute('lang', lang);
+                document.title = t('page.title');
+                // Atualiza todos os elementos data-i18n
+                document.querySelectorAll('[data-i18n]').forEach(el => {
+                    const key = el.getAttribute('data-i18n');
+                    const val = t(key);
+                    // Suporta atributo custom (data-i18n-attr="alt|aria-label|title|content")
+                    const attr = el.getAttribute('data-i18n-attr');
+                    if (attr) {
+                        attr.split('|').forEach(a => { if (a.trim()) el.setAttribute(a.trim(), val); });
+                    } else {
+                        el.textContent = val;
+                    }
+                });
+                // Atualiza state visual dos botoes
+                document.querySelectorAll('[data-lang-set]').forEach(btn => {
+                    btn.classList.toggle('active', btn.getAttribute('data-lang-set') === lang);
+                });
+            }
+
+            // Click handlers
+            document.addEventListener('click', (e) => {
+                const btn = e.target.closest('[data-lang-set]');
+                if (!btn) return;
+                const lang = btn.getAttribute('data-lang-set');
+                try { localStorage.setItem(STORAGE_KEY, lang); } catch (_) {}
+                // Atualiza URL sem recarregar
+                const url = new URL(window.location.href);
+                url.searchParams.set('lang', lang);
+                history.replaceState(null, '', url);
+                applyLang(lang);
+            });
+
+            // Inicializa
+            const initial = getInitialLang();
+            applyLang(initial);
+        })();
+    </script>
 </body>
 </html>
