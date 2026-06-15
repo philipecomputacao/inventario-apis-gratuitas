@@ -94,16 +94,26 @@ python3 build_html.py
 
 ## Features
 
-- [x] **2.801+ APIs** em 108 categorias
+- [x] **2.983+ APIs** em 109 categorias
+- [x] **Light + Dark mode** com toggle 3-vias (Auto / Light / Dark)
 - [x] **Busca em tempo real** (atalho `/`)
 - [x] **Filtro por categoria** com chips/links
-- [x] **Dark mode** nativo, semantico
 - [x] **100% responsivo** (mobile-first)
 - [x] **Sticky sidebar** com auto-highlight do link ativo
 - [x] **Collapsible** por categoria + botao "expandir tudo"
 - [x] **Zero dependencia externa** (sem React, Bootstrap, jQuery)
 - [x] **Offline-friendly** depois do primeiro carregamento
-- [x] **Acessibilidade**: atalhos de teclado, semantica HTML5, aria-labels
+- [x] **Acessibilidade**: atalhos de teclado, semantica HTML5, aria-labels, prefers-reduced-motion, print-friendly
+
+## Temas (Light / Dark)
+
+Ambos os arquivos (`index.html` e `inventario-apis.html`) suportam 3 modos:
+
+- **Auto** (default): segue o `prefers-color-scheme` do sistema operacional
+- **Light**: tema claro otimizado para leitura diurna (verde `#00875a`)
+- **Dark**: tema escuro original (verde neon `#00d9a3`)
+
+A escolha persiste em `localStorage["theme"]` e e sincronizada entre landing e catalogo. O resolver no `<head>` evita "flash of wrong theme" (FOWT) aplicando o tema certo antes do body renderizar. Acessibilidade: respeita `prefers-reduced-motion` e gera saida limpa em impressao (forca tema claro).
 
 ## Roadmap
 

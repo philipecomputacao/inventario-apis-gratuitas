@@ -19,10 +19,66 @@
     <meta name="twitter:title" content="Inventário de APIs Gratuitas &mdash; 2.801+ APIs">
     <meta name="twitter:description" content="2.801+ APIs gratuitas catalogadas em 108 categorias. Por @lpdigital.me.">
     <meta name="twitter:image" content="https://philipecomputacao.github.io/inventario-apis-gratuitas/assets/perfil-1200.jpg">
+    <meta name="color-scheme" content="light dark">
     <link rel="canonical" href="https://philipecomputacao.github.io/inventario-apis-gratuitas/">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A6%3C/text%3E%3C/svg%3E">
+    <script>
+        // No-flash theme resolver - executa antes do body renderizar
+        (function() {
+            try {
+                var stored = localStorage.getItem('theme');
+                var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var resolved = (stored === 'light' || stored === 'dark') ? stored : (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', resolved);
+            } catch (e) { /* localStorage bloqueado - segue default */ }
+        })();
+    </script>
     <style>
+        /* ============================================
+           TEMA LIGHT (default)
+           ============================================ */
         :root {
+            color-scheme: light;
+
+            --bg: #ffffff;
+            --bg-2: #f6f8fa;
+            --bg-3: #eaeef2;
+            --border: #d0d7de;
+            --text: #1f2328;
+            --text-dim: #656d76;
+            --accent: #00875a;
+            --accent-dim: #006847;
+            --accent-soft: rgba(0, 135, 90, 0.10);
+            --accent-border: rgba(0, 135, 90, 0.30);
+            --accent-contrast: #ffffff;
+            --link: #0969da;
+            --code-bg: #eef1f4;
+
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
+            --shadow-accent: 0 8px 24px rgba(0, 135, 90, 0.20);
+            --shadow-ig: 0 6px 16px rgba(225, 48, 108, 0.25);
+
+            --row-hover: #f0f3f6;
+            --sticky-bg: rgba(255, 255, 255, 0.85);
+            --table-stripe: #f6f8fa;
+            --gradient-ig: radial-gradient(circle, rgba(225, 48, 108, 0.06) 0%, transparent 70%);
+            --gradient-ig-final: radial-gradient(ellipse at top, rgba(225, 48, 108, 0.10) 0%, transparent 60%);
+
+            --ig-1: #f09433;
+            --ig-2: #e6683c;
+            --ig-3: #dc2743;
+            --ig-4: #cc2366;
+            --ig-5: #bc1888;
+        }
+
+        /* ============================================
+           TEMA DARK (override)
+           ============================================ */
+        [data-theme="dark"] {
+            color-scheme: dark;
+
             --bg: #0f1419;
             --bg-2: #161b22;
             --bg-3: #1c2128;
@@ -33,12 +89,27 @@
             --accent-dim: #00b386;
             --accent-soft: rgba(0, 217, 163, 0.12);
             --accent-border: rgba(0, 217, 163, 0.3);
+            --accent-contrast: #0a1a14;
             --link: #58a6ff;
-            --ig-1: #f09433;
-            --ig-2: #e6683c;
-            --ig-3: #dc2743;
-            --ig-4: #cc2366;
-            --ig-5: #bc1888;
+            --code-bg: #1c2128;
+
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+            --shadow-accent: 0 8px 24px rgba(0, 217, 163, 0.25);
+            --shadow-ig: 0 6px 16px rgba(225, 48, 108, 0.40);
+
+            --row-hover: #1c2128;
+            --sticky-bg: rgba(15, 20, 25, 0.85);
+            --table-stripe: #161b22;
+            --gradient-ig: radial-gradient(circle, rgba(225, 48, 108, 0.10) 0%, transparent 70%);
+            --gradient-ig-final: radial-gradient(ellipse at top, rgba(225, 48, 108, 0.15) 0%, transparent 60%);
+        }
+
+        /* Transicao suave entre temas (com fallback para reduced-motion) */
+        body, .sticky-cta, .stat, .feature, .ig-card, .inline-cta, .toc, .step,
+        .cat-grid a, .ig-btn, .cta, .footer-avatar, .final-cta {
+            transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
         }
         * { box-sizing: border-box; }
         html { scroll-behavior: smooth; }
@@ -60,7 +131,7 @@
             position: sticky;
             top: 0;
             z-index: 50;
-            background: rgba(15, 20, 25, 0.85);
+            background: var(--sticky-bg);
             backdrop-filter: saturate(180%) blur(16px);
             -webkit-backdrop-filter: saturate(180%) blur(16px);
             border-bottom: 1px solid var(--border);
@@ -94,13 +165,67 @@
             transition: transform 0.15s, box-shadow 0.15s;
             white-space: nowrap;
         }
-        .sticky-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(225, 48, 108, 0.4); }
+        .sticky-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-ig); }
         .sticky-btn svg { width: 14px; height: 14px; fill: currentColor; }
         .sticky-close {
             background: none; border: none; color: var(--text-dim);
             cursor: pointer; font-size: 20px; line-height: 1; padding: 4px 8px;
         }
         .sticky-close:hover { color: var(--text); }
+
+        /* === THEME TOGGLE (3-vias) === */
+        .theme-toggle {
+            display: inline-flex;
+            background: var(--bg-2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2px;
+            gap: 2px;
+        }
+        .theme-toggle button {
+            background: transparent;
+            border: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            padding: 6px 8px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+            transition: background 0.15s, color 0.15s;
+        }
+        .theme-toggle button:hover { color: var(--text); }
+        .theme-toggle button.active {
+            background: var(--bg);
+            color: var(--accent);
+            box-shadow: var(--shadow-sm);
+        }
+        .theme-toggle svg { width: 16px; height: 16px; fill: currentColor; display: block; }
+
+        /* === A11Y: prefers-reduced-motion === */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* === PRINT: sempre tema claro, sem sticky/gradientes === */
+        @media print {
+            :root, [data-theme="dark"] {
+                --bg: #ffffff; --bg-2: #ffffff; --bg-3: #f6f8fa;
+                --text: #000000; --text-dim: #444444;
+                --border: #cccccc; --accent: #006847;
+                --link: #000000; --code-bg: #f0f0f0;
+            }
+            .sticky-cta, .ig-btn, .theme-toggle, .final-cta { display: none !important; }
+            body { background: #fff !important; color: #000 !important; }
+            a { text-decoration: underline; color: #000 !important; }
+            section { break-inside: avoid; page-break-inside: avoid; }
+        }
 
         .badge { display: inline-block; padding: 6px 14px; background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent-border); border-radius: 999px; font-size: 14px; font-weight: 600; letter-spacing: 0.3px; }
 
@@ -169,7 +294,7 @@
             content: "";
             position: absolute; top: -50%; right: -10%;
             width: 280px; height: 280px;
-            background: radial-gradient(circle, rgba(225, 48, 108, 0.1) 0%, transparent 70%);
+            background: var(--gradient-ig);
             pointer-events: none;
         }
         .inline-cta .avatar {
@@ -224,7 +349,7 @@
             transition: transform 0.15s, box-shadow 0.15s;
             position: relative; z-index: 1;
         }
-        .ig-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(225, 48, 108, 0.45); }
+        .ig-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-ig); }
         .ig-btn svg { width: 20px; height: 20px; fill: currentColor; }
         .ig-tip { background: var(--bg-3); border-left: 3px solid var(--accent); padding: 14px 18px; border-radius: 4px; font-size: 14px; color: var(--text-dim); margin-top: 20px; }
         .ig-tip strong { color: var(--accent); }
@@ -242,7 +367,7 @@
         .final-cta::before {
             content: "";
             position: absolute; inset: 0;
-            background: radial-gradient(ellipse at top, rgba(225, 48, 108, 0.15) 0%, transparent 60%);
+            background: var(--gradient-ig-final);
             pointer-events: none;
         }
         .final-cta .big-avatar {
@@ -279,6 +404,45 @@
             .sticky-text { font-size: 13px; }
         }
     </style>
+    <script>
+        // === Theme controller (3-vias: auto / light / dark) ===
+        (function() {
+            const STORAGE_KEY = 'theme';
+            const root = document.documentElement;
+            const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+            function resolveTheme(mode) {
+                if (mode === 'light' || mode === 'dark') return mode;
+                return mq.matches ? 'dark' : 'light';
+            }
+
+            function applyTheme(mode) {
+                root.setAttribute('data-theme', resolveTheme(mode));
+                document.querySelectorAll('[data-theme-set]').forEach(btn => {
+                    btn.classList.toggle('active', btn.getAttribute('data-theme-set') === mode);
+                });
+            }
+
+            // Listener: se modo for "auto", reage a mudanca do SO em tempo real
+            mq.addEventListener('change', () => {
+                const stored = localStorage.getItem(STORAGE_KEY) || 'auto';
+                if (stored === 'auto') applyTheme('auto');
+            });
+
+            // Click handlers
+            document.addEventListener('click', (e) => {
+                const btn = e.target.closest('[data-theme-set]');
+                if (!btn) return;
+                const mode = btn.getAttribute('data-theme-set');
+                try { localStorage.setItem(STORAGE_KEY, mode); } catch (_) {}
+                applyTheme(mode);
+            });
+
+            // Inicializa estado visual dos botoes (ja tem o tema aplicado pelo no-flash)
+            const initial = localStorage.getItem(STORAGE_KEY) || 'auto';
+            applyTheme(initial);
+        })();
+    </style>
 </head>
 <body>
 
@@ -295,6 +459,17 @@
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
                 Seguir
             </a>
+            <div class="theme-toggle" role="group" aria-label="Seletor de tema">
+                <button data-theme-set="auto" aria-label="Tema automático" title="Automático (segue o sistema)">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 2H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 14H3V4h18v12z"/></svg>
+                </button>
+                <button data-theme-set="light" aria-label="Tema claro" title="Tema claro">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41a.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06z"/></svg>
+                </button>
+                <button data-theme-set="dark" aria-label="Tema escuro" title="Tema escuro">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+                </button>
+            </div>
             <button class="sticky-close" onclick="document.getElementById('stickyCta').style.display='none'" aria-label="Fechar banner">&times;</button>
         </div>
     </div>

@@ -3,12 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inventario de APIs e Servicos Gratuitos (2801 APIs)</title>
+<title>Inventario de APIs e Servicos Gratuitos - Catalogo Completo</title>
+<meta name="color-scheme" content="light dark">
+<script>
+    // No-flash theme resolver
+    (function() {
+        try {
+            var stored = localStorage.getItem('theme');
+            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            var resolved = (stored === 'light' || stored === 'dark') ? stored : (prefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', resolved);
+        } catch (e) {}
+    })();
+</script>
 <style>
+    /* ============================================
+       TEMA LIGHT (default) - inspirado em GitHub Primer
+       ============================================ */
     :root {
+        color-scheme: light;
+        --bg: #ffffff; --bg2: #f6f8fa; --bg3: #eaeef2;
+        --border: #d0d7de; --text: #1f2328; --muted: #656d76;
+        --accent: #00875a; --purple: #5b21b6; --link: #0969da;
+        --code-bg: #eef1f4;
+        --header-grad-from: #f6f8fa; --header-grad-to: #eaeef2;
+        --logo-contrast: #ffffff;
+        --hover-row: rgba(0, 135, 90, 0.04);
+        --accent-soft: rgba(0, 135, 90, 0.10);
+        --accent-border: rgba(0, 135, 90, 0.30);
+        --purple-soft: rgba(91, 33, 182, 0.10);
+        --purple-border: rgba(91, 33, 182, 0.25);
+        --muted-soft: rgba(101, 109, 118, 0.10);
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+        --transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    }
+
+    /* ============================================
+       TEMA DARK (override)
+       ============================================ */
+    [data-theme="dark"] {
+        color-scheme: dark;
         --bg: #0f1419; --bg2: #161b22; --bg3: #1c2128;
         --border: #2d333b; --text: #e4e6eb; --muted: #8b949e;
         --accent: #00d9a3; --purple: #7c5cff; --link: #58a6ff;
+        --code-bg: #1c2128;
+        --header-grad-from: #0f1419; --header-grad-to: #161b22;
+        --logo-contrast: #0f1419;
+        --hover-row: rgba(0, 217, 163, 0.04);
+        --accent-soft: rgba(0, 217, 163, 0.12);
+        --accent-border: rgba(0, 217, 163, 0.30);
+        --purple-soft: rgba(124, 92, 255, 0.15);
+        --purple-border: rgba(124, 92, 255, 0.30);
+        --muted-soft: rgba(139, 148, 158, 0.12);
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+        --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+        --transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -30,7 +80,7 @@
     }
     .header {
         grid-column: 1 / -1; padding: 22px 32px;
-        background: linear-gradient(135deg, #0f1419 0%, #161b22 100%);
+        background: linear-gradient(135deg, var(--header-grad-from) 0%, var(--header-grad-to) 100%);
         border-bottom: 1px solid var(--border);
         display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
     }
@@ -42,11 +92,11 @@
         display: inline-flex; width: 32px; height: 32px;
         background: linear-gradient(135deg, var(--accent), var(--purple));
         border-radius: 8px; align-items: center; justify-content: center;
-        color: #0f1419; font-weight: 900; font-size: 16px;
+        color: var(--logo-contrast); font-weight: 900; font-size: 16px;
     }
     .header .sub { color: var(--muted); font-size: 13px; margin-left: 4px; }
     .badge-total {
-        background: var(--accent); color: #0f1419; font-weight: 800;
+        background: var(--accent); color: var(--logo-contrast); font-weight: 800;
         padding: 6px 12px; border-radius: 999px; font-size: 13px;
     }
     .badge-source {
@@ -96,7 +146,7 @@
     }
     .search-wrap input:focus {
         outline: none; border-color: var(--accent);
-        box-shadow: 0 0 0 3px rgba(0, 217, 163, 0.15);
+        box-shadow: 0 0 0 3px var(--accent-soft);
     }
     .search-wrap .icon {
         position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
@@ -158,27 +208,27 @@
         vertical-align: top;
     }
     tbody tr { transition: background 0.12s; }
-    tbody tr:hover { background: rgba(0, 217, 163, 0.04); }
+    tbody tr:hover { background: var(--hover-row); }
     tbody tr:last-child td { border-bottom: none; }
     td.name { font-weight: 600; color: var(--text); white-space: nowrap; }
     td.url a { color: var(--link); font-size: 12px; word-break: break-all; }
     td.cat { color: var(--muted); font-size: 12px; white-space: nowrap; }
     td.tier { font-size: 12px; max-width: 280px; }
     td.tier .free-badge {
-        display: inline-block; background: rgba(0, 217, 163, 0.12);
+        display: inline-block; background: var(--accent-soft);
         color: var(--accent); padding: 3px 8px; border-radius: 4px;
         font-weight: 600; font-size: 11px;
-        border: 1px solid rgba(0, 217, 163, 0.3);
+        border: 1px solid var(--accent-border);
         line-height: 1.4;
     }
     td.key { white-space: nowrap; }
     .chip-yes {
-        display: inline-block; background: rgba(124, 92, 255, 0.15);
+        display: inline-block; background: var(--purple-soft);
         color: var(--purple); padding: 2px 8px; border-radius: 4px;
-        font-size: 11px; font-weight: 600; border: 1px solid rgba(124, 92, 255, 0.3);
+        font-size: 11px; font-weight: 600; border: 1px solid var(--purple-border);
     }
     .chip-no {
-        display: inline-block; background: rgba(139, 148, 158, 0.12);
+        display: inline-block; background: var(--muted-soft);
         color: var(--muted); padding: 2px 8px; border-radius: 4px;
         font-size: 11px; font-weight: 600; border: 1px solid var(--border);
     }
@@ -204,7 +254,48 @@
         background: var(--bg2); border: 1px dashed var(--border);
         border-radius: 12px; margin: 20px 0;
     }
-    </style>
+    
+    /* === THEME TOGGLE (3-vias) === */
+    .theme-toggle {
+        display: inline-flex; align-items: center; gap: 2px;
+        background: var(--bg2); border: 1px solid var(--border);
+        border-radius: 8px; padding: 2px; margin-left: 8px;
+    }
+    .theme-toggle button {
+        background: transparent; border: none; color: var(--muted);
+        cursor: pointer; padding: 6px 8px; border-radius: 6px;
+        display: flex; align-items: center; justify-content: center; line-height: 1;
+        transition: background 0.15s, color 0.15s;
+    }
+    .theme-toggle button:hover { color: var(--text); }
+    .theme-toggle button.active {
+        background: var(--bg); color: var(--accent); box-shadow: var(--shadow-sm);
+    }
+    .theme-toggle svg { width: 14px; height: 14px; fill: currentColor; display: block; }
+
+    /* === A11Y: prefers-reduced-motion === */
+    @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+            animation-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+
+    /* === PRINT: forca tema claro, esconde controles === */
+    @media print {
+        :root, [data-theme="dark"] {
+            --bg: #ffffff; --bg2: #ffffff; --bg3: #f6f8fa;
+            --text: #000000; --muted: #444444;
+            --border: #cccccc; --accent: #006847;
+            --link: #000000;
+        }
+        .theme-toggle, .sticky-cta { display: none !important; }
+        body { background: #fff !important; color: #000 !important; }
+        a { text-decoration: underline; color: #000 !important; }
+        table { page-break-inside: avoid; }
+    }
+</style>
 </head>
 <body>
 <div class="app">
@@ -215,6 +306,17 @@
             <span class="sub">public-apis + free-for-dev</span>
         </h1>
         <span class="badge-total" id="totalBadge">Total: 2983 APIs</span>
+        <div class="theme-toggle" role="group" aria-label="Seletor de tema" style="margin-left: 8px;">
+    <button data-theme-set="auto" aria-label="Tema automatico" title="Automatico (segue o sistema)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 2H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 14H3V4h18v12z"/></svg>
+    </button>
+    <button data-theme-set="light" aria-label="Tema claro" title="Tema claro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41a.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 0 0-1.41 0c-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06z"/></svg>
+    </button>
+    <button data-theme-set="dark" aria-label="Tema escuro" title="Tema escuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+    </button>
+</div>
         <span class="badge-source">fonte: public-apis + free-for-dev</span>
     </div>
 
@@ -3505,5 +3607,38 @@
         });
     })();
     </script>
+
+<script>
+    // === Theme controller (3-vias: auto / light / dark) ===
+    (function() {
+        const STORAGE_KEY = 'theme';
+        const root = document.documentElement;
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
+        function resolveTheme(mode) {
+            if (mode === 'light' || mode === 'dark') return mode;
+            return mq.matches ? 'dark' : 'light';
+        }
+        function applyTheme(mode) {
+            root.setAttribute('data-theme', resolveTheme(mode));
+            document.querySelectorAll('[data-theme-set]').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-theme-set') === mode);
+            });
+        }
+        mq.addEventListener('change', () => {
+            const stored = localStorage.getItem(STORAGE_KEY) || 'auto';
+            if (stored === 'auto') applyTheme('auto');
+        });
+        document.addEventListener('click', (e) => {
+            const btn = e.target.closest('[data-theme-set]');
+            if (!btn) return;
+            const mode = btn.getAttribute('data-theme-set');
+            try { localStorage.setItem(STORAGE_KEY, mode); } catch (_) {}
+            applyTheme(mode);
+        });
+        const initial = localStorage.getItem(STORAGE_KEY) || 'auto';
+        applyTheme(initial);
+    })();
+</script>
+
 </body>
 </html>
