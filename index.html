@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventário de APIs Gratuitas &mdash; 2.801+ APIs catalogadas</title>
+    <meta name="description" content="Inventário massivo de APIs e serviços gratuitos: 2.801+ APIs reais catalogadas por categoria, com busca, filtro e dark mode.">
+    <meta property="og:title" content="Inventário de APIs Gratuitas &mdash; 2.801+ APIs">
+    <meta property="og:description" content="Catálogo massivo de APIs e serviços gratuitos com limites conhecidos, organizado por categoria.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A6%3C/text%3E%3C/svg%3E">
+    <style>
+        :root {
+            --bg: #0f1419;
+            --bg-2: #161b22;
+            --bg-3: #1c2128;
+            --border: #30363d;
+            --text: #e4e6eb;
+            --text-dim: #8b949e;
+            --accent: #00d9a3;
+            --accent-dim: #00b386;
+            --link: #58a6ff;
+        }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .wrap { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
+        .badge { display: inline-block; padding: 6px 14px; background: rgba(0, 217, 163, 0.12); color: var(--accent); border: 1px solid rgba(0, 217, 163, 0.3); border-radius: 999px; font-size: 14px; font-weight: 600; letter-spacing: 0.3px; }
+        h1 { font-size: clamp(36px, 6vw, 64px); margin: 24px 0 16px; line-height: 1.1; letter-spacing: -1.5px; }
+        h1 .accent { color: var(--accent); }
+        .lead { font-size: 20px; color: var(--text-dim); max-width: 720px; margin: 0 0 40px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 48px 0; }
+        .stat { background: var(--bg-2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+        .stat .num { font-size: 36px; font-weight: 700; color: var(--accent); line-height: 1; }
+        .stat .label { font-size: 14px; color: var(--text-dim); margin-top: 8px; }
+        .cta { display: inline-block; background: var(--accent); color: #0a1a14; padding: 18px 36px; border-radius: 10px; font-size: 18px; font-weight: 700; text-decoration: none; transition: transform 0.15s, box-shadow 0.15s; box-shadow: 0 8px 24px rgba(0, 217, 163, 0.25); }
+        .cta:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(0, 217, 163, 0.35); }
+        .cta.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); margin-left: 12px; box-shadow: none; }
+        .cta.secondary:hover { border-color: var(--accent); }
+        section.features { margin-top: 80px; }
+        section.features h2 { font-size: 28px; margin-bottom: 24px; }
+        .feature-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+        .feature { background: var(--bg-2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+        .feature .icon { font-size: 28px; margin-bottom: 8px; }
+        .feature h3 { margin: 0 0 6px; font-size: 17px; }
+        .feature p { margin: 0; color: var(--text-dim); font-size: 14px; }
+        footer { margin-top: 96px; padding-top: 32px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 14px; }
+        footer a { color: var(--link); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        .pill { display: inline-block; padding: 2px 8px; background: var(--bg-3); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; color: var(--text-dim); margin-left: 6px; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <span class="badge">v1.0 &middot; Atualizado 2026</span>
+        <h1>Inventário de <span class="accent">APIs Gratuitas</span></h1>
+        <p class="lead">Catálogo massivo e curado de <strong>2.801+ APIs e serviços</strong> com plano gratuito real. Dados extraídos de <code>public-apis</code> (1.563) e <code>free-for-dev</code> (1.238) &mdash; as duas maiores listas open-source do mundo.</p>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="num">2.801+</div>
+                <div class="label">APIs e serviços</div>
+            </div>
+            <div class="stat">
+                <div class="num">108</div>
+                <div class="label">Categorias</div>
+            </div>
+            <div class="stat">
+                <div class="num">~270</div>
+                <div class="label">Limites gratuitos conhecidos</div>
+            </div>
+            <div class="stat">
+                <div class="num">100%</div>
+                <div class="label">Offline &amp; autocontido</div>
+            </div>
+        </div>
+
+        <a class="cta" href="./inventario-apis.html">Abrir catálogo completo &rarr;</a>
+        <a class="cta secondary" href="https://github.com/philipecomputacao/inventario-apis-gratuitas">Ver no GitHub</a>
+
+        <section class="features">
+            <h2>O que tem dentro</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <div class="icon">&#x1F50D;</div>
+                    <h3>Busca em tempo real</h3>
+                    <p>Filtre por nome, categoria ou descrição. Atalho: <code>/</code></p>
+                </div>
+                <div class="feature">
+                    <div class="icon">&#x1F4F1;</div>
+                    <h3>100% responsivo</h3>
+                    <p>Funciona em desktop, tablet e celular. Dark mode nativo.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">&#x1F4CA;</div>
+                    <h3>Limites gratuitos reais</h3>
+                    <p>~270 APIs já trazem a cota exata (ex: 50 req/h, 5GB, 1k req/dia).</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">&#x1F310;</div>
+                    <h3>Zero dependências</h3>
+                    <p>HTML+CSS+JS puros. Funciona offline depois do primeiro carregamento.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">&#x1F3AF;</div>
+                    <h3>108 categorias</h3>
+                    <p>De IA/ML a geolocalização, clima, fintech, jogos, segurança e mais.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">&#x1F4E6;</div>
+                    <h3>Sem build, sem framework</h3>
+                    <p>Basta abrir o .html no navegador. Sem React, sem Bootstrap, sem npm.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                Fontes: <a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a> <span class="pill">CC0</span>
+                &middot; <a href="https://github.com/ripienaar/free-for-dev">ripienaar/free-for-dev</a> <span class="pill">CC-BY-SA</span>
+            </p>
+            <p>Mantido por <a href="https://github.com/philipecomputacao">@philipecomputacao</a> &middot; hospedado via GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>
