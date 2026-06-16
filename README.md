@@ -13,6 +13,19 @@
 
 ---
 
+<table>
+<tr>
+<td width="120" align="center" valign="top">
+<img src="./assets/perfil-300.jpg" width="100" height="100" alt="@lpdigital.me" style="border-radius: 50%; background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); padding: 3px;" />
+</td>
+<td valign="top">
+
+**Curadoria e desenvolvimento por [@lpdigital.me](https://www.instagram.com/lpdigital.me/)** &mdash; Philipe compartilha APIs, automacoes e IA toda semana no Instagram. Manda um follow se o catalogo te ajudou.
+
+</td>
+</tr>
+</table>
+
 ## ✨ Destaques
 
 - 📚 **3.864+ APIs** em 112 categorias &mdash; a maior referencia open-source em PT-BR
