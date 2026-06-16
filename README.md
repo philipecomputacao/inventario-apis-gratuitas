@@ -1,13 +1,13 @@
 # Inventario de APIs Gratuitas
 
-> Catalogo massivo e curado de **2.983+ APIs e servicos gratuitos** em **109 categorias** &mdash; incluindo 182 APIs do Governo Brasileiro, 3 idiomas, dark mode, busca em tempo real, e HTML 100% autocontido.
+> Catalogo massivo e curado de **3.194+ APIs e servicos gratuitos** em **111 categorias** &mdash; incluindo 182 APIs do Governo Brasileiro, 3 idiomas, dark mode, busca em tempo real, e HTML 100% autocontido.
 
 🌐 **Live:** https://philipecomputacao.github.io/inventario-apis-gratuitas/
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-blue.svg)](https://pages.github.com/)
 [![i18n](https://img.shields.io/badge/i18n-PT--BR%20%7C%20EN%20%7C%20ES-orange.svg)](#-internacionalizacao)
-[![APIs](https://img.shields.io/badge/APIs-2%2C983%2B-brightgreen.svg)](#-numeros)
+[![APIs](https://img.shields.io/badge/APIs-3%2C194%2B-brightgreen.svg)](#-numeros)
 [![Gov BR](https://img.shields.io/badge/Gov%20BR-182%20APIs-yellow.svg)](#-apis-do-governo-brasileiro)
 [![Maintained by @lpdigital.me](https://img.shields.io/badge/maintained%20by-%40lpdigital.me-E4405F.svg)](https://www.instagram.com/lpdigital.me/)
 
@@ -15,7 +15,7 @@
 
 ## ✨ Destaques
 
-- 📚 **2.983+ APIs** em 109 categorias &mdash; a maior referencia open-source em PT-BR
+- 📚 **3.194+ APIs** em 111 categorias &mdash; a maior referencia open-source em PT-BR
 - 🇧🇷 **182 APIs do Governo Brasileiro** (BrasilAPI, Conecta gov.br, IBGE, BCB, CVM, IPEA, ANATEL, ANP, TCU, CGU, DATASUS, Comprasnet, Camara, Senado)
 - 🌍 **3 idiomas** com switcher pill group (PT-BR, EN, ES) &mdash; URL param, localStorage, auto-detect
 - 🌗 **Light + Dark mode** com toggle 3-vias (Auto, Light, Dark)
@@ -31,11 +31,11 @@
 
 | | Quantidade | Detalhes |
 |---|---|---|
-| **APIs e servicos** | 2.983+ | Em 109 categorias |
+| **APIs e servicos** | 3.194+ | Em 111 categorias |
 | **APIs do Governo Brasileiro** | 182 | 11 subcategorias |
 | **Limites gratuitos conhecidos** | ~270 | Exatos (ex: 50 req/h, 5 GB, 1k req/dia) |
 | **Idiomas** | 3 | PT-BR (default), EN, ES |
-| **Tamanho HTML** | 2.0 MB | Self-contained |
+| **Tamanho HTML** | 2.8 MB | Self-contained |
 | **Dependencias externas** | 0 | Sem React, Bootstrap, jQuery |
 | **Build step** | 0 | HTML+CSS+JS puros |
 
@@ -57,16 +57,11 @@
 ```text
 .
 +- index.html              # Landing page (GitHub Pages entrypoint)
-+- inventario-apis.html    # Catalogo massivo (2.983+ APIs, ~2.0 MB)
++- inventario-apis.html    # Catalogo massivo (3.194+ APIs, ~2.8 MB)
 +- assets/                 # Foto de perfil e favicons
 +- README.md               # Este arquivo
 +- LICENSE                 # MIT
-+- CHANGELOG.md            # Historico de versoes
 +- .gitignore
-+- .github/
-   +- ISSUE_TEMPLATE/      # Templates de issue (bug, feature)
-   +- PULL_REQUEST_TEMPLATE.md
-   +- FUNDING.yml          # Apoie via @lpdigital.me
 ```
 
 ---
@@ -256,7 +251,7 @@ Traducoes em EN/ES sao bem-vindas. Abra issue com:
 
 ## ✨ Features completas
 
-- [x] **2.983+ APIs** em 109 categorias
+- [x] **3.194+ APIs** em 111 categorias
 - [x] **182 APIs do Governo Brasileiro** em secao dedicada
 - [x] **3 idiomas** (PT-BR, EN, ES) com i18n completo
 - [x] **Light + Dark mode** com toggle 3-vias (Auto / Light / Dark)
