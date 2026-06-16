@@ -5,7 +5,7 @@ Todas as mudancas notaveis neste projeto.
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/),
 e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html) (informal).
 
-## [Unreleased] - 2026-06-15
+## [Unreleased] - 2026-06-16
 
 ### Adicionado
 
@@ -23,17 +23,26 @@ e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 
 
 ### Mudado
 
-- **Total de APIs**: 3.194 -> 3.864 (+670 em 2 batches de merge)
-- **Categorias**: 111 -> 112 (nova categoria IoT)
-- **Tamanho HTML**: 2.6 MB -> 3.0 MB
-- **page.title** em PT-BR atualizado de "3194" para "3864"
+- **Total de APIs**: 3.194 -> 3.743 (+549 em 2 batches de merge, -113 dedup de slug/URL)
+- **Categorias**: 111 -> 111 (3 orfas removidas: Fontes Complementares BR, Fontes Complementares Globais, Governo BR)
+- **Tamanho HTML**: 2.6 MB -> 5.2 MB
+- **page.title** em PT-BR atualizado de "3194" para "3743"
 - **badge.source** agora indica "15 listas curadas (ver README)" em vez de só 2 fontes
 - **i18n selector** corrigido: `[data-i18n]` expandido para `[data-i18n], [data-i18n-html]` (fix de bug que ignorava tags HTML em traducoes)
 
 ### Traducoes
 
+- 3.624 observacoes de APIs traduzidas para PT-BR e ES via Google Translate publico (deep-translator)
 - 115 descricoes de APIs traduzidas (KO/ZH/IR/ES -> EN) via MyMemory + Lingva
 - Hero text em 3 idiomas atualizado para mencionar 15 fontes
+
+### Corrigido
+
+- **README.md** reescrito do zero (estava corrompido com texto nao-Markdown)
+- **Contadores do sidebar** no `index.html` corrigidos (15 de 17 estavam errados)
+- **41 colisoes de slug** removidas (mesmo `data-api-key` em 2+ linhas)
+- **72 URLs duplicadas** removidas (mesma URL com nomes diferentes)
+- **3 categorias orfas** removidas do `CATEGORIES_TRANSLATIONS` e `categories.json`
 
 ## [1.0.0] - 2026-06-13
 

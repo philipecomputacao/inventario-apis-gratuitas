@@ -19,3 +19,17 @@ build/
 
 # Backup files
 *.bak.*
+
+# Environment files (caso use secrets no futuro)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*~
+*.tmp
+.cache/

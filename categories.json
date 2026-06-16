@@ -1,116 +1,557 @@
 [
-  { "pt": "Analise de Texto", "en": "Text Analysis", "es": "Análisis de Texto" },
-  { "pt": "Analytics, Events and Statistics", "en": "Analytics, Events and Statistics", "es": "Analítica, Eventos y Estadísticas" },
-  { "pt": "Animais", "en": "Animals", "es": "Animales" },
-  { "pt": "Anime", "en": "Anime", "es": "Anime" },
-  { "pt": "Anti-Malware", "en": "Anti-Malware", "es": "Anti-Malware" },
-  { "pt": "APIs Brasileiras (Fontes Complementares)", "en": "Brazilian APIs (Complementary Sources)", "es": "APIs Brasileñas (Fuentes Complementarias)" },
-  { "pt": "APIs de Screenshot", "en": "Screenshot APIs", "es": "APIs de Captura de Pantalla" },
-  { "pt": "APIs, Data and ML", "en": "APIs, Data and ML", "es": "APIs, Datos y ML" },
-  { "pt": "Area de Trabalho Remota", "en": "Remote Desktop", "es": "Escritorio Remoto" },
-  { "pt": "Armazenamento e Midia", "en": "Storage and Media", "es": "Almacenamiento y Media" },
-  { "pt": "Armazenamento em Nuvem", "en": "Cloud Storage", "es": "Almacenamiento en la Nube" },
-  { "pt": "Arte e Design", "en": "Art and Design", "es": "Arte y Diseño" },
-  { "pt": "Autenticacao", "en": "Authentication", "es": "Autenticación" },
-  { "pt": "Auth e Gestao de Usuarios", "en": "Auth and User Management", "es": "Auth y Gestión de Usuarios" },
-  { "pt": "BaaS", "en": "BaaS", "es": "BaaS" },
-  { "pt": "Bancos de Dados Gerenciados", "en": "Managed Databases", "es": "Bases de Datos Gestionadas" },
-  { "pt": "Blockchain", "en": "Blockchain", "es": "Blockchain" },
-  { "pt": "Blogs para Devs", "en": "Blogs for Devs", "es": "Blogs para Devs" },
-  { "pt": "Busca", "en": "Search", "es": "Búsqueda" },
-  { "pt": "Busca de Codigo", "en": "Code Search", "es": "Búsqueda de Código" },
-  { "pt": "Calendario", "en": "Calendar", "es": "Calendario" },
-  { "pt": "Cambio", "en": "Currency Exchange", "es": "Cambio de Divisas" },
-  { "pt": "CDN e Protecao", "en": "CDN and Protection", "es": "CDN y Protección" },
-  { "pt": "CI e CD", "en": "CI and CD", "es": "CI y CD" },
-  { "pt": "CI/CD", "en": "CI/CD", "es": "CI/CD" },
-  { "pt": "Ciencia e Matematica", "en": "Science and Math", "es": "Ciencia y Matemáticas" },
-  { "pt": "Clima", "en": "Weather", "es": "Clima" },
-  { "pt": "CMS", "en": "CMS", "es": "CMS" },
-  { "pt": "Comida e Bebida", "en": "Food and Drink", "es": "Comida y Bebida" },
-  { "pt": "Compras", "en": "Shopping", "es": "Compras" },
-  { "pt": "Criptoativos", "en": "Crypto Assets", "es": "Criptoactivos" },
-  { "pt": "Dados Abertos", "en": "Open Data", "es": "Datos Abiertos" },
-  { "pt": "Dados de Teste", "en": "Test Data", "es": "Datos de Prueba" },
-  { "pt": "Desenvolvimento", "en": "Development", "es": "Desarrollo" },
-  { "pt": "Design e UI", "en": "Design and UI", "es": "Diseño y UI" },
-  { "pt": "Dicionarios", "en": "Dictionaries", "es": "Diccionarios" },
-  { "pt": "Distribuicao de Apps", "en": "App Distribution", "es": "Distribución de Apps" },
-  { "pt": "Diversos", "en": "Miscellaneous", "es": "Varios" },
-  { "pt": "DNS", "en": "DNS", "es": "DNS" },
-  { "pt": "Docker", "en": "Docker", "es": "Docker" },
-  { "pt": "Documentos", "en": "Documents", "es": "Documentos" },
-  { "pt": "Dominios", "en": "Domains", "es": "Dominios" },
-  { "pt": "Educacao e Carreira", "en": "Education and Career", "es": "Educación y Carrera" },
-  { "pt": "Email", "en": "Email", "es": "Email" },
-  { "pt": "Empregos", "en": "Jobs", "es": "Empleos" },
-  { "pt": "Encurtadores", "en": "URL Shorteners", "es": "Acortadores de URL" },
-  { "pt": "Entretenimento", "en": "Entertainment", "es": "Entretenimiento" },
-  { "pt": "Esportes", "en": "Sports", "es": "Deportes" },
-  { "pt": "Eventos", "en": "Events", "es": "Eventos" },
-  { "pt": "Feature Toggles", "en": "Feature Toggles", "es": "Feature Toggles" },
-  { "pt": "Financas", "en": "Finance", "es": "Finanzas" },
-  { "pt": "Flutter e iOS sem Mac", "en": "Flutter and iOS without Mac", "es": "Flutter e iOS sin Mac" },
-  { "pt": "Fontes", "en": "Fonts", "es": "Fuentes" },
-  { "pt": "Fontes Complementares BR", "en": "Complementary BR Sources", "es": "Fuentes Complementarias BR" },
-  { "pt": "Fontes Complementares Globais", "en": "Complementary Global Sources", "es": "Fuentes Complementarias Globales" },
-  { "pt": "Fontes Complementares Globais (RapidAPI/ProgrammableWeb)", "en": "Complementary Global Sources (RapidAPI/ProgrammableWeb)", "es": "Fuentes Complementarias Globales (RapidAPI/ProgrammableWeb)" },
-  { "pt": "Formularios", "en": "Forms", "es": "Formularios" },
-  { "pt": "Fotografia", "en": "Photography", "es": "Fotografía" },
-  { "pt": "Geolocalizacao", "en": "Geolocation", "es": "Geolocalización" },
-  { "pt": "Geracao de Codigo", "en": "Code Generation", "es": "Generación de Código" },
-  { "pt": "Gerenciamento Cloud", "en": "Cloud Management", "es": "Gestión Cloud" },
-  { "pt": "Gestao de Logs", "en": "Log Management", "es": "Gestión de Logs" },
-  { "pt": "Gestao de Projetos", "en": "Project Management", "es": "Gestión de Proyectos" },
-  { "pt": "Governo", "en": "Government", "es": "Gobierno" },
-  { "pt": "Governo BR", "en": "Brazilian Government", "es": "Gobierno BR" },
-  { "pt": "Governo Brasileiro", "en": "Brazilian Government", "es": "Gobierno Brasileño" },
-  { "pt": "Gravacao de Sessoes", "en": "Session Recording", "es": "Grabación de Sesiones" },
-  { "pt": "Hospedagem Web", "en": "Web Hosting", "es": "Alojamiento Web" },
-  { "pt": "IA Generativa", "en": "Generative AI", "es": "IA Generativa" },
-  { "pt": "IA/ML", "en": "AI/ML", "es": "IA/ML" },
-  { "pt": "IaaS", "en": "IaaS", "es": "IaaS" },
-  { "pt": "IDEs e Editores", "en": "IDEs and Editors", "es": "IDEs y Editores" },
-  { "pt": "IoT", "en": "IoT", "es": "IoT" },
-  { "pt": "Jogos e HQs", "en": "Games and Comics", "es": "Juegos y Cómics" },
-  { "pt": "Livros", "en": "Books", "es": "Libros" },
-  { "pt": "Low-Code", "en": "Low-Code", "es": "Low-Code" },
-  { "pt": "Meio Ambiente", "en": "Environment", "es": "Medio Ambiente" },
-  { "pt": "Mensageria e Streaming", "en": "Messaging and Streaming", "es": "Mensajería y Streaming" },
-  { "pt": "Monitoramento", "en": "Monitoring", "es": "Monitoreo" },
-  { "pt": "Musica", "en": "Music", "es": "Música" },
-  { "pt": "Negocios", "en": "Business", "es": "Negocios" },
-  { "pt": "Noticias", "en": "News", "es": "Noticias" },
-  { "pt": "Open Source", "en": "Open Source", "es": "Open Source" },
-  { "pt": "Outros Recursos Gratis", "en": "Other Free Resources", "es": "Otros Recursos Gratis" },
-  { "pt": "PaaS", "en": "PaaS", "es": "PaaS" },
-  { "pt": "Pagamentos e Cobranca", "en": "Payments and Billing", "es": "Pagos y Cobros" },
-  { "pt": "Patentes", "en": "Patents", "es": "Patentes" },
-  { "pt": "Personalidade", "en": "Personality", "es": "Personalidad" },
-  { "pt": "Plataformas de Comentarios", "en": "Comment Platforms", "es": "Plataformas de Comentarios" },
-  { "pt": "Privacidade", "en": "Privacy", "es": "Privacidad" },
-  { "pt": "Programacao", "en": "Programming", "es": "Programación" },
-  { "pt": "Provedores Cloud (Limites Gratis)", "en": "Cloud Providers (Free Tier)", "es": "Proveedores Cloud (Capa Gratis)" },
-  { "pt": "Qualidade de Codigo", "en": "Code Quality", "es": "Calidad de Código" },
-  { "pt": "Rastreamento", "en": "Tracking", "es": "Rastreo" },
-  { "pt": "Redes Sociais", "en": "Social Networks", "es": "Redes Sociales" },
-  { "pt": "Repositorios de Artefatos", "en": "Artifact Repositories", "es": "Repositorios de Artefactos" },
-  { "pt": "Repositorios de Codigo", "en": "Code Repositories", "es": "Repositorios de Código" },
-  { "pt": "Saude", "en": "Health", "es": "Salud" },
-  { "pt": "Seguranca", "en": "Security", "es": "Seguridad" },
-  { "pt": "Seguranca e PKI", "en": "Security and PKI", "es": "Seguridad y PKI" },
-  { "pt": "Sistemas de Build", "en": "Build Systems", "es": "Sistemas de Build" },
-  { "pt": "Sistemas de Gestao", "en": "Management Systems", "es": "Sistemas de Gestión" },
-  { "pt": "Telefonia", "en": "Telephony", "es": "Telefonía" },
-  { "pt": "Testes", "en": "Testing", "es": "Pruebas" },
-  { "pt": "Times e Colaboracao", "en": "Teams and Collaboration", "es": "Equipos y Colaboración" },
-  { "pt": "Traducao", "en": "Translation", "es": "Traducción" },
-  { "pt": "Transporte", "en": "Transport", "es": "Transporte" },
-  { "pt": "Tratamento de Erros", "en": "Error Handling", "es": "Manejo de Errores" },
-  { "pt": "Tuneis e WebRTC", "en": "Tunnels and WebRTC", "es": "Túneles y WebRTC" },
-  { "pt": "Validacao de Dados", "en": "Data Validation", "es": "Validación de Datos" },
-  { "pt": "Veiculos", "en": "Vehicles", "es": "Vehículos" },
-  { "pt": "Verificacao de Telefone", "en": "Phone Verification", "es": "Verificación de Teléfono" },
-  { "pt": "Videos", "en": "Videos", "es": "Videos" },
-  { "pt": "Visualizacao em Mapas", "en": "Map Visualization", "es": "Visualización en Mapas" }
+  {
+    "pt": "Analise de Texto",
+    "en": "Text Analysis",
+    "es": "Análisis de Texto"
+  },
+  {
+    "pt": "Analytics, Events and Statistics",
+    "en": "Analytics, Events and Statistics",
+    "es": "Analítica, Eventos y Estadísticas"
+  },
+  {
+    "pt": "Animais",
+    "en": "Animals",
+    "es": "Animales"
+  },
+  {
+    "pt": "Anime",
+    "en": "Anime",
+    "es": "Anime"
+  },
+  {
+    "pt": "Anti-Malware",
+    "en": "Anti-Malware",
+    "es": "Anti-Malware"
+  },
+  {
+    "pt": "APIs Brasileiras (Fontes Complementares)",
+    "en": "Brazilian APIs (Complementary Sources)",
+    "es": "APIs Brasileñas (Fuentes Complementarias)"
+  },
+  {
+    "pt": "APIs de Screenshot",
+    "en": "Screenshot APIs",
+    "es": "APIs de Captura de Pantalla"
+  },
+  {
+    "pt": "APIs, Data and ML",
+    "en": "APIs, Data and ML",
+    "es": "APIs, Datos y ML"
+  },
+  {
+    "pt": "Area de Trabalho Remota",
+    "en": "Remote Desktop",
+    "es": "Escritorio Remoto"
+  },
+  {
+    "pt": "Armazenamento e Midia",
+    "en": "Storage and Media",
+    "es": "Almacenamiento y Media"
+  },
+  {
+    "pt": "Armazenamento em Nuvem",
+    "en": "Cloud Storage",
+    "es": "Almacenamiento en la Nube"
+  },
+  {
+    "pt": "Arte e Design",
+    "en": "Art and Design",
+    "es": "Arte y Diseño"
+  },
+  {
+    "pt": "Autenticacao",
+    "en": "Authentication",
+    "es": "Autenticación"
+  },
+  {
+    "pt": "Auth e Gestao de Usuarios",
+    "en": "Auth and User Management",
+    "es": "Auth y Gestión de Usuarios"
+  },
+  {
+    "pt": "BaaS",
+    "en": "BaaS",
+    "es": "BaaS"
+  },
+  {
+    "pt": "Bancos de Dados Gerenciados",
+    "en": "Managed Databases",
+    "es": "Bases de Datos Gestionadas"
+  },
+  {
+    "pt": "Blockchain",
+    "en": "Blockchain",
+    "es": "Blockchain"
+  },
+  {
+    "pt": "Blogs para Devs",
+    "en": "Blogs for Devs",
+    "es": "Blogs para Devs"
+  },
+  {
+    "pt": "Busca",
+    "en": "Search",
+    "es": "Búsqueda"
+  },
+  {
+    "pt": "Busca de Codigo",
+    "en": "Code Search",
+    "es": "Búsqueda de Código"
+  },
+  {
+    "pt": "Calendario",
+    "en": "Calendar",
+    "es": "Calendario"
+  },
+  {
+    "pt": "Cambio",
+    "en": "Currency Exchange",
+    "es": "Cambio de Divisas"
+  },
+  {
+    "pt": "CDN e Protecao",
+    "en": "CDN and Protection",
+    "es": "CDN y Protección"
+  },
+  {
+    "pt": "CI e CD",
+    "en": "CI and CD",
+    "es": "CI y CD"
+  },
+  {
+    "pt": "CI/CD",
+    "en": "CI/CD",
+    "es": "CI/CD"
+  },
+  {
+    "pt": "Ciencia e Matematica",
+    "en": "Science and Math",
+    "es": "Ciencia y Matemáticas"
+  },
+  {
+    "pt": "Clima",
+    "en": "Weather",
+    "es": "Clima"
+  },
+  {
+    "pt": "CMS",
+    "en": "CMS",
+    "es": "CMS"
+  },
+  {
+    "pt": "Comida e Bebida",
+    "en": "Food and Drink",
+    "es": "Comida y Bebida"
+  },
+  {
+    "pt": "Compras",
+    "en": "Shopping",
+    "es": "Compras"
+  },
+  {
+    "pt": "Criptoativos",
+    "en": "Crypto Assets",
+    "es": "Criptoactivos"
+  },
+  {
+    "pt": "Dados Abertos",
+    "en": "Open Data",
+    "es": "Datos Abiertos"
+  },
+  {
+    "pt": "Dados de Teste",
+    "en": "Test Data",
+    "es": "Datos de Prueba"
+  },
+  {
+    "pt": "Desenvolvimento",
+    "en": "Development",
+    "es": "Desarrollo"
+  },
+  {
+    "pt": "Design e UI",
+    "en": "Design and UI",
+    "es": "Diseño y UI"
+  },
+  {
+    "pt": "Dicionarios",
+    "en": "Dictionaries",
+    "es": "Diccionarios"
+  },
+  {
+    "pt": "Distribuicao de Apps",
+    "en": "App Distribution",
+    "es": "Distribución de Apps"
+  },
+  {
+    "pt": "Diversos",
+    "en": "Miscellaneous",
+    "es": "Varios"
+  },
+  {
+    "pt": "DNS",
+    "en": "DNS",
+    "es": "DNS"
+  },
+  {
+    "pt": "Docker",
+    "en": "Docker",
+    "es": "Docker"
+  },
+  {
+    "pt": "Documentos",
+    "en": "Documents",
+    "es": "Documentos"
+  },
+  {
+    "pt": "Dominios",
+    "en": "Domains",
+    "es": "Dominios"
+  },
+  {
+    "pt": "Educacao e Carreira",
+    "en": "Education and Career",
+    "es": "Educación y Carrera"
+  },
+  {
+    "pt": "Email",
+    "en": "Email",
+    "es": "Email"
+  },
+  {
+    "pt": "Empregos",
+    "en": "Jobs",
+    "es": "Empleos"
+  },
+  {
+    "pt": "Encurtadores",
+    "en": "URL Shorteners",
+    "es": "Acortadores de URL"
+  },
+  {
+    "pt": "Entretenimento",
+    "en": "Entertainment",
+    "es": "Entretenimiento"
+  },
+  {
+    "pt": "Esportes",
+    "en": "Sports",
+    "es": "Deportes"
+  },
+  {
+    "pt": "Eventos",
+    "en": "Events",
+    "es": "Eventos"
+  },
+  {
+    "pt": "Feature Toggles",
+    "en": "Feature Toggles",
+    "es": "Feature Toggles"
+  },
+  {
+    "pt": "Financas",
+    "en": "Finance",
+    "es": "Finanzas"
+  },
+  {
+    "pt": "Flutter e iOS sem Mac",
+    "en": "Flutter and iOS without Mac",
+    "es": "Flutter e iOS sin Mac"
+  },
+  {
+    "pt": "Fontes",
+    "en": "Fonts",
+    "es": "Fuentes"
+  },
+  {
+    "pt": "Fontes Complementares Globais (RapidAPI/ProgrammableWeb)",
+    "en": "Complementary Global Sources (RapidAPI/ProgrammableWeb)",
+    "es": "Fuentes Complementarias Globales (RapidAPI/ProgrammableWeb)"
+  },
+  {
+    "pt": "Formularios",
+    "en": "Forms",
+    "es": "Formularios"
+  },
+  {
+    "pt": "Fotografia",
+    "en": "Photography",
+    "es": "Fotografía"
+  },
+  {
+    "pt": "Geolocalizacao",
+    "en": "Geolocation",
+    "es": "Geolocalización"
+  },
+  {
+    "pt": "Geracao de Codigo",
+    "en": "Code Generation",
+    "es": "Generación de Código"
+  },
+  {
+    "pt": "Gerenciamento Cloud",
+    "en": "Cloud Management",
+    "es": "Gestión Cloud"
+  },
+  {
+    "pt": "Gestao de Logs",
+    "en": "Log Management",
+    "es": "Gestión de Logs"
+  },
+  {
+    "pt": "Gestao de Projetos",
+    "en": "Project Management",
+    "es": "Gestión de Proyectos"
+  },
+  {
+    "pt": "Governo",
+    "en": "Government",
+    "es": "Gobierno"
+  },
+  {
+    "pt": "Governo Brasileiro",
+    "en": "Brazilian Government",
+    "es": "Gobierno Brasileño"
+  },
+  {
+    "pt": "Gravacao de Sessoes",
+    "en": "Session Recording",
+    "es": "Grabación de Sesiones"
+  },
+  {
+    "pt": "Hospedagem Web",
+    "en": "Web Hosting",
+    "es": "Alojamiento Web"
+  },
+  {
+    "pt": "IA Generativa",
+    "en": "Generative AI",
+    "es": "IA Generativa"
+  },
+  {
+    "pt": "IA/ML",
+    "en": "AI/ML",
+    "es": "IA/ML"
+  },
+  {
+    "pt": "IaaS",
+    "en": "IaaS",
+    "es": "IaaS"
+  },
+  {
+    "pt": "IDEs e Editores",
+    "en": "IDEs and Editors",
+    "es": "IDEs y Editores"
+  },
+  {
+    "pt": "IoT",
+    "en": "IoT",
+    "es": "IoT"
+  },
+  {
+    "pt": "Jogos e HQs",
+    "en": "Games and Comics",
+    "es": "Juegos y Cómics"
+  },
+  {
+    "pt": "Livros",
+    "en": "Books",
+    "es": "Libros"
+  },
+  {
+    "pt": "Low-Code",
+    "en": "Low-Code",
+    "es": "Low-Code"
+  },
+  {
+    "pt": "Meio Ambiente",
+    "en": "Environment",
+    "es": "Medio Ambiente"
+  },
+  {
+    "pt": "Mensageria e Streaming",
+    "en": "Messaging and Streaming",
+    "es": "Mensajería y Streaming"
+  },
+  {
+    "pt": "Monitoramento",
+    "en": "Monitoring",
+    "es": "Monitoreo"
+  },
+  {
+    "pt": "Musica",
+    "en": "Music",
+    "es": "Música"
+  },
+  {
+    "pt": "Negocios",
+    "en": "Business",
+    "es": "Negocios"
+  },
+  {
+    "pt": "Noticias",
+    "en": "News",
+    "es": "Noticias"
+  },
+  {
+    "pt": "Open Source",
+    "en": "Open Source",
+    "es": "Open Source"
+  },
+  {
+    "pt": "Outros Recursos Gratis",
+    "en": "Other Free Resources",
+    "es": "Otros Recursos Gratis"
+  },
+  {
+    "pt": "PaaS",
+    "en": "PaaS",
+    "es": "PaaS"
+  },
+  {
+    "pt": "Pagamentos e Cobranca",
+    "en": "Payments and Billing",
+    "es": "Pagos y Cobros"
+  },
+  {
+    "pt": "Patentes",
+    "en": "Patents",
+    "es": "Patentes"
+  },
+  {
+    "pt": "Personalidade",
+    "en": "Personality",
+    "es": "Personalidad"
+  },
+  {
+    "pt": "Plataformas de Comentarios",
+    "en": "Comment Platforms",
+    "es": "Plataformas de Comentarios"
+  },
+  {
+    "pt": "Privacidade",
+    "en": "Privacy",
+    "es": "Privacidad"
+  },
+  {
+    "pt": "Programacao",
+    "en": "Programming",
+    "es": "Programación"
+  },
+  {
+    "pt": "Provedores Cloud (Limites Gratis)",
+    "en": "Cloud Providers (Free Tier)",
+    "es": "Proveedores Cloud (Capa Gratis)"
+  },
+  {
+    "pt": "Qualidade de Codigo",
+    "en": "Code Quality",
+    "es": "Calidad de Código"
+  },
+  {
+    "pt": "Rastreamento",
+    "en": "Tracking",
+    "es": "Rastreo"
+  },
+  {
+    "pt": "Redes Sociais",
+    "en": "Social Networks",
+    "es": "Redes Sociales"
+  },
+  {
+    "pt": "Repositorios de Artefatos",
+    "en": "Artifact Repositories",
+    "es": "Repositorios de Artefactos"
+  },
+  {
+    "pt": "Repositorios de Codigo",
+    "en": "Code Repositories",
+    "es": "Repositorios de Código"
+  },
+  {
+    "pt": "Saude",
+    "en": "Health",
+    "es": "Salud"
+  },
+  {
+    "pt": "Seguranca",
+    "en": "Security",
+    "es": "Seguridad"
+  },
+  {
+    "pt": "Seguranca e PKI",
+    "en": "Security and PKI",
+    "es": "Seguridad y PKI"
+  },
+  {
+    "pt": "Sistemas de Build",
+    "en": "Build Systems",
+    "es": "Sistemas de Build"
+  },
+  {
+    "pt": "Sistemas de Gestao",
+    "en": "Management Systems",
+    "es": "Sistemas de Gestión"
+  },
+  {
+    "pt": "Telefonia",
+    "en": "Telephony",
+    "es": "Telefonía"
+  },
+  {
+    "pt": "Testes",
+    "en": "Testing",
+    "es": "Pruebas"
+  },
+  {
+    "pt": "Times e Colaboracao",
+    "en": "Teams and Collaboration",
+    "es": "Equipos y Colaboración"
+  },
+  {
+    "pt": "Traducao",
+    "en": "Translation",
+    "es": "Traducción"
+  },
+  {
+    "pt": "Transporte",
+    "en": "Transport",
+    "es": "Transporte"
+  },
+  {
+    "pt": "Tratamento de Erros",
+    "en": "Error Handling",
+    "es": "Manejo de Errores"
+  },
+  {
+    "pt": "Tuneis e WebRTC",
+    "en": "Tunnels and WebRTC",
+    "es": "Túneles y WebRTC"
+  },
+  {
+    "pt": "Validacao de Dados",
+    "en": "Data Validation",
+    "es": "Validación de Datos"
+  },
+  {
+    "pt": "Veiculos",
+    "en": "Vehicles",
+    "es": "Vehículos"
+  },
+  {
+    "pt": "Verificacao de Telefone",
+    "en": "Phone Verification",
+    "es": "Verificación de Teléfono"
+  },
+  {
+    "pt": "Videos",
+    "en": "Videos",
+    "es": "Videos"
+  },
+  {
+    "pt": "Visualizacao em Mapas",
+    "en": "Map Visualization",
+    "es": "Visualización en Mapas"
+  }
 ]
