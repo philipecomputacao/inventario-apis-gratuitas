@@ -5,18 +5,18 @@
     "url": "https://brasilapi.com.br/cnpj/alfanum/v1/{cnpj}",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "Gera CNPJ alfanumérico (novo formato 2026)",
-      "en": "",
-      "es": ""
+      "en": "Generates alphanumeric CNPJ (new 2026 format)",
+      "es": "Genera CNPJ alfanumérico (nuevo formato 2026)"
     }
   },
   {
@@ -25,18 +25,18 @@
     "url": "https://brasilapi.com.br/cep/v2/{cep}",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "Busca CEP com latitude/longitude",
-      "en": "",
-      "es": ""
+      "en": "CEP lookup with latitude/longitude",
+      "es": "Búsqueda de CEP con latitud/longitud"
     }
   },
   {
@@ -45,18 +45,18 @@
     "url": "https://servicodados.ibge.gov.br/api/v1/localidades",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Estados, municípios, regiões, mesorregiões, microrregiões do Brasil",
-      "en": "",
-      "es": ""
+      "en": "Brazilian states, municipalities, regions, mesoregions, microregions",
+      "es": "Estados, municipios, regiones, mesoregiones, microrregiones de Brasil"
     }
   },
   {
@@ -65,18 +65,18 @@
     "url": "https://servicodados.ibge.gov.br/api/v3/agregados",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Agregados estatísticos do SIDRA (Censo, PNAD, POF)",
-      "en": "",
-      "es": ""
+      "en": "SIDRA statistical aggregates (Census, PNAD, POF)",
+      "es": "Agregados estadísticos del SIDRA (Censo, PNAD, POF)"
     }
   },
   {
@@ -85,18 +85,18 @@
     "url": "https://servicodados.ibge.gov.br/api/v2/censos/nomes",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Frequência de nomes por década e região",
-      "en": "",
-      "es": ""
+      "en": "Name frequency by decade and region",
+      "es": "Frecuencia de nombres por década y región"
     }
   },
   {
@@ -105,18 +105,18 @@
     "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Estimativas populacionais dos municípios",
-      "en": "",
-      "es": ""
+      "en": "Population estimates for municipalities",
+      "es": "Estimaciones poblacionales de los municipios"
     }
   },
   {
@@ -125,18 +125,18 @@
     "url": "https://www.receitaws.com.br/v1/cnpj/{cnpj}",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "3 req/min",
-      "en": "",
-      "es": ""
+      "en": "3 req/min",
+      "es": "3 req/min"
     },
     "obs": {
       "pt": "Consulta CNPJ alternativa - 3 req/min gratuitas",
-      "en": "",
-      "es": ""
+      "en": "Alternative CNPJ lookup - 3 free req/min",
+      "es": "Consulta CNPJ alternativa - 3 req/min gratis"
     }
   },
   {
@@ -145,18 +145,18 @@
     "url": "https://www.linkcorreios.com.br/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Rastreamento de objetos dos Correios via scraping",
-      "en": "",
-      "es": ""
+      "en": "Correios package tracking via scraping",
+      "es": "Seguimiento de envíos Correios vía scraping"
     }
   },
   {
@@ -165,18 +165,18 @@
     "url": "https://opencnpj.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de CNPJ com dados adicionais (QSA, CNAE)",
-      "en": "",
-      "es": ""
+      "en": "CNPJ API with additional data (QSA, CNAE)",
+      "es": "API de CNPJ con datos adicionales (QSA, CNAE)"
     }
   },
   {
@@ -185,18 +185,18 @@
     "url": "https://cnpj.ws/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100 req/mês",
-      "en": "",
-      "es": ""
+      "en": "100 req/month",
+      "es": "100 req/mes"
     },
     "obs": {
       "pt": "Consulta CNPJ gratuita - 100 req/mês",
-      "en": "",
-      "es": ""
+      "en": "Free CNPJ lookup - 100 req/month",
+      "es": "Consulta CNPJ gratis - 100 req/mes"
     }
   },
   {
@@ -205,18 +205,18 @@
     "url": "https://brasilapi.com.br/cnpj/v1/{cnpj}",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "API Minha Receita (dados públicos de CNPJ)",
-      "en": "",
-      "es": ""
+      "en": "Minha Receita API (public CNPJ data)",
+      "es": "API Minha Receita (datos públicos de CNPJ)"
     }
   },
   {
@@ -225,18 +225,18 @@
     "url": "https://api.nfe.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100 NF/mês",
-      "en": "",
-      "es": ""
+      "en": "100 NF/month",
+      "es": "100 NF/mes"
     },
     "obs": {
       "pt": "Emissão de NF-e com tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "NF-e issuance with free tier",
+      "es": "Emisión de NF-e con capa gratis"
     }
   },
   {
@@ -245,18 +245,18 @@
     "url": "https://focusnfe.com.br/doc.html",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API para emissão de NFe, NFCe, CTe, MDFe",
-      "en": "",
-      "es": ""
+      "en": "API for issuing NFe, NFCe, CTe, MDFe",
+      "es": "API para emisión de NFe, NFCe, CTe, MDFe"
     }
   },
   {
@@ -265,18 +265,18 @@
     "url": "https://enotas.com.br/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100 NF/mês",
-      "en": "",
-      "es": ""
+      "en": "100 NF/month",
+      "es": "100 NF/mes"
     },
     "obs": {
       "pt": "API para emissão de NFS-e em prefeituras",
-      "en": "",
-      "es": ""
+      "en": "API for NFS-e issuance at city halls",
+      "es": "API para emisión de NFS-e en municipios"
     }
   },
   {
@@ -285,18 +285,18 @@
     "url": "https://docs.pagar.me",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "Gateway de pagamento brasileiro - ambiente sandbox gratuito",
-      "en": "",
-      "es": ""
+      "en": "Brazilian payment gateway - free sandbox environment",
+      "es": "Pasarela de pago brasileña - ambiente sandbox gratis"
     }
   },
   {
@@ -305,18 +305,18 @@
     "url": "https://docs.pagar.me/page/link-de-pagamento",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Link de pagamento recorrente",
-      "en": "",
-      "es": ""
+      "en": "Recurring payment link",
+      "es": "Enlace de pago recurrente"
     }
   },
   {
@@ -325,18 +325,18 @@
     "url": "https://www.mercadopago.com.br/developers/pt/reference",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API completa do MercadoPago (PIX, cartão, boleto)",
-      "en": "",
-      "es": ""
+      "en": "Full MercadoPago API (PIX, card, boleto)",
+      "es": "API completa de MercadoPago (PIX, tarjeta, boleto)"
     }
   },
   {
@@ -345,18 +345,18 @@
     "url": "https://docs.asaas.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de cobranças e pagamentos brasileiros (PIX, boleto, cartão)",
-      "en": "",
-      "es": ""
+      "en": "Brazilian billing and payments API (PIX, boleto, card)",
+      "es": "API de cobros y pagos brasileños (PIX, boleto, tarjeta)"
     }
   },
   {
@@ -365,18 +365,18 @@
     "url": "https://dev.gerencianet.com.br/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de PIX e boletos - 30 dias gratuitos",
-      "en": "",
-      "es": ""
+      "en": "PIX and boleto API - 30 free days",
+      "es": "API de PIX y boletos - 30 días gratis"
     }
   },
   {
@@ -385,18 +385,18 @@
     "url": "https://docs.ebanx.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "Gateway de pagamento LATAM",
-      "en": "",
-      "es": ""
+      "en": "LATAM payment gateway",
+      "es": "Pasarela de pago LATAM"
     }
   },
   {
@@ -405,18 +405,18 @@
     "url": "https://dev.pagseguro.uol.com.br/reference/rest-pagseguro-api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API PagSeguro com sandbox gratuito",
-      "en": "",
-      "es": ""
+      "en": "PagSeguro API with free sandbox",
+      "es": "API PagSeguro con sandbox gratis"
     }
   },
   {
@@ -425,18 +425,18 @@
     "url": "https://docs.picpay.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API PicPay para pagamentos",
-      "en": "",
-      "es": ""
+      "en": "PicPay API for payments",
+      "es": "API PicPay para pagos"
     }
   },
   {
@@ -445,18 +445,18 @@
     "url": "https://developercielo.github.io/manual/cielo-ecommerce",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API e-commerce Cielo (Visa, Master, Elo)",
-      "en": "",
-      "es": ""
+      "en": "Cielo e-commerce API (Visa, Master, Elo)",
+      "es": "API e-commerce Cielo (Visa, Master, Elo)"
     }
   },
   {
@@ -465,18 +465,18 @@
     "url": "https://developer.userede.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Rede Itaú (cartões de crédito/débito)",
-      "en": "",
-      "es": ""
+      "en": "Rede Itaú API (credit/debit cards)",
+      "es": "API Rede Itaú (tarjetas de crédito/débito)"
     }
   },
   {
@@ -485,18 +485,18 @@
     "url": "https://docs.stone.com.br/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Stone para pagamentos",
-      "en": "",
-      "es": ""
+      "en": "Stone API for payments",
+      "es": "API Stone para pagos"
     }
   },
   {
@@ -505,18 +505,18 @@
     "url": "https://docs.woovi.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API PIX com split de pagamentos",
-      "en": "",
-      "es": ""
+      "en": "PIX API with payment split",
+      "es": "API PIX con división de pagos"
     }
   },
   {
@@ -525,18 +525,18 @@
     "url": "https://docs.openpix.com.br/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de PIX completa",
-      "en": "",
-      "es": ""
+      "en": "Complete PIX API",
+      "es": "API de PIX completa"
     }
   },
   {
@@ -545,18 +545,18 @@
     "url": "https://docs.starkbank.com/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API de banking com PIX, boleto, transferência",
-      "en": "",
-      "es": ""
+      "en": "Banking API with PIX, boleto, transfers",
+      "es": "API de banca con PIX, boleto, transferencia"
     }
   },
   {
@@ -565,18 +565,18 @@
     "url": "https://developers.bancointer.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API completa do Banco Inter (PIX, cobrança, conta)",
-      "en": "",
-      "es": ""
+      "en": "Full Banco Inter API (PIX, billing, account)",
+      "es": "API completa de Banco Inter (PIX, cobro, cuenta)"
     }
   },
   {
@@ -585,18 +585,18 @@
     "url": "https://devportal.itau.com.br/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Itaú Open Banking",
-      "en": "",
-      "es": ""
+      "en": "Itaú Open Banking API",
+      "es": "API Itaú Open Banking"
     }
   },
   {
@@ -605,18 +605,18 @@
     "url": "https://devportal.bradesco.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Bradesco (cobrança, pagamentos)",
-      "en": "",
-      "es": ""
+      "en": "Bradesco API (billing, payments)",
+      "es": "API Bradesco (cobros, pagos)"
     }
   },
   {
@@ -625,18 +625,18 @@
     "url": "https://developer.santander.com.br/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Santander Open Banking",
-      "en": "",
-      "es": ""
+      "en": "Santander Open Banking API",
+      "es": "API Santander Open Banking"
     }
   },
   {
@@ -645,18 +645,18 @@
     "url": "https://developers.bb.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API BB (boletos, PIX, Open Finance)",
-      "en": "",
-      "es": ""
+      "en": "BB API (boletos, PIX, Open Finance)",
+      "es": "API BB (boletos, PIX, Open Finance)"
     }
   },
   {
@@ -665,18 +665,18 @@
     "url": "https://desenvolvedores.caixa.gov.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Caixa Econômica (boletos, FGTS)",
-      "en": "",
-      "es": ""
+      "en": "Caixa Econômica API (boletos, FGTS)",
+      "es": "API Caixa Econômica (boletos, FGTS)"
     }
   },
   {
@@ -685,18 +685,18 @@
     "url": "https://developer.sicredi.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Sicredi Open Banking",
-      "en": "",
-      "es": ""
+      "en": "Sicredi Open Banking API",
+      "es": "API Sicredi Open Banking"
     }
   },
   {
@@ -705,18 +705,18 @@
     "url": "https://developer.original.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Banco Original Open Finance",
-      "en": "",
-      "es": ""
+      "en": "Banco Original Open Finance API",
+      "es": "API Banco Original Open Finance"
     }
   },
   {
@@ -725,18 +725,18 @@
     "url": "https://developers.btgpactual.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API BTG Pactual banking",
-      "en": "",
-      "es": ""
+      "en": "BTG Pactual banking API",
+      "es": "API BTG Pactual banking"
     }
   },
   {
@@ -745,18 +745,18 @@
     "url": "https://docs.suitpay.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de pagamentos e PIX",
-      "en": "",
-      "es": ""
+      "en": "Payments and PIX API",
+      "es": "API de pagos y PIX"
     }
   },
   {
@@ -765,18 +765,18 @@
     "url": "https://api.mercadobitcoin.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API da exchange Mercado Bitcoin",
-      "en": "",
-      "es": ""
+      "en": "Mercado Bitcoin exchange API",
+      "es": "API del exchange Mercado Bitcoin"
     }
   },
   {
@@ -785,18 +785,18 @@
     "url": "https://doc.novadax.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API da exchange NovaDAX",
-      "en": "",
-      "es": ""
+      "en": "NovaDAX exchange API",
+      "es": "API del exchange NovaDAX"
     }
   },
   {
@@ -805,18 +805,18 @@
     "url": "https://github.com/binance/binance-spot-api-docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "API da Binance (válida globalmente)",
-      "en": "",
-      "es": ""
+      "en": "Binance API (globally valid)",
+      "es": "API de Binance (válida globalmente)"
     }
   },
   {
@@ -825,18 +825,18 @@
     "url": "https://api.bitpreco.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Cotação de criptomoedas em BRL",
-      "en": "",
-      "es": ""
+      "en": "Cryptocurrency quotes in BRL",
+      "es": "Cotización de criptomonedas en BRL"
     }
   },
   {
@@ -845,18 +845,18 @@
     "url": "https://api.bitvalor.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Índice de preço de Bitcoin em BRL",
-      "en": "",
-      "es": ""
+      "en": "Bitcoin price index in BRL",
+      "es": "Índice de precio de Bitcoin en BRL"
     }
   },
   {
@@ -865,18 +865,18 @@
     "url": "https://api.wide.cdc.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Open Finance agregador",
-      "en": "",
-      "es": ""
+      "en": "Open Finance aggregator",
+      "es": "Open Finance agregador"
     }
   },
   {
@@ -885,18 +885,18 @@
     "url": "https://docs.belvo.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "Open Finance LATAM",
-      "en": "",
-      "es": ""
+      "en": "Open Finance LATAM",
+      "es": "Open Finance LATAM"
     }
   },
   {
@@ -905,18 +905,18 @@
     "url": "https://docs.belvo.com/docs/pix",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "Integração PIX via Belvo",
-      "en": "",
-      "es": ""
+      "en": "PIX integration via Belvo",
+      "es": "Integración PIX vía Belvo"
     }
   },
   {
@@ -925,18 +925,18 @@
     "url": "https://docs.finvero.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API de Open Finance Brasil",
-      "en": "",
-      "es": ""
+      "en": "Open Finance Brazil API",
+      "es": "API de Open Finance Brasil"
     }
   },
   {
@@ -945,18 +945,18 @@
     "url": "https://docs.hub4pay.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de pagamento e conciliação",
-      "en": "",
-      "es": ""
+      "en": "Payment and reconciliation API",
+      "es": "API de pago y conciliación"
     }
   },
   {
@@ -965,18 +965,18 @@
     "url": "https://docs.zoop.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API de pagamento marketplace",
-      "en": "",
-      "es": ""
+      "en": "Marketplace payment API",
+      "es": "API de pago marketplace"
     }
   },
   {
@@ -985,18 +985,18 @@
     "url": "https://docs.wirecard.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Wirecard (moip) pagamentos",
-      "en": "",
-      "es": ""
+      "en": "Wirecard (moip) payments API",
+      "es": "API Wirecard (moip) pagos"
     }
   },
   {
@@ -1005,18 +1005,18 @@
     "url": "https://dev.moip.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Moip para pagamentos",
-      "en": "",
-      "es": ""
+      "en": "Moip API for payments",
+      "es": "API Moip para pagos"
     }
   },
   {
@@ -1025,18 +1025,18 @@
     "url": "https://docs.conductor.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Conductor de pagamentos",
-      "en": "",
-      "es": ""
+      "en": "Conductor payments API",
+      "es": "API Conductor de pagos"
     }
   },
   {
@@ -1045,18 +1045,18 @@
     "url": "https://docs.maximatech.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "Gateway de pagamento brasileiro",
-      "en": "",
-      "es": ""
+      "en": "Brazilian payment gateway",
+      "es": "Pasarela de pago brasileña"
     }
   },
   {
@@ -1065,18 +1065,18 @@
     "url": "https://docs.cobrefacil.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de boletos e PIX recorrente",
-      "en": "",
-      "es": ""
+      "en": "Recurring boleto and PIX API",
+      "es": "API de boletos y PIX recurrente"
     }
   },
   {
@@ -1085,18 +1085,18 @@
     "url": "https://docs.plugpag.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API de pagamento para maquininhas",
-      "en": "",
-      "es": ""
+      "en": "Card terminal payment API",
+      "es": "API de pago para terminales"
     }
   },
   {
@@ -1105,18 +1105,18 @@
     "url": "https://docs.safrapay.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Safra pagamento",
-      "en": "",
-      "es": ""
+      "en": "Safra payment API",
+      "es": "API Safra pago"
     }
   },
   {
@@ -1125,18 +1125,18 @@
     "url": "https://avenue.us/api-docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Corretora para investir em ações EUA",
-      "en": "",
-      "es": ""
+      "en": "Brokerage to invest in US stocks",
+      "es": "Corredora para invertir en acciones EE.UU."
     }
   },
   {
@@ -1145,18 +1145,18 @@
     "url": "https://www.xpi.com.br/investimentos/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API de investimentos XP",
-      "en": "",
-      "es": ""
+      "en": "XP investments API",
+      "es": "API de inversiones XP"
     }
   },
   {
@@ -1165,18 +1165,18 @@
     "url": "https://api.toro.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API da corretora Toro",
-      "en": "",
-      "es": ""
+      "en": "Toro brokerage API",
+      "es": "API de la corredora Toro"
     }
   },
   {
@@ -1185,18 +1185,18 @@
     "url": "https://docs.warren.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Warren de investimentos",
-      "en": "",
-      "es": ""
+      "en": "Warren investments API",
+      "es": "API Warren de inversiones"
     }
   },
   {
@@ -1205,18 +1205,18 @@
     "url": "https://docs.nomadglobal.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API de investimentos internacionais",
-      "en": "",
-      "es": ""
+      "en": "International investments API",
+      "es": "API de inversiones internacionales"
     }
   },
   {
@@ -1225,18 +1225,18 @@
     "url": "https://docs.modal.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Modal de investimentos",
-      "en": "",
-      "es": ""
+      "en": "Modal investments API",
+      "es": "API Modal de inversiones"
     }
   },
   {
@@ -1245,18 +1245,18 @@
     "url": "https://api.genialinvestimentos.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Genial de investimentos",
-      "en": "",
-      "es": ""
+      "en": "Genial investments API",
+      "es": "API Genial de inversiones"
     }
   },
   {
@@ -1265,18 +1265,18 @@
     "url": "https://docs.clear.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Clear investimentos",
-      "en": "",
-      "es": ""
+      "en": "Clear investments API",
+      "es": "API Clear inversiones"
     }
   },
   {
@@ -1285,18 +1285,18 @@
     "url": "https://api.rico.com.vc",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Rico investimentos",
-      "en": "",
-      "es": ""
+      "en": "Rico investments API",
+      "es": "API Rico inversiones"
     }
   },
   {
@@ -1305,18 +1305,18 @@
     "url": "https://docs.novafuturos.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Nova Futuros (B3)",
-      "en": "",
-      "es": ""
+      "en": "Nova Futuros API (B3)",
+      "es": "API Nova Futuros (B3)"
     }
   },
   {
@@ -1325,18 +1325,18 @@
     "url": "https://trybe.trybe.com.br/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Trybe de educação tech",
-      "en": "",
-      "es": ""
+      "en": "Trybe tech education API",
+      "es": "API Trybe de educación tech"
     }
   },
   {
@@ -1345,18 +1345,18 @@
     "url": "https://www.alura.com.br/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Alura (educação)",
-      "en": "",
-      "es": ""
+      "en": "Alura API (education)",
+      "es": "API Alura (educación)"
     }
   },
   {
@@ -1365,18 +1365,18 @@
     "url": "https://api.rocketseat.com.br",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Rocketseat (educação)",
-      "en": "",
-      "es": ""
+      "en": "Rocketseat API (education)",
+      "es": "API Rocketseat (educación)"
     }
   },
   {
@@ -1385,18 +1385,18 @@
     "url": "https://www.digitalhouse.com/br/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Sandbox",
-      "en": "",
-      "es": ""
+      "en": "Sandbox",
+      "es": "Sandbox"
     },
     "obs": {
       "pt": "API Digital House Brasil",
-      "en": "",
-      "es": ""
+      "en": "Digital House Brazil API",
+      "es": "API Digital House Brasil"
     }
   },
   {
@@ -1405,18 +1405,18 @@
     "url": "https://brazilianfs.com.br/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "API de ficção científica brasileira",
-      "en": "",
-      "es": ""
+      "en": "Brazilian science fiction API",
+      "es": "API de ciencia ficción brasileña"
     }
   },
   {
@@ -1425,18 +1425,18 @@
     "url": "https://api.apiki.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "API de games brasileira",
-      "en": "",
-      "es": ""
+      "en": "Brazilian games API",
+      "es": "API de juegos brasileña"
     }
   },
   {
@@ -1445,18 +1445,18 @@
     "url": "https://platform.openai.com/docs/api-reference/embeddings",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5/3M tokens free",
-      "en": "",
-      "es": ""
+      "en": "$5/3M tokens free",
+      "es": "$5/3M tokens free"
     },
     "obs": {
       "pt": "Embeddings GPT-3.5 - tier gratuito limitado",
-      "en": "",
-      "es": ""
+      "en": "GPT-3.5 embeddings - limited free tier",
+      "es": "Embeddings GPT-3.5 - capa gratis limitada"
     }
   },
   {
@@ -1465,18 +1465,18 @@
     "url": "https://huggingface.co/docs/api-inference",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Roda modelos no HuggingFace via API",
-      "en": "",
-      "es": ""
+      "en": "Run models on HuggingFace via API",
+      "es": "Ejecuta modelos en HuggingFace vía API"
     }
   },
   {
@@ -1485,18 +1485,18 @@
     "url": "https://docs.cohere.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Trial key gratuita com 1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "Free trial key with 1k req/month",
+      "es": "Clave trial gratis con 1k req/mes"
     }
   },
   {
@@ -1505,18 +1505,18 @@
     "url": "https://docs.anthropic.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 free",
-      "en": "",
-      "es": ""
+      "en": "$5 free",
+      "es": "$5 free"
     },
     "obs": {
       "pt": "API Claude com créditos iniciais",
-      "en": "",
-      "es": ""
+      "en": "Claude API with initial credits",
+      "es": "API Claude con créditos iniciales"
     }
   },
   {
@@ -1525,18 +1525,18 @@
     "url": "https://docs.mistral.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Mistral com free tier",
-      "en": "",
-      "es": ""
+      "en": "Mistral API with free tier",
+      "es": "API Mistral con capa gratis"
     }
   },
   {
@@ -1545,18 +1545,18 @@
     "url": "https://ai.google.dev/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "60 req/min",
-      "en": "",
-      "es": ""
+      "en": "60 req/min",
+      "es": "60 req/min"
     },
     "obs": {
       "pt": "API Gemini com 60 req/min gratuitas",
-      "en": "",
-      "es": ""
+      "en": "Gemini API with 60 free req/min",
+      "es": "API Gemini con 60 req/min gratis"
     }
   },
   {
@@ -1565,18 +1565,18 @@
     "url": "https://console.groq.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Groq (LPU) - super rápida, free tier generoso",
-      "en": "",
-      "es": ""
+      "en": "Groq API (LPU) - super fast, generous free tier",
+      "es": "API Groq (LPU) - super rápida, capa gratis generosa"
     }
   },
   {
@@ -1585,18 +1585,18 @@
     "url": "https://docs.together.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 free",
-      "en": "",
-      "es": ""
+      "en": "$5 free",
+      "es": "$5 free"
     },
     "obs": {
       "pt": "API Together AI - $5 créditos",
-      "en": "",
-      "es": ""
+      "en": "Together AI API - $5 credits",
+      "es": "API Together AI - $5 créditos"
     }
   },
   {
@@ -1605,18 +1605,18 @@
     "url": "https://docs.fireworks.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Fireworks (open-source LLMs)",
-      "en": "",
-      "es": ""
+      "en": "Fireworks API (open-source LLMs)",
+      "es": "API Fireworks (LLMs open-source)"
     }
   },
   {
@@ -1625,18 +1625,18 @@
     "url": "https://replicate.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 free",
-      "en": "",
-      "es": ""
+      "en": "$5 free",
+      "es": "$5 free"
     },
     "obs": {
       "pt": "API Replicate (roda modelos open-source)",
-      "en": "",
-      "es": ""
+      "en": "Replicate API (runs open-source models)",
+      "es": "API Replicate (ejecuta modelos open-source)"
     }
   },
   {
@@ -1645,18 +1645,18 @@
     "url": "https://ollama.com/cloud",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Ollama (LLMs locais na nuvem)",
-      "en": "",
-      "es": ""
+      "en": "Ollama API (local LLMs in the cloud)",
+      "es": "API Ollama (LLMs locales en la nube)"
     }
   },
   {
@@ -1665,18 +1665,18 @@
     "url": "https://openrouter.ai/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API OpenRouter (multi-modelo)",
-      "en": "",
-      "es": ""
+      "en": "OpenRouter API (multi-model)",
+      "es": "API OpenRouter (multi-modelo)"
     }
   },
   {
@@ -1685,18 +1685,18 @@
     "url": "https://docs.perplexity.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Perplexity (busca com IA)",
-      "en": "",
-      "es": ""
+      "en": "Perplexity API (AI search)",
+      "es": "API Perplexity (búsqueda con IA)"
     }
   },
   {
@@ -1705,18 +1705,18 @@
     "url": "https://deepinfra.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API DeepInfra (LLMs open-source)",
-      "en": "",
-      "es": ""
+      "en": "DeepInfra API (open-source LLMs)",
+      "es": "API DeepInfra (LLMs open-source)"
     }
   },
   {
@@ -1725,18 +1725,18 @@
     "url": "https://docs.lepton.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Lepton AI (LLMs na nuvem)",
-      "en": "",
-      "es": ""
+      "en": "Lepton AI API (cloud LLMs)",
+      "es": "API Lepton AI (LLMs en la nube)"
     }
   },
   {
@@ -1745,18 +1745,18 @@
     "url": "https://docs.ai21.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API AI21 (Jamba models)",
-      "en": "",
-      "es": ""
+      "en": "AI21 API (Jamba models)",
+      "es": "API AI21 (modelos Jamba)"
     }
   },
   {
@@ -1765,18 +1765,18 @@
     "url": "https://docs.cerebrium.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Cerebrium (deploy de modelos)",
-      "en": "",
-      "es": ""
+      "en": "Cerebrium API (model deployment)",
+      "es": "API Cerebrium (despliegue de modelos)"
     }
   },
   {
@@ -1785,18 +1785,18 @@
     "url": "https://modal.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Modal (serverless GPU)",
-      "en": "",
-      "es": ""
+      "en": "Modal API (serverless GPU)",
+      "es": "API Modal (GPU serverless)"
     }
   },
   {
@@ -1805,18 +1805,18 @@
     "url": "https://docs.banana.dev",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Banana (deploy de modelos ML)",
-      "en": "",
-      "es": ""
+      "en": "Banana API (ML model deployment)",
+      "es": "API Banana (despliegue de modelos ML)"
     }
   },
   {
@@ -1825,18 +1825,18 @@
     "url": "https://docs.beam.cloud",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Beam (deploy GPU)",
-      "en": "",
-      "es": ""
+      "en": "Beam API (GPU deployment)",
+      "es": "API Beam (despliegue GPU)"
     }
   },
   {
@@ -1845,18 +1845,18 @@
     "url": "https://github.com/replicate/cog",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Open-source",
-      "en": "",
-      "es": ""
+      "en": "Open-source",
+      "es": "Open-source"
     },
     "obs": {
       "pt": "Cog - containerizar modelos ML",
-      "en": "",
-      "es": ""
+      "en": "Cog - containerize ML models",
+      "es": "Cog - contenerizar modelos ML"
     }
   },
   {
@@ -1865,18 +1865,18 @@
     "url": "https://docs.octoml.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API OctoML (deploy otimizado)",
-      "en": "",
-      "es": ""
+      "en": "OctoML API (optimized deployment)",
+      "es": "API OctoML (despliegue optimizado)"
     }
   },
   {
@@ -1885,18 +1885,18 @@
     "url": "https://aws.amazon.com/sagemaker/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Free tier 2 meses",
-      "en": "",
-      "es": ""
+      "en": "Free tier (2 months)",
+      "es": "Capa gratis (2 meses)"
     },
     "obs": {
       "pt": "ML na AWS com free tier",
-      "en": "",
-      "es": ""
+      "en": "ML on AWS with free tier",
+      "es": "ML en AWS con capa gratis"
     }
   },
   {
@@ -1905,18 +1905,18 @@
     "url": "https://learn.microsoft.com/azure/machine-learning",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Free tier",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "ML na Azure com free tier",
-      "en": "",
-      "es": ""
+      "en": "ML on Azure with free tier",
+      "es": "ML en Azure con capa gratis"
     }
   },
   {
@@ -1925,18 +1925,18 @@
     "url": "https://cloud.google.com/vertex-ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Free tier",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Vertex AI no GCP",
-      "en": "",
-      "es": ""
+      "en": "Vertex AI on GCP",
+      "es": "Vertex AI en GCP"
     }
   },
   {
@@ -1945,18 +1945,18 @@
     "url": "https://nominatim.org/release-docs/develop/api/Overview/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Geocoding via OSM - rate limit 1 req/s",
-      "en": "",
-      "es": ""
+      "en": "Geocoding via OSM - rate limit 1 req/s",
+      "es": "Geocodificación vía OSM - rate limit 1 req/s"
     }
   },
   {
@@ -1965,18 +1965,18 @@
     "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Query avançada em dados OSM",
-      "en": "",
-      "es": ""
+      "en": "Advanced query on OSM data",
+      "es": "Consulta avanzada en datos OSM"
     }
   },
   {
@@ -1985,18 +1985,18 @@
     "url": "https://docs.mapbox.com/api/search/geocoding/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100k req/mês",
-      "en": "",
-      "es": ""
+      "en": "100k req/month",
+      "es": "100k req/mes"
     },
     "obs": {
       "pt": "Geocoding Mapbox com tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Mapbox geocoding with free tier",
+      "es": "Geocodificación Mapbox con capa gratis"
     }
   },
   {
@@ -2005,18 +2005,18 @@
     "url": "https://developer.here.com/documentation/geocoding-search-api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "250k req/mês",
-      "en": "",
-      "es": ""
+      "en": "250k req/month",
+      "es": "250k req/mes"
     },
     "obs": {
       "pt": "Geocoding HERE Maps com 250k req/mês",
-      "en": "",
-      "es": ""
+      "en": "HERE Maps geocoding with 250k req/month",
+      "es": "Geocodificación HERE Maps con 250k req/mes"
     }
   },
   {
@@ -2025,18 +2025,18 @@
     "url": "https://locationiq.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "5k req/dia",
-      "en": "",
-      "es": ""
+      "en": "5k req/day",
+      "es": "5k req/día"
     },
     "obs": {
       "pt": "Geocoding baseado em OSM - 5k/dia",
-      "en": "",
-      "es": ""
+      "en": "OSM-based geocoding - 5k/day",
+      "es": "Geocodificación basada en OSM - 5k/día"
     }
   },
   {
@@ -2045,18 +2045,18 @@
     "url": "https://apidocs.geoapify.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "3k req/dia",
-      "en": "",
-      "es": ""
+      "en": "3k req/day",
+      "es": "3k req/día"
     },
     "obs": {
       "pt": "Geocoding, routing, isolines",
-      "en": "",
-      "es": ""
+      "en": "Geocoding, routing, isolines",
+      "es": "Geocodificación, rutas, isolíneas"
     }
   },
   {
@@ -2065,18 +2065,18 @@
     "url": "https://opencagedata.com/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "2.5k req/dia",
-      "en": "",
-      "es": ""
+      "en": "2.5k req/day",
+      "es": "2.5k req/día"
     },
     "obs": {
       "pt": "Forward + reverse geocoding",
-      "en": "",
-      "es": ""
+      "en": "Forward + reverse geocoding",
+      "es": "Geocodificación directa + inversa"
     }
   },
   {
@@ -2085,18 +2085,18 @@
     "url": "https://geocode.earth/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Geocoding baseado em OSM premium",
-      "en": "",
-      "es": ""
+      "en": "OSM-based premium geocoding",
+      "es": "Geocodificación premium basada en OSM"
     }
   },
   {
@@ -2105,18 +2105,18 @@
     "url": "https://positionstack.com/documentation",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "25k req/mês",
-      "en": "",
-      "es": ""
+      "en": "25k req/month",
+      "es": "25k req/mes"
     },
     "obs": {
       "pt": "Forward + reverse geocoding",
-      "en": "",
-      "es": ""
+      "en": "Forward + reverse geocoding",
+      "es": "Geocodificación directa + inversa"
     }
   },
   {
@@ -2125,18 +2125,18 @@
     "url": "https://geoip.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "IP geolocation API",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation API",
+      "es": "API de geolocalización IP"
     }
   },
   {
@@ -2145,18 +2145,18 @@
     "url": "https://ipinfo.io/developers",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "50k req/mês",
-      "en": "",
-      "es": ""
+      "en": "50k req/month",
+      "es": "50k req/mes"
     },
     "obs": {
       "pt": "IP geolocation - 50k/mês free",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation - 50k/month free",
+      "es": "Geolocalización IP - 50k/mes gratis"
     }
   },
   {
@@ -2165,18 +2165,18 @@
     "url": "https://ipapi.is/developers.html",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/dia",
-      "en": "",
-      "es": ""
+      "en": "1k req/day",
+      "es": "1k req/día"
     },
     "obs": {
       "pt": "IP info - 1k/dia",
-      "en": "",
-      "es": ""
+      "en": "IP info - 1k/day",
+      "es": "Info IP - 1k/día"
     }
   },
   {
@@ -2185,18 +2185,18 @@
     "url": "https://ipgeolocation.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "30k req/mês",
-      "en": "",
-      "es": ""
+      "en": "30k req/month",
+      "es": "30k req/mes"
     },
     "obs": {
       "pt": "IP geolocation - 30k/mês",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation - 30k/month",
+      "es": "Geolocalización IP - 30k/mes"
     }
   },
   {
@@ -2205,18 +2205,18 @@
     "url": "https://www.abstractapi.com/api/ip-geolocation-api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "500 req/mês",
-      "en": "",
-      "es": ""
+      "en": "500 req/month",
+      "es": "500 req/mes"
     },
     "obs": {
       "pt": "IP geolocation - 500/mês",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation - 500/month",
+      "es": "Geolocalización IP - 500/mes"
     }
   },
   {
@@ -2225,18 +2225,18 @@
     "url": "https://www.bigdatacloud.com/ip-geolocation-api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "10k req/mês",
-      "en": "",
-      "es": ""
+      "en": "10k req/month",
+      "es": "10k req/mes"
     },
     "obs": {
       "pt": "IP geolocation - 10k/mês",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation - 10k/month",
+      "es": "Geolocalización IP - 10k/mes"
     }
   },
   {
@@ -2245,18 +2245,18 @@
     "url": "https://www.ip2location.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "IP geolocation (lite)",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation (lite)",
+      "es": "Geolocalización IP (lite)"
     }
   },
   {
@@ -2265,18 +2265,18 @@
     "url": "https://db-ip.com/api/",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "50k req/mês",
-      "en": "",
-      "es": ""
+      "en": "50k req/month",
+      "es": "50k req/mes"
     },
     "obs": {
       "pt": "IP to City - 50k/mês free",
-      "en": "",
-      "es": ""
+      "en": "IP to City - 50k/month free",
+      "es": "IP a Ciudad - 50k/mes gratis"
     }
   },
   {
@@ -2285,18 +2285,18 @@
     "url": "https://ipgeolocation.io/documentation.html",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "30k req/mês",
-      "en": "",
-      "es": ""
+      "en": "30k req/month",
+      "es": "30k req/mes"
     },
     "obs": {
       "pt": "IP geolocation - 30k/mês",
-      "en": "",
-      "es": ""
+      "en": "IP geolocation - 30k/month",
+      "es": "Geolocalización IP - 30k/mes"
     }
   },
   {
@@ -2305,18 +2305,18 @@
     "url": "https://developers.telnyx.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 free",
-      "en": "",
-      "es": ""
+      "en": "$5 free",
+      "es": "$5 free"
     },
     "obs": {
       "pt": "API SMS, voz, telefonia global",
-      "en": "",
-      "es": ""
+      "en": "SMS, voice, global telephony API",
+      "es": "API SMS, voz, telefonía global"
     }
   },
   {
@@ -2325,18 +2325,18 @@
     "url": "https://developers.messagebird.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 free",
-      "en": "",
-      "es": ""
+      "en": "$5 free",
+      "es": "$5 free"
     },
     "obs": {
       "pt": "API omnichannel (SMS, WhatsApp, email)",
-      "en": "",
-      "es": ""
+      "en": "Omnichannel API (SMS, WhatsApp, email)",
+      "es": "API omnicanal (SMS, WhatsApp, email)"
     }
   },
   {
@@ -2345,18 +2345,18 @@
     "url": "https://www.plivo.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de voz e SMS",
-      "en": "",
-      "es": ""
+      "en": "Voice and SMS API",
+      "es": "API de voz y SMS"
     }
   },
   {
@@ -2365,18 +2365,18 @@
     "url": "https://developers.sinch.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de SMS, voz, WhatsApp",
-      "en": "",
-      "es": ""
+      "en": "SMS, voice, WhatsApp API",
+      "es": "API de SMS, voz, WhatsApp"
     }
   },
   {
@@ -2385,18 +2385,18 @@
     "url": "https://dev.bandwidth.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$15 free",
-      "en": "",
-      "es": ""
+      "en": "$15 free",
+      "es": "$15 free"
     },
     "obs": {
       "pt": "API de SMS, voz, número",
-      "en": "",
-      "es": ""
+      "en": "SMS, voice, number API",
+      "es": "API de SMS, voz, número"
     }
   },
   {
@@ -2405,18 +2405,18 @@
     "url": "https://developer.vonage.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "€2 free",
-      "en": "",
-      "es": ""
+      "en": "€2 free",
+      "es": "€2 free"
     },
     "obs": {
       "pt": "API SMS, voz, verify",
-      "en": "",
-      "es": ""
+      "en": "SMS, voice, verify API",
+      "es": "API SMS, voz, verify"
     }
   },
   {
@@ -2425,18 +2425,18 @@
     "url": "https://www.smpp.org",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Variável",
-      "en": "",
-      "es": ""
+      "en": "Variable",
+      "es": "Variable"
     },
     "obs": {
       "pt": "SMPP - protocolo de SMS",
-      "en": "",
-      "es": ""
+      "en": "SMPP - SMS protocol",
+      "es": "SMPP - protocolo SMS"
     }
   },
   {
@@ -2445,18 +2445,18 @@
     "url": "https://dev.mailjet.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "6k emails/mês",
-      "en": "",
-      "es": ""
+      "en": "6k emails/month",
+      "es": "6k emails/mes"
     },
     "obs": {
       "pt": "API email marketing - 6k/mês",
-      "en": "",
-      "es": ""
+      "en": "Email marketing API - 6k/month",
+      "es": "API email marketing - 6k/mes"
     }
   },
   {
@@ -2465,18 +2465,18 @@
     "url": "https://sendpulse.com/integration/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "500 emails/mês",
-      "en": "",
-      "es": ""
+      "en": "500 emails/month",
+      "es": "500 emails/mes"
     },
     "obs": {
       "pt": "Email + SMTP - 500/mês free",
-      "en": "",
-      "es": ""
+      "en": "Email + SMTP - 500/month free",
+      "es": "Email + SMTP - 500/mes gratis"
     }
   },
   {
@@ -2485,18 +2485,18 @@
     "url": "https://moosend.com/developers/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Email marketing API",
-      "en": "",
-      "es": ""
+      "en": "Email marketing API",
+      "es": "API de email marketing"
     }
   },
   {
@@ -2505,18 +2505,18 @@
     "url": "https://developers.mailerlite.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "12k emails/mês",
-      "en": "",
-      "es": ""
+      "en": "12k emails/month",
+      "es": "12k emails/mes"
     },
     "obs": {
       "pt": "API email - 12k/mês",
-      "en": "",
-      "es": ""
+      "en": "Email API - 12k/month",
+      "es": "API email - 12k/mes"
     }
   },
   {
@@ -2525,18 +2525,18 @@
     "url": "https://developers.brevo.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "300 emails/dia",
-      "en": "",
-      "es": ""
+      "en": "300 emails/day",
+      "es": "300 emails/día"
     },
     "obs": {
       "pt": "API email + SMS - 300/dia",
-      "en": "",
-      "es": ""
+      "en": "Email + SMS API - 300/day",
+      "es": "API email + SMS - 300/día"
     }
   },
   {
@@ -2545,18 +2545,18 @@
     "url": "https://documentation.mailgun.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "5k emails/mês",
-      "en": "",
-      "es": ""
+      "en": "5k emails/month",
+      "es": "5k emails/mes"
     },
     "obs": {
       "pt": "API email transacional - 5k/mês free trial",
-      "en": "",
-      "es": ""
+      "en": "Transactional email API - 5k/month free trial",
+      "es": "API email transaccional - 5k/mes trial gratis"
     }
   },
   {
@@ -2565,18 +2565,18 @@
     "url": "https://postmarkapp.com/developer",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100 emails/mês",
-      "en": "",
-      "es": ""
+      "en": "100 emails/month",
+      "es": "100 emails/mes"
     },
     "obs": {
       "pt": "Email transacional - 100/mês",
-      "en": "",
-      "es": ""
+      "en": "Transactional email - 100/month",
+      "es": "Email transaccional - 100/mes"
     }
   },
   {
@@ -2585,18 +2585,18 @@
     "url": "https://developers.sparkpost.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "500 emails/mês",
-      "en": "",
-      "es": ""
+      "en": "500 emails/month",
+      "es": "500 emails/mes"
     },
     "obs": {
       "pt": "Email transacional - 500/mês",
-      "en": "",
-      "es": ""
+      "en": "Transactional email - 500/month",
+      "es": "Email transaccional - 500/mes"
     }
   },
   {
@@ -2605,18 +2605,18 @@
     "url": "https://docs.pepipost.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100 emails/mês",
-      "en": "",
-      "es": ""
+      "en": "100 emails/month",
+      "es": "100 emails/mes"
     },
     "obs": {
       "pt": "Email API - 100/mês free trial",
-      "en": "",
-      "es": ""
+      "en": "Email API - 100/month free trial",
+      "es": "API email - 100/mes trial gratis"
     }
   },
   {
@@ -2625,18 +2625,18 @@
     "url": "https://docs.aws.amazon.com/ses",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "62k emails/mês",
-      "en": "",
-      "es": ""
+      "en": "62k emails/month",
+      "es": "62k emails/mes"
     },
     "obs": {
       "pt": "Email SES - 62k/mês from EC2",
-      "en": "",
-      "es": ""
+      "en": "Email SES - 62k/month from EC2",
+      "es": "Email SES - 62k/mes desde EC2"
     }
   },
   {
@@ -2645,18 +2645,18 @@
     "url": "https://docs.sendgrid.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "100 emails/dia",
-      "en": "",
-      "es": ""
+      "en": "100 emails/day",
+      "es": "100 emails/día"
     },
     "obs": {
       "pt": "Email - 100/dia forever free",
-      "en": "",
-      "es": ""
+      "en": "Email - 100/day forever free",
+      "es": "Email - 100/día gratis para siempre"
     }
   },
   {
@@ -2665,18 +2665,18 @@
     "url": "https://documentation.onesignal.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "Push notifications - ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Push notifications - unlimited",
+      "es": "Notificaciones push - ilimitado"
     }
   },
   {
@@ -2685,18 +2685,18 @@
     "url": "https://docs.pushbullet.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Push notifications - free tier",
-      "en": "",
-      "es": ""
+      "en": "Push notifications - free tier",
+      "es": "Notificaciones push - capa gratis"
     }
   },
   {
@@ -2705,18 +2705,18 @@
     "url": "https://pushover.net/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 one-time",
-      "en": "",
-      "es": ""
+      "en": "$5 one-time",
+      "es": "$5 one-time"
     },
     "obs": {
       "pt": "Push notifications - $5 one-time",
-      "en": "",
-      "es": ""
+      "en": "Push notifications - $5 one-time",
+      "es": "Notificaciones push - $5 una vez"
     }
   },
   {
@@ -2725,18 +2725,18 @@
     "url": "https://pusher.com/docs/beams",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "2k req/dia",
-      "en": "",
-      "es": ""
+      "en": "2k req/day",
+      "es": "2k req/día"
     },
     "obs": {
       "pt": "Push notifications - 2k/dia",
-      "en": "",
-      "es": ""
+      "en": "Push notifications - 2k/day",
+      "es": "Notificaciones push - 2k/día"
     }
   },
   {
@@ -2745,18 +2745,18 @@
     "url": "https://www.magicbell.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Notificações in-app + email + push",
-      "en": "",
-      "es": ""
+      "en": "In-app + email + push notifications",
+      "es": "Notificaciones in-app + email + push"
     }
   },
   {
@@ -2765,18 +2765,18 @@
     "url": "https://docs.knock.app",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Notification infrastructure",
-      "en": "",
-      "es": ""
+      "en": "Notification infrastructure",
+      "es": "Infraestructura de notificaciones"
     }
   },
   {
@@ -2785,18 +2785,18 @@
     "url": "https://docs.novu.co",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Open-source notification infrastructure",
-      "en": "",
-      "es": ""
+      "en": "Open-source notification infrastructure",
+      "es": "Infraestructura de notificaciones open-source"
     }
   },
   {
@@ -2805,18 +2805,18 @@
     "url": "https://developer.rocket.chat",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Open-source",
-      "en": "",
-      "es": ""
+      "en": "Open-source",
+      "es": "Open-source"
     },
     "obs": {
       "pt": "Chat open-source self-hosted",
-      "en": "",
-      "es": ""
+      "en": "Open-source self-hosted chat",
+      "es": "Chat open-source self-hosted"
     }
   },
   {
@@ -2825,18 +2825,18 @@
     "url": "https://api.mattermost.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Open-source",
-      "en": "",
-      "es": ""
+      "en": "Open-source",
+      "es": "Open-source"
     },
     "obs": {
       "pt": "Chat self-hosted open-source",
-      "en": "",
-      "es": ""
+      "en": "Self-hosted open-source chat",
+      "es": "Chat self-hosted open-source"
     }
   },
   {
@@ -2845,18 +2845,18 @@
     "url": "https://getstream.io/chat/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Chat in-app com free tier",
-      "en": "",
-      "es": ""
+      "en": "In-app chat with free tier",
+      "es": "Chat in-app con capa gratis"
     }
   },
   {
@@ -2865,18 +2865,18 @@
     "url": "https://sendbird.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "MAU free",
-      "en": "",
-      "es": ""
+      "en": "MAU free",
+      "es": "MAU gratis"
     },
     "obs": {
       "pt": "Chat in-app - MAU gratuito",
-      "en": "",
-      "es": ""
+      "en": "In-app chat - free MAU",
+      "es": "Chat in-app - MAU gratis"
     }
   },
   {
@@ -2885,18 +2885,18 @@
     "url": "https://www.cometchat.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "500 MAU",
-      "en": "",
-      "es": ""
+      "en": "500 MAU",
+      "es": "500 MAU"
     },
     "obs": {
       "pt": "Chat API - 500 MAU free",
-      "en": "",
-      "es": ""
+      "en": "Chat API - 500 free MAU",
+      "es": "API de chat - 500 MAU gratis"
     }
   },
   {
@@ -2905,18 +2905,18 @@
     "url": "https://www.pubnub.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "200 devices",
-      "en": "",
-      "es": ""
+      "en": "200 devices",
+      "es": "200 devices"
     },
     "obs": {
       "pt": "Real-time messaging - 200 devices",
-      "en": "",
-      "es": ""
+      "en": "Real-time messaging - 200 devices",
+      "es": "Mensajería en tiempo real - 200 dispositivos"
     }
   },
   {
@@ -2925,18 +2925,18 @@
     "url": "https://ably.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "6M msg/mês",
-      "en": "",
-      "es": ""
+      "en": "6M msg/month",
+      "es": "6M msg/mes"
     },
     "obs": {
       "pt": "Real-time messaging - 6M/mês",
-      "en": "",
-      "es": ""
+      "en": "Real-time messaging - 6M/month",
+      "es": "Mensajería en tiempo real - 6M/mes"
     }
   },
   {
@@ -2945,18 +2945,18 @@
     "url": "https://pusher.com/docs/channels",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "200k msg/dia",
-      "en": "",
-      "es": ""
+      "en": "200k msg/day",
+      "es": "200k msg/día"
     },
     "obs": {
       "pt": "Real-time messaging - 200k/dia",
-      "en": "",
-      "es": ""
+      "en": "Real-time messaging - 200k/day",
+      "es": "Mensajería en tiempo real - 200k/día"
     }
   },
   {
@@ -2965,18 +2965,18 @@
     "url": "https://getstream.io/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Activity feeds + chat",
-      "en": "",
-      "es": ""
+      "en": "Activity feeds + chat",
+      "es": "Feeds de actividad + chat"
     }
   },
   {
@@ -2985,18 +2985,18 @@
     "url": "https://apphitect.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Chat in-app + push",
-      "en": "",
-      "es": ""
+      "en": "In-app chat + push",
+      "es": "Chat in-app + push"
     }
   },
   {
@@ -3005,18 +3005,18 @@
     "url": "https://talkjs.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Chat in-app",
-      "en": "",
-      "es": ""
+      "en": "In-app chat",
+      "es": "Chat in-app"
     }
   },
   {
@@ -3025,18 +3025,18 @@
     "url": "https://developer.zendesk.com/api-reference/live-chat/introduction",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Trial",
-      "en": "",
-      "es": ""
+      "en": "Trial",
+      "es": "Prueba"
     },
     "obs": {
       "pt": "Live chat API",
-      "en": "",
-      "es": ""
+      "en": "Live chat API",
+      "es": "API de live chat"
     }
   },
   {
@@ -3045,18 +3045,18 @@
     "url": "https://developers.intercom.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Trial",
-      "en": "",
-      "es": ""
+      "en": "Trial",
+      "es": "Prueba"
     },
     "obs": {
       "pt": "Customer messaging",
-      "en": "",
-      "es": ""
+      "en": "Customer messaging",
+      "es": "Mensajería al cliente"
     }
   },
   {
@@ -3065,18 +3065,18 @@
     "url": "https://dev.drift.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Trial",
-      "en": "",
-      "es": ""
+      "en": "Trial",
+      "es": "Prueba"
     },
     "obs": {
       "pt": "Conversational marketing",
-      "en": "",
-      "es": ""
+      "en": "Conversational marketing",
+      "es": "Marketing conversacional"
     }
   },
   {
@@ -3085,18 +3085,18 @@
     "url": "https://docs.crisp.chat",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Live chat - 14 dias trial",
-      "en": "",
-      "es": ""
+      "en": "Live chat - 14-day trial",
+      "es": "Live chat - 14 días trial"
     }
   },
   {
@@ -3105,18 +3105,18 @@
     "url": "https://www.tawk.to",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "Live chat gratuito ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Free unlimited live chat",
+      "es": "Live chat gratis ilimitado"
     }
   },
   {
@@ -3125,18 +3125,18 @@
     "url": "https://www.tidio.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Live chat com IA",
-      "en": "",
-      "es": ""
+      "en": "Live chat with AI",
+      "es": "Live chat con IA"
     }
   },
   {
@@ -3145,18 +3145,18 @@
     "url": "https://www.jivochat.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Live chat gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free live chat",
+      "es": "Live chat gratis"
     }
   },
   {
@@ -3165,18 +3165,18 @@
     "url": "https://www.olark.com/developers",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Trial",
-      "en": "",
-      "es": ""
+      "en": "Trial",
+      "es": "Prueba"
     },
     "obs": {
       "pt": "Live chat",
-      "en": "",
-      "es": ""
+      "en": "Live chat",
+      "es": "Live chat"
     }
   },
   {
@@ -3185,18 +3185,18 @@
     "url": "https://developers.livechat.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Trial",
-      "en": "",
-      "es": ""
+      "en": "Trial",
+      "es": "Prueba"
     },
     "obs": {
       "pt": "Live chat premium",
-      "en": "",
-      "es": ""
+      "en": "Premium live chat",
+      "es": "Live chat premium"
     }
   },
   {
@@ -3205,18 +3205,18 @@
     "url": "https://api-explorer.khanacademy.org",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "API Khan Academy (dados de exercícios/vídeos)",
-      "en": "",
-      "es": ""
+      "en": "Khan Academy API (exercise/video data)",
+      "es": "API Khan Academy (datos de ejercicios/videos)"
     }
   },
   {
@@ -3225,18 +3225,18 @@
     "url": "https://building.coursera.org",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Coursera para cursos",
-      "en": "",
-      "es": ""
+      "en": "Coursera API for courses",
+      "es": "API Coursera para cursos"
     }
   },
   {
@@ -3245,18 +3245,18 @@
     "url": "https://courses.edx.org/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API edX cursos",
-      "en": "",
-      "es": ""
+      "en": "edX courses API",
+      "es": "API edX cursos"
     }
   },
   {
@@ -3265,18 +3265,18 @@
     "url": "https://www.udemy.com/developers",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Udemy cursos",
-      "en": "",
-      "es": ""
+      "en": "Udemy courses API",
+      "es": "API Udemy cursos"
     }
   },
   {
@@ -3285,18 +3285,18 @@
     "url": "https://openclassrooms.com/en/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API OpenClassrooms",
-      "en": "",
-      "es": ""
+      "en": "OpenClassrooms API",
+      "es": "API OpenClassrooms"
     }
   },
   {
@@ -3305,18 +3305,18 @@
     "url": "https://www.cvs.com/developer",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API farmácia CVS",
-      "en": "",
-      "es": ""
+      "en": "CVS pharmacy API",
+      "es": "API farmacia CVS"
     }
   },
   {
@@ -3325,18 +3325,18 @@
     "url": "https://www.goodrx.com/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Preços de medicamentos",
-      "en": "",
-      "es": ""
+      "en": "Drug pricing",
+      "es": "Precios de medicamentos"
     }
   },
   {
@@ -3345,18 +3345,18 @@
     "url": "https://www.mayoclinic.org/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API clínica Mayo",
-      "en": "",
-      "es": ""
+      "en": "Mayo Clinic API",
+      "es": "API clínica Mayo"
     }
   },
   {
@@ -3365,18 +3365,18 @@
     "url": "https://www.zocdoc.com/about/developer",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Zocdoc de agendamento",
-      "en": "",
-      "es": ""
+      "en": "Zocdoc scheduling API",
+      "es": "API Zocdoc de agendamiento"
     }
   },
   {
@@ -3385,18 +3385,18 @@
     "url": "https://www.practo.com/developers",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API de saúde Practo",
-      "en": "",
-      "es": ""
+      "en": "Practo health API",
+      "es": "API de salud Practo"
     }
   },
   {
@@ -3405,18 +3405,18 @@
     "url": "https://docs.tomorrow.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "500 req/dia",
-      "en": "",
-      "es": ""
+      "en": "500 req/day",
+      "es": "500 req/día"
     },
     "obs": {
       "pt": "Weather API com IA - 500/dia",
-      "en": "",
-      "es": ""
+      "en": "Weather API with AI - 500/day",
+      "es": "API de clima con IA - 500/día"
     }
   },
   {
@@ -3425,18 +3425,18 @@
     "url": "https://docs.stormglass.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "50 req/dia",
-      "en": "",
-      "es": ""
+      "en": "50 req/day",
+      "es": "50 req/día"
     },
     "obs": {
       "pt": "Weather marinho - 50/dia",
-      "en": "",
-      "es": ""
+      "en": "Marine weather - 50/day",
+      "es": "Clima marino - 50/día"
     }
   },
   {
@@ -3445,18 +3445,18 @@
     "url": "https://www.aerisweather.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Weather API",
-      "en": "",
-      "es": ""
+      "en": "Weather API",
+      "es": "API de clima"
     }
   },
   {
@@ -3465,18 +3465,18 @@
     "url": "https://www.climacell.co/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Weather API hyperlocal",
-      "en": "",
-      "es": ""
+      "en": "Hyperlocal weather API",
+      "es": "API de clima hiperlocal"
     }
   },
   {
@@ -3485,18 +3485,18 @@
     "url": "https://pirateweather.net",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API compatível com Dark Sky",
-      "en": "",
-      "es": ""
+      "en": "Dark Sky compatible API",
+      "es": "API compatible con Dark Sky"
     }
   },
   {
@@ -3505,18 +3505,18 @@
     "url": "https://developers.cloudflare.com/dns",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Ilimitado",
-      "en": "",
-      "es": ""
+      "en": "Unlimited",
+      "es": "Ilimitado"
     },
     "obs": {
       "pt": "DNS 1.1.1.1 - API gratuita",
-      "en": "",
-      "es": ""
+      "en": "DNS 1.1.1.1 - free API",
+      "es": "DNS 1.1.1.1 - API gratis"
     }
   },
   {
@@ -3525,18 +3525,18 @@
     "url": "https://dns.he.net",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "DNS hosting gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free DNS hosting",
+      "es": "Hosting DNS gratis"
     }
   },
   {
@@ -3545,18 +3545,18 @@
     "url": "https://desec.io/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "DNS hosting gratuito com API",
-      "en": "",
-      "es": ""
+      "en": "Free DNS hosting with API",
+      "es": "Hosting DNS gratis con API"
     }
   },
   {
@@ -3565,18 +3565,18 @@
     "url": "https://luadns.com/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "DNS hosting gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free DNS hosting",
+      "es": "Hosting DNS gratis"
     }
   },
   {
@@ -3585,18 +3585,18 @@
     "url": "https://www.cloudns.net/wiki",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "4 dominios",
-      "en": "",
-      "es": ""
+      "en": "4 domains",
+      "es": "4 dominios"
     },
     "obs": {
       "pt": "DNS hosting - 4 dominios free",
-      "en": "",
-      "es": ""
+      "en": "DNS hosting - 4 free domains",
+      "es": "Hosting DNS - 4 dominios gratis"
     }
   },
   {
@@ -3605,18 +3605,18 @@
     "url": "https://1984.hosting/products/dns",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "DNS privacy-first",
-      "en": "",
-      "es": ""
+      "en": "Privacy-first DNS",
+      "es": "DNS privacy-first"
     }
   },
   {
@@ -3625,18 +3625,18 @@
     "url": "https://www.browserless.io/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Headless browser API",
-      "en": "",
-      "es": ""
+      "en": "Headless browser API",
+      "es": "API de navegador headless"
     }
   },
   {
@@ -3645,18 +3645,18 @@
     "url": "https://www.scrapingbee.com/documentation",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Web scraping API",
-      "en": "",
-      "es": ""
+      "en": "Web scraping API",
+      "es": "API de web scraping"
     }
   },
   {
@@ -3665,18 +3665,18 @@
     "url": "https://docs.scrapingant.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Web scraping + headless",
-      "en": "",
-      "es": ""
+      "en": "Web scraping + headless",
+      "es": "Web scraping + headless"
     }
   },
   {
@@ -3685,18 +3685,18 @@
     "url": "https://www.diffbot.com/dev/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Web data extraction com IA",
-      "en": "",
-      "es": ""
+      "en": "Web data extraction with AI",
+      "es": "Extracción de datos web con IA"
     }
   },
   {
@@ -3705,18 +3705,18 @@
     "url": "https://scrapegraphai.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Web scraping com LLM",
-      "en": "",
-      "es": ""
+      "en": "Web scraping with LLM",
+      "es": "Web scraping con LLM"
     }
   },
   {
@@ -3725,18 +3725,18 @@
     "url": "https://docs.zyte.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "10k req/mês",
-      "en": "",
-      "es": ""
+      "en": "10k req/month",
+      "es": "10k req/mes"
     },
     "obs": {
       "pt": "Web scraping profissional",
-      "en": "",
-      "es": ""
+      "en": "Professional web scraping",
+      "es": "Web scraping profesional"
     }
   },
   {
@@ -3745,18 +3745,18 @@
     "url": "https://docs.apify.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "$5 platform credits",
-      "en": "",
-      "es": ""
+      "en": "$5 platform credits",
+      "es": "$5 platform credits"
     },
     "obs": {
       "pt": "Web scraping platform",
-      "en": "",
-      "es": ""
+      "en": "Web scraping platform",
+      "es": "Plataforma de web scraping"
     }
   },
   {
@@ -3765,18 +3765,18 @@
     "url": "https://browsercat.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Headless browser API",
-      "en": "",
-      "es": ""
+      "en": "Headless browser API",
+      "es": "API de navegador headless"
     }
   },
   {
@@ -3785,18 +3785,18 @@
     "url": "https://docs.browserbase.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Headless browser serverless",
-      "en": "",
-      "es": ""
+      "en": "Serverless headless browser",
+      "es": "Navegador headless serverless"
     }
   },
   {
@@ -3805,18 +3805,18 @@
     "url": "https://docs.steel.dev",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1k req/mês",
-      "en": "",
-      "es": ""
+      "en": "1k req/month",
+      "es": "1k req/mes"
     },
     "obs": {
       "pt": "Headless browser API",
-      "en": "",
-      "es": ""
+      "en": "Headless browser API",
+      "es": "API de navegador headless"
     }
   },
   {
@@ -3825,18 +3825,18 @@
     "url": "https://docs.hyperbrowser.ai",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Headless browser + scraping",
-      "en": "",
-      "es": ""
+      "en": "Headless browser + scraping",
+      "es": "Navegador headless + scraping"
     }
   },
   {
@@ -3845,18 +3845,18 @@
     "url": "https://developer.tuya.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "10k req/mês",
-      "en": "",
-      "es": ""
+      "en": "10k req/month",
+      "es": "10k req/mes"
     },
     "obs": {
       "pt": "API IoT Tuya - 10k/mês",
-      "en": "",
-      "es": ""
+      "en": "Tuya IoT API - 10k/month",
+      "es": "API IoT Tuya - 10k/mes"
     }
   },
   {
@@ -3865,18 +3865,18 @@
     "url": "https://docs.particle.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API IoT Particle",
-      "en": "",
-      "es": ""
+      "en": "Particle IoT API",
+      "es": "API IoT Particle"
     }
   },
   {
@@ -3885,18 +3885,18 @@
     "url": "https://docs.blynk.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API IoT Blynk - 2k req/min",
-      "en": "",
-      "es": ""
+      "en": "Blynk IoT API - 2k req/min",
+      "es": "API IoT Blynk - 2k req/min"
     }
   },
   {
@@ -3905,18 +3905,18 @@
     "url": "https://www.mathworks.com/help/thingspeak",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "IoT analytics MathWorks",
-      "en": "",
-      "es": ""
+      "en": "MathWorks IoT analytics",
+      "es": "Analítica IoT MathWorks"
     }
   },
   {
@@ -3925,18 +3925,18 @@
     "url": "https://docs.ubidots.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API IoT Ubidots - 3 devices",
-      "en": "",
-      "es": ""
+      "en": "Ubidots IoT API - 3 devices",
+      "es": "API IoT Ubidots - 3 dispositivos"
     }
   },
   {
@@ -3945,18 +3945,18 @@
     "url": "https://docs.losant.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "IoT platform",
-      "en": "",
-      "es": ""
+      "en": "IoT platform",
+      "es": "Plataforma IoT"
     }
   },
   {
@@ -3965,18 +3965,18 @@
     "url": "https://iot.eclipse.org",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Open-source",
-      "en": "",
-      "es": ""
+      "en": "Open-source",
+      "es": "Open-source"
     },
     "obs": {
       "pt": "Eclipse IoT stack",
-      "en": "",
-      "es": ""
+      "en": "Eclipse IoT stack",
+      "es": "Stack IoT Eclipse"
     }
   },
   {
@@ -3985,18 +3985,18 @@
     "url": "https://io.adafruit.com/api/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "IoT Adafruit - 30 dados/min",
-      "en": "",
-      "es": ""
+      "en": "Adafruit IoT - 30 data/min",
+      "es": "IoT Adafruit - 30 datos/min"
     }
   },
   {
@@ -4005,18 +4005,18 @@
     "url": "https://docs.arduino.cc/iot",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Arduino IoT Cloud",
-      "en": "",
-      "es": ""
+      "en": "Arduino IoT Cloud",
+      "es": "Arduino IoT Cloud"
     }
   },
   {
@@ -4025,18 +4025,18 @@
     "url": "https://esphome.io",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Open-source",
-      "en": "",
-      "es": ""
+      "en": "Open-source",
+      "es": "Open-source"
     },
     "obs": {
       "pt": "ESPHome - firmware IoT",
-      "en": "",
-      "es": ""
+      "en": "ESPHome - IoT firmware",
+      "es": "ESPHome - firmware IoT"
     }
   },
   {
@@ -4045,18 +4045,18 @@
     "url": "https://tasmota.github.io/docs",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Open-source",
-      "en": "",
-      "es": ""
+      "en": "Open-source",
+      "es": "Open-source"
     },
     "obs": {
       "pt": "Tasmota - firmware IoT alternativo",
-      "en": "",
-      "es": ""
+      "en": "Tasmota - alternative IoT firmware",
+      "es": "Tasmota - firmware IoT alternativo"
     }
   },
   {
@@ -4065,18 +4065,18 @@
     "url": "https://developers.deepl.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "500k chars/mês",
-      "en": "",
-      "es": ""
+      "en": "500k chars/month",
+      "es": "500k chars/mes"
     },
     "obs": {
       "pt": "Tradução DeepL - 500k/mês free",
-      "en": "",
-      "es": ""
+      "en": "DeepL translation - 500k/month free",
+      "es": "Traducción DeepL - 500k/mes gratis"
     }
   },
   {
@@ -4085,18 +4085,18 @@
     "url": "https://yandex.com/dev/translate",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "1M chars/mês",
-      "en": "",
-      "es": ""
+      "en": "1M chars/month",
+      "es": "1M chars/mes"
     },
     "obs": {
       "pt": "Tradução Yandex - 1M/mês",
-      "en": "",
-      "es": ""
+      "en": "Yandex translation - 1M/month",
+      "es": "Traducción Yandex - 1M/mes"
     }
   },
   {
@@ -4105,18 +4105,18 @@
     "url": "https://learn.microsoft.com/azure/ai-services/translator",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "2M chars/mês",
-      "en": "",
-      "es": ""
+      "en": "2M chars/month",
+      "es": "2M chars/mes"
     },
     "obs": {
       "pt": "Tradução Microsoft - 2M/mês free",
-      "en": "",
-      "es": ""
+      "en": "Microsoft translation - 2M/month free",
+      "es": "Traducción Microsoft - 2M/mes gratis"
     }
   },
   {
@@ -4125,18 +4125,18 @@
     "url": "https://docs.aws.amazon.com/translate",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "2M chars/mês",
-      "en": "",
-      "es": ""
+      "en": "2M chars/month",
+      "es": "2M chars/mes"
     },
     "obs": {
       "pt": "Tradução Amazon - 2M/mês (12 meses)",
-      "en": "",
-      "es": ""
+      "en": "Amazon translation - 2M/month (12 months)",
+      "es": "Traducción Amazon - 2M/mes (12 meses)"
     }
   },
   {
@@ -4145,18 +4145,18 @@
     "url": "https://www.modernmt.com/api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "Tradução adaptativa",
-      "en": "",
-      "es": ""
+      "en": "Adaptive translation",
+      "es": "Traducción adaptativa"
     }
   },
   {
@@ -4165,18 +4165,18 @@
     "url": "https://www.reverso.net/text-translation-api",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Tier gratuito",
-      "en": "",
-      "es": ""
+      "en": "Free tier",
+      "es": "Capa gratis"
     },
     "obs": {
       "pt": "API Reverso tradução",
-      "en": "",
-      "es": ""
+      "en": "Reverso translation API",
+      "es": "API Reverso traducción"
     }
   },
   {
@@ -4185,18 +4185,18 @@
     "url": "https://linguee-api.herokuapp.com",
     "cat": {
       "pt": "Fontes Complementares",
-      "en": "",
-      "es": ""
+      "en": "Complementary Sources",
+      "es": "Fuentes Complementarias"
     },
     "tier": {
       "pt": "Público",
-      "en": "",
-      "es": ""
+      "en": "Public",
+      "es": "Público"
     },
     "obs": {
       "pt": "Traduções contextuais",
-      "en": "",
-      "es": ""
+      "en": "Contextual translations",
+      "es": "Traducciones contextuales"
     }
   }
 ]
