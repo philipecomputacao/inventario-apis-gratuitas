@@ -27,6 +27,13 @@ Data attribution:
 - Service data from https://github.com/ripienaar/free-for-dev (CC-BY-SA)
 - BrasilAPI endpoints from https://brasilapi.com.br (open government data)
 - Conecta gov.br APIs from https://www.gov.br/conecta/catalogo/
+- Additional sources mined (CC0/CC-BY-SA/MIT, see README for full list):
+  - n0shake/Public-APIs, TonnyL/Awesome_APIs, marcelscruz/public-apis
+  - dl0312/open-apis-korea, yybmion/public-apis-4Kr, llf007/public-apis-cn
+  - juanbrujo/listado-apis-publicas-en-chile, Hameds/APIs-made-in-Iran
+  - jaegeral/security-apis, Rolstenhouse/unofficial-apis
+  - cyberboysumanjay/APIs, tools-collection/apis-collection
+  - foss42/awesome-generative-ai-apis, Apify, RapidAPI Hub
 
 The HTML/CSS/JS code in this repository is original work licensed under MIT.
-The compiled catalog data retains the source licenses (CC0 and CC-BY-SA).
+The compiled catalog data retains the source licenses (CC0, CC-BY-SA, MIT, etc).
