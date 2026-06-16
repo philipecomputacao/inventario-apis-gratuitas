@@ -1,0 +1,572 @@
+[
+  {
+    "pt": "Analise de Texto",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Analytics, Events and Statistics",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Animais",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Anime",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Anti-Malware",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "APIs Brasileiras (Fontes Complementares)",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "APIs de Screenshot",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "APIs, Data and ML",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Area de Trabalho Remota",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Armazenamento e Midia",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Armazenamento em Nuvem",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Arte e Design",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Autenticacao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Auth e Gestao de Usuarios",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "BaaS",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Bancos de Dados Gerenciados",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Blockchain",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Blogs para Devs",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Busca",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Busca de Codigo",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Calendario",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Cambio",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "CDN e Protecao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "CI e CD",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "CI/CD",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Ciencia e Matematica",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Clima",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "CMS",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Comida e Bebida",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Compras",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Criptoativos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Dados Abertos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Dados de Teste",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Desenvolvimento",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Design e UI",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Dicionarios",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Distribuicao de Apps",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Diversos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "DNS",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Docker",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Documentos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Dominios",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Educacao e Carreira",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Email",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Empregos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Encurtadores",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Entretenimento",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Esportes",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Eventos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Feature Toggles",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Financas",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Flutter e iOS sem Mac",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Fontes",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Fontes Complementares BR",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Fontes Complementares Globais",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Fontes Complementares Globais (RapidAPI/ProgrammableWeb)",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Formularios",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Fotografia",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Geolocalizacao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Geracao de Codigo",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Gerenciamento Cloud",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Gestao de Logs",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Gestao de Projetos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Governo",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Governo BR",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Governo Brasileiro",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Gravacao de Sessoes",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Hospedagem Web",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "IA Generativa",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "IA/ML",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "IaaS",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "IDEs e Editores",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "IoT",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Jogos e HQs",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Livros",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Low-Code",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Meio Ambiente",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Mensageria e Streaming",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Monitoramento",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Musica",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Negocios",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Noticias",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Open Source",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Outros Recursos Gratis",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "PaaS",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Pagamentos e Cobranca",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Patentes",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Personalidade",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Plataformas de Comentarios",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Privacidade",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Programacao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Provedores Cloud (Limites Gratis)",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Qualidade de Codigo",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Rastreamento",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Redes Sociais",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Repositorios de Artefatos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Repositorios de Codigo",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Saude",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Seguranca",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Seguranca e PKI",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Sistemas de Build",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Sistemas de Gestao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Telefonia",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Testes",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Times e Colaboracao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Traducao",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Transporte",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Tratamento de Erros",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Tuneis e WebRTC",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Validacao de Dados",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Veiculos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Verificacao de Telefone",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Videos",
+    "en": "",
+    "es": ""
+  },
+  {
+    "pt": "Visualizacao em Mapas",
+    "en": "",
+    "es": ""
+  }
+]

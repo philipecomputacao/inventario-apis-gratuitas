@@ -1,0 +1,4202 @@
+[
+  {
+    "slug": "brasilapi-cnpj-alfanumerico-brasilapicombrcnpjalfanumv1-cnpj",
+    "name": "BrasilAPI - CNPJ Alfanumérico",
+    "url": "https://brasilapi.com.br/cnpj/alfanum/v1/{cnpj}",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Gera CNPJ alfanumérico (novo formato 2026)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "brasilapi-cep-v2-com-geo-brasilapicombrcepv2-cep",
+    "name": "BrasilAPI - CEP V2 com Geo",
+    "url": "https://brasilapi.com.br/cep/v2/{cep}",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Busca CEP com latitude/longitude",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ibge-localidades-servicodadosibgegovbrapiv1locali",
+    "name": "IBGE - Localidades",
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Estados, municípios, regiões, mesorregiões, microrregiões do Brasil",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ibge-sidra-agregados-servicodadosibgegovbrapiv3agrega",
+    "name": "IBGE - SIDRA Agregados",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Agregados estatísticos do SIDRA (Censo, PNAD, POF)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ibge-nomes-ibge-servicodadosibgegovbrapiv2censos",
+    "name": "IBGE - Nomes IBGE",
+    "url": "https://servicodados.ibge.gov.br/api/v2/censos/nomes",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Frequência de nomes por década e região",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ibge-populacao-servicodadosibgegovbrapiv3agrega",
+    "name": "IBGE - População",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Estimativas populacionais dos municípios",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "receitaws-cnpj-wwwreceitawscombrv1cnpj-cnpj",
+    "name": "ReceitaWS - CNPJ",
+    "url": "https://www.receitaws.com.br/v1/cnpj/{cnpj}",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "3 req/min",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Consulta CNPJ alternativa - 3 req/min gratuitas",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "correios-rastreamento-wwwlinkcorreioscombr",
+    "name": "Correios - Rastreamento",
+    "url": "https://www.linkcorreios.com.br/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Rastreamento de objetos dos Correios via scraping",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "opencnpj-opencnpjcom",
+    "name": "OpenCNPJ",
+    "url": "https://opencnpj.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de CNPJ com dados adicionais (QSA, CNAE)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cnpj-ws-cnpjws",
+    "name": "CNPJ.ws",
+    "url": "https://cnpj.ws/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100 req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Consulta CNPJ gratuita - 100 req/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "minha-receita-via-brasilapi-brasilapicombrcnpjv1-cnpj",
+    "name": "Minha Receita (via BrasilAPI)",
+    "url": "https://brasilapi.com.br/cnpj/v1/{cnpj}",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Minha Receita (dados públicos de CNPJ)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "nfe-io-apinfeio",
+    "name": "NFe.io",
+    "url": "https://api.nfe.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100 NF/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Emissão de NF-e com tier gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "focus-nfe-focusnfecombrdochtml",
+    "name": "Focus NFe",
+    "url": "https://focusnfe.com.br/doc.html",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API para emissão de NFe, NFCe, CTe, MDFe",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "enotas-gateway-enotascombrapi",
+    "name": "eNotas Gateway",
+    "url": "https://enotas.com.br/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100 NF/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API para emissão de NFS-e em prefeituras",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pagar-me-docspagarme",
+    "name": "Pagar.me",
+    "url": "https://docs.pagar.me",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Gateway de pagamento brasileiro - ambiente sandbox gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pagar-me-link-docspagarmepagelink-de-pagamento",
+    "name": "Pagar.me Link",
+    "url": "https://docs.pagar.me/page/link-de-pagamento",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Link de pagamento recorrente",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mercadopago-api-wwwmercadopagocombrdevelopersptr",
+    "name": "MercadoPago API",
+    "url": "https://www.mercadopago.com.br/developers/pt/reference",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API completa do MercadoPago (PIX, cartão, boleto)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "asaas-docsasaascom",
+    "name": "Asaas",
+    "url": "https://docs.asaas.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de cobranças e pagamentos brasileiros (PIX, boleto, cartão)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "gerencianet-devgerencianetcombrdocs",
+    "name": "Gerencianet",
+    "url": "https://dev.gerencianet.com.br/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de PIX e boletos - 30 dias gratuitos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ebanx-docsebanxcom",
+    "name": "Ebanx",
+    "url": "https://docs.ebanx.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Gateway de pagamento LATAM",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pagseguro-uol-devpagsegurouolcombrreferenceres",
+    "name": "PagSeguro UOL",
+    "url": "https://dev.pagseguro.uol.com.br/reference/rest-pagseguro-api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API PagSeguro com sandbox gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "picpay-docspicpaycom",
+    "name": "PicPay",
+    "url": "https://docs.picpay.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API PicPay para pagamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cielo-api-3-0-developercielogithubiomanualciel",
+    "name": "Cielo API 3.0",
+    "url": "https://developercielo.github.io/manual/cielo-ecommerce",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API e-commerce Cielo (Visa, Master, Elo)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "rede-api-developeruseredecom",
+    "name": "Rede API",
+    "url": "https://developer.userede.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Rede Itaú (cartões de crédito/débito)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "stone-api-docsstonecombr",
+    "name": "Stone API",
+    "url": "https://docs.stone.com.br/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Stone para pagamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "woovi-docswoovicom",
+    "name": "Woovi",
+    "url": "https://docs.woovi.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API PIX com split de pagamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "openpix-docsopenpixcombr",
+    "name": "OpenPix",
+    "url": "https://docs.openpix.com.br/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de PIX completa",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "stark-bank-docsstarkbankcom",
+    "name": "Stark Bank",
+    "url": "https://docs.starkbank.com/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de banking com PIX, boleto, transferência",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "banco-inter-api-developersbancointercombr",
+    "name": "Banco Inter API",
+    "url": "https://developers.bancointer.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API completa do Banco Inter (PIX, cobrança, conta)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "itau-open-banking-devportalitaucombr",
+    "name": "Itaú Open Banking",
+    "url": "https://devportal.itau.com.br/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Itaú Open Banking",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "bradesco-api-devportalbradescocombr",
+    "name": "Bradesco API",
+    "url": "https://devportal.bradesco.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Bradesco (cobrança, pagamentos)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "santander-api-developersantandercombr",
+    "name": "Santander API",
+    "url": "https://developer.santander.com.br/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Santander Open Banking",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "banco-do-brasil-api-developersbbcombr",
+    "name": "Banco do Brasil API",
+    "url": "https://developers.bb.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API BB (boletos, PIX, Open Finance)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "caixa-api-desenvolvedorescaixagovbr",
+    "name": "Caixa API",
+    "url": "https://desenvolvedores.caixa.gov.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Caixa Econômica (boletos, FGTS)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "sicredi-api-developersicredicombr",
+    "name": "Sicredi API",
+    "url": "https://developer.sicredi.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Sicredi Open Banking",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "original-api-developeroriginalcombr",
+    "name": "Original API",
+    "url": "https://developer.original.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Banco Original Open Finance",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "btg-pactual-api-developersbtgpactualcom",
+    "name": "BTG Pactual API",
+    "url": "https://developers.btgpactual.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API BTG Pactual banking",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "suitpay-docssuitpaycombr",
+    "name": "SuitPay",
+    "url": "https://docs.suitpay.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de pagamentos e PIX",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mercado-bitcoin-apimercadobitcoincombr",
+    "name": "Mercado Bitcoin",
+    "url": "https://api.mercadobitcoin.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API da exchange Mercado Bitcoin",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "novadax-docnovadaxcom",
+    "name": "NovaDAX",
+    "url": "https://doc.novadax.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API da exchange NovaDAX",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "binance-brasil-githubcombinancebinance-spot-api",
+    "name": "Binance Brasil",
+    "url": "https://github.com/binance/binance-spot-api-docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API da Binance (válida globalmente)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "bitpreco-apibitprecocom",
+    "name": "BitPreço",
+    "url": "https://api.bitpreco.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Cotação de criptomoedas em BRL",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "bitvalor-apibitvalorcombr",
+    "name": "Bitvalor",
+    "url": "https://api.bitvalor.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Índice de preço de Bitcoin em BRL",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "wide-cdc-apiwidecdccombr",
+    "name": "Wide CDC",
+    "url": "https://api.wide.cdc.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Open Finance agregador",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "belvo-docsbelvocom",
+    "name": "Belvo",
+    "url": "https://docs.belvo.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Open Finance LATAM",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "belvo-pix-docsbelvocomdocspix",
+    "name": "Belvo PIX",
+    "url": "https://docs.belvo.com/docs/pix",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Integração PIX via Belvo",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "finvero-docsfinverocombr",
+    "name": "Finvero",
+    "url": "https://docs.finvero.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de Open Finance Brasil",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "hub4pay-docshub4paycombr",
+    "name": "Hub4Pay",
+    "url": "https://docs.hub4pay.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de pagamento e conciliação",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "zoop-docszoopcombr",
+    "name": "Zoop",
+    "url": "https://docs.zoop.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de pagamento marketplace",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "wirecard-brasil-docswirecardcombr",
+    "name": "Wirecard Brasil",
+    "url": "https://docs.wirecard.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Wirecard (moip) pagamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "moip-wirecard-devmoipcombr",
+    "name": "Moip (Wirecard)",
+    "url": "https://dev.moip.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Moip para pagamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "conductor-docsconductorcombr",
+    "name": "Conductor",
+    "url": "https://docs.conductor.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Conductor de pagamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "maximatech-docsmaximatechcombr",
+    "name": "MaximaTech",
+    "url": "https://docs.maximatech.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Gateway de pagamento brasileiro",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cobre-facil-docscobrefacilcombr",
+    "name": "Cobre Fácil",
+    "url": "https://docs.cobrefacil.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de boletos e PIX recorrente",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "plugpag-docsplugpagcombr",
+    "name": "PlugPag",
+    "url": "https://docs.plugpag.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de pagamento para maquininhas",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "safrapay-docssafrapaycombr",
+    "name": "SafraPay",
+    "url": "https://docs.safrapay.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Safra pagamento",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "avenue-securities-avenueusapi-docs",
+    "name": "Avenue Securities",
+    "url": "https://avenue.us/api-docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Corretora para investir em ações EUA",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "xp-inc-api-wwwxpicombrinvestimentosapi",
+    "name": "XP Inc API",
+    "url": "https://www.xpi.com.br/investimentos/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de investimentos XP",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "toro-investimentos-apitorocombr",
+    "name": "Toro Investimentos",
+    "url": "https://api.toro.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API da corretora Toro",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "warren-investimentos-docswarrencombr",
+    "name": "Warren Investimentos",
+    "url": "https://docs.warren.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Warren de investimentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "nomad-docsnomadglobalcom",
+    "name": "Nomad",
+    "url": "https://docs.nomadglobal.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de investimentos internacionais",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "modal-mais-docsmodalcombr",
+    "name": "Modal Mais",
+    "url": "https://docs.modal.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Modal de investimentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "genial-investimentos-apigenialinvestimentoscombr",
+    "name": "Genial Investimentos",
+    "url": "https://api.genialinvestimentos.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Genial de investimentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "clear-corretora-docsclearcombr",
+    "name": "Clear Corretora",
+    "url": "https://docs.clear.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Clear investimentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "rico-investimentos-apiricocomvc",
+    "name": "Rico Investimentos",
+    "url": "https://api.rico.com.vc",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Rico investimentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "nova-futuros-docsnovafuturoscombr",
+    "name": "Nova Futuros",
+    "url": "https://docs.novafuturos.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Nova Futuros (B3)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "trybe-trybetrybecombrapi",
+    "name": "Trybe",
+    "url": "https://trybe.trybe.com.br/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Trybe de educação tech",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "alura-api-wwwaluracombrapi",
+    "name": "Alura API",
+    "url": "https://www.alura.com.br/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Alura (educação)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "rocketseat-api-apirocketseatcombr",
+    "name": "Rocketseat API",
+    "url": "https://api.rocketseat.com.br",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Rocketseat (educação)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "digital-house-wwwdigitalhousecombrapi",
+    "name": "Digital House",
+    "url": "https://www.digitalhouse.com/br/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Sandbox",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Digital House Brasil",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "brazilian-fs-brazilianfscombrapi",
+    "name": "Brazilian FS",
+    "url": "https://brazilianfs.com.br/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de ficção científica brasileira",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "apiki-games-apiapikicom",
+    "name": "Apiki Games",
+    "url": "https://api.apiki.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de games brasileira",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "openai-embeddings-platformopenaicomdocsapi-referen",
+    "name": "OpenAI Embeddings",
+    "url": "https://platform.openai.com/docs/api-reference/embeddings",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5/3M tokens free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Embeddings GPT-3.5 - tier gratuito limitado",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "huggingface-inference-api-huggingfacecodocsapi-inference",
+    "name": "HuggingFace Inference API",
+    "url": "https://huggingface.co/docs/api-inference",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Roda modelos no HuggingFace via API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cohere-trial-docscoherecom",
+    "name": "Cohere Trial",
+    "url": "https://docs.cohere.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Trial key gratuita com 1k req/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "anthropic-claude-docsanthropiccom",
+    "name": "Anthropic Claude",
+    "url": "https://docs.anthropic.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Claude com créditos iniciais",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mistral-ai-docsmistralai",
+    "name": "Mistral AI",
+    "url": "https://docs.mistral.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Mistral com free tier",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "google-gemini-aigoogledevdocs",
+    "name": "Google Gemini",
+    "url": "https://ai.google.dev/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "60 req/min",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Gemini com 60 req/min gratuitas",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "groq-consolegroqcomdocs",
+    "name": "Groq",
+    "url": "https://console.groq.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Groq (LPU) - super rápida, free tier generoso",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "together-ai-docstogetherai",
+    "name": "Together AI",
+    "url": "https://docs.together.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Together AI - $5 créditos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "fireworks-ai-docsfireworksai",
+    "name": "Fireworks AI",
+    "url": "https://docs.fireworks.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Fireworks (open-source LLMs)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "replicate-replicatecomdocs",
+    "name": "Replicate",
+    "url": "https://replicate.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Replicate (roda modelos open-source)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ollama-cloud-ollamacomcloud",
+    "name": "Ollama Cloud",
+    "url": "https://ollama.com/cloud",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Ollama (LLMs locais na nuvem)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "openrouter-openrouteraidocs",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API OpenRouter (multi-modelo)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "perplexity-docsperplexityai",
+    "name": "Perplexity",
+    "url": "https://docs.perplexity.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Perplexity (busca com IA)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "deepinfra-deepinfracomdocs",
+    "name": "DeepInfra",
+    "url": "https://deepinfra.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API DeepInfra (LLMs open-source)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "lepton-ai-docsleptonai",
+    "name": "Lepton AI",
+    "url": "https://docs.lepton.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Lepton AI (LLMs na nuvem)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ai21-docsai21com",
+    "name": "AI21",
+    "url": "https://docs.ai21.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API AI21 (Jamba models)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cerebrium-docscerebriumai",
+    "name": "Cerebrium",
+    "url": "https://docs.cerebrium.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Cerebrium (deploy de modelos)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "modal-labs-modalcomdocs",
+    "name": "Modal Labs",
+    "url": "https://modal.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Modal (serverless GPU)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "banana-serverless-docsbananadev",
+    "name": "Banana Serverless",
+    "url": "https://docs.banana.dev",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Banana (deploy de modelos ML)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "beam-cloud-docsbeamcloud",
+    "name": "Beam Cloud",
+    "url": "https://docs.beam.cloud",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Beam (deploy GPU)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cog-replicate-githubcomreplicatecog",
+    "name": "Cog (Replicate)",
+    "url": "https://github.com/replicate/cog",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Open-source",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Cog - containerizar modelos ML",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "octoml-docsoctomlai",
+    "name": "OctoML",
+    "url": "https://docs.octoml.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API OctoML (deploy otimizado)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "aws-sagemaker-awsamazoncomsagemaker",
+    "name": "AWS SageMaker",
+    "url": "https://aws.amazon.com/sagemaker/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Free tier 2 meses",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "ML na AWS com free tier",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "azure-ml-learnmicrosoftcomazuremachine-le",
+    "name": "Azure ML",
+    "url": "https://learn.microsoft.com/azure/machine-learning",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Free tier",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "ML na Azure com free tier",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "gcp-vertex-ai-cloudgooglecomvertex-ai",
+    "name": "GCP Vertex AI",
+    "url": "https://cloud.google.com/vertex-ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Free tier",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Vertex AI no GCP",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "openstreetmap-nominatim-nominatimorgrelease-docsdevelopa",
+    "name": "OpenStreetMap Nominatim",
+    "url": "https://nominatim.org/release-docs/develop/api/Overview/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Geocoding via OSM - rate limit 1 req/s",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "openstreetmap-overpass-wikiopenstreetmaporgwikioverpass",
+    "name": "OpenStreetMap Overpass",
+    "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Query avançada em dados OSM",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mapbox-geocoding-docsmapboxcomapisearchgeocoding",
+    "name": "Mapbox Geocoding",
+    "url": "https://docs.mapbox.com/api/search/geocoding/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Geocoding Mapbox com tier gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "here-geocoding-developerherecomdocumentationgeo",
+    "name": "HERE Geocoding",
+    "url": "https://developer.here.com/documentation/geocoding-search-api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "250k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Geocoding HERE Maps com 250k req/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "locationiq-locationiqcomdocs",
+    "name": "LocationIQ",
+    "url": "https://locationiq.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "5k req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Geocoding baseado em OSM - 5k/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "geoapify-apidocsgeoapifycom",
+    "name": "Geoapify",
+    "url": "https://apidocs.geoapify.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "3k req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Geocoding, routing, isolines",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "opencage-opencagedatacomapi",
+    "name": "OpenCage",
+    "url": "https://opencagedata.com/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "2.5k req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Forward + reverse geocoding",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "geocode-earth-geocodeearthdocs",
+    "name": "Geocode Earth",
+    "url": "https://geocode.earth/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Geocoding baseado em OSM premium",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "positionstack-positionstackcomdocumentation",
+    "name": "Positionstack",
+    "url": "https://positionstack.com/documentation",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "25k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Forward + reverse geocoding",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "geoip-geoipcom",
+    "name": "GeoiP",
+    "url": "https://geoip.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ipinfo-io-ipinfoiodevelopers",
+    "name": "ipinfo.io",
+    "url": "https://ipinfo.io/developers",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "50k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation - 50k/mês free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ipapi-is-ipapiisdevelopershtml",
+    "name": "ipapi.is",
+    "url": "https://ipapi.is/developers.html",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP info - 1k/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ip-geolocation-api-ipgeolocationio",
+    "name": "IP Geolocation API",
+    "url": "https://ipgeolocation.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "30k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation - 30k/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "abstract-ip-geolocation-wwwabstractapicomapiip-geolocati",
+    "name": "Abstract IP Geolocation",
+    "url": "https://www.abstractapi.com/api/ip-geolocation-api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "500 req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation - 500/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "bigdatacloud-ip-wwwbigdatacloudcomip-geolocation",
+    "name": "BigDataCloud IP",
+    "url": "https://www.bigdatacloud.com/ip-geolocation-api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "10k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation - 10k/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ip2location-wwwip2locationcomdocs",
+    "name": "IP2Location",
+    "url": "https://www.ip2location.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation (lite)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "db-ip-db-ipcomapi",
+    "name": "DB-IP",
+    "url": "https://db-ip.com/api/",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "50k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP to City - 50k/mês free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ipgeolocation-io-ipgeolocationiodocumentationhtml",
+    "name": "IPGeolocation.io",
+    "url": "https://ipgeolocation.io/documentation.html",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "30k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IP geolocation - 30k/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "telnyx-developerstelnyxcom",
+    "name": "Telnyx",
+    "url": "https://developers.telnyx.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API SMS, voz, telefonia global",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "messagebird-developersmessagebirdcom",
+    "name": "MessageBird",
+    "url": "https://developers.messagebird.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API omnichannel (SMS, WhatsApp, email)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "plivo-wwwplivocomdocs",
+    "name": "Plivo",
+    "url": "https://www.plivo.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de voz e SMS",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "sinch-developerssinchcom",
+    "name": "Sinch",
+    "url": "https://developers.sinch.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de SMS, voz, WhatsApp",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "bandwidth-devbandwidthcom",
+    "name": "Bandwidth",
+    "url": "https://dev.bandwidth.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$15 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de SMS, voz, número",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "vonage-ex-nexmo-developervonagecom",
+    "name": "Vonage (ex-Nexmo)",
+    "url": "https://developer.vonage.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "€2 free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API SMS, voz, verify",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "smpp-gateway-wwwsmpporg",
+    "name": "SMPP Gateway",
+    "url": "https://www.smpp.org",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Variável",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "SMPP - protocolo de SMS",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mailjet-devmailjetcom",
+    "name": "Mailjet",
+    "url": "https://dev.mailjet.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "6k emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API email marketing - 6k/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "sendpulse-sendpulsecomintegrationapi",
+    "name": "SendPulse",
+    "url": "https://sendpulse.com/integration/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "500 emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email + SMTP - 500/mês free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "moosend-moosendcomdevelopersapi",
+    "name": "Moosend",
+    "url": "https://moosend.com/developers/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email marketing API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mailerlite-developersmailerlitecom",
+    "name": "MailerLite",
+    "url": "https://developers.mailerlite.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "12k emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API email - 12k/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "brevo-sendinblue-developersbrevocom",
+    "name": "Brevo (Sendinblue)",
+    "url": "https://developers.brevo.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "300 emails/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API email + SMS - 300/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mailgun-documentationmailguncom",
+    "name": "Mailgun",
+    "url": "https://documentation.mailgun.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "5k emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API email transacional - 5k/mês free trial",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "postmark-postmarkappcomdeveloper",
+    "name": "Postmark",
+    "url": "https://postmarkapp.com/developer",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100 emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email transacional - 100/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "sparkpost-developerssparkpostcom",
+    "name": "SparkPost",
+    "url": "https://developers.sparkpost.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "500 emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email transacional - 500/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pepipost-docspepipostcom",
+    "name": "Pepipost",
+    "url": "https://docs.pepipost.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100 emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email API - 100/mês free trial",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "amazon-ses-docsawsamazoncomses",
+    "name": "Amazon SES",
+    "url": "https://docs.aws.amazon.com/ses",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "62k emails/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email SES - 62k/mês from EC2",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "sendgrid-twilio-docssendgridcom",
+    "name": "SendGrid (Twilio)",
+    "url": "https://docs.sendgrid.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "100 emails/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Email - 100/dia forever free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "onesignal-documentationonesignalcom",
+    "name": "OneSignal",
+    "url": "https://documentation.onesignal.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Push notifications - ilimitado",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pushbullet-docspushbulletcom",
+    "name": "Pushbullet",
+    "url": "https://docs.pushbullet.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Push notifications - free tier",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pushover-pushovernetapi",
+    "name": "Pushover",
+    "url": "https://pushover.net/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 one-time",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Push notifications - $5 one-time",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pusher-beams-pushercomdocsbeams",
+    "name": "Pusher Beams",
+    "url": "https://pusher.com/docs/beams",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "2k req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Push notifications - 2k/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "magicbell-wwwmagicbellcomdocs",
+    "name": "MagicBell",
+    "url": "https://www.magicbell.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Notificações in-app + email + push",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "knock-docsknockapp",
+    "name": "Knock",
+    "url": "https://docs.knock.app",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Notification infrastructure",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "novu-docsnovuco",
+    "name": "Novu",
+    "url": "https://docs.novu.co",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Open-source notification infrastructure",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "rocket-chat-developerrocketchat",
+    "name": "Rocket.Chat",
+    "url": "https://developer.rocket.chat",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Open-source",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat open-source self-hosted",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mattermost-apimattermostcom",
+    "name": "Mattermost",
+    "url": "https://api.mattermost.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Open-source",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat self-hosted open-source",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "stream-chat-getstreamiochatdocs",
+    "name": "Stream Chat",
+    "url": "https://getstream.io/chat/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat in-app com free tier",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "sendbird-sendbirdcomdocs",
+    "name": "Sendbird",
+    "url": "https://sendbird.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "MAU free",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat in-app - MAU gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cometchat-wwwcometchatcomdocs",
+    "name": "CometChat",
+    "url": "https://www.cometchat.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "500 MAU",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat API - 500 MAU free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pubnub-wwwpubnubcomdocs",
+    "name": "PubNub",
+    "url": "https://www.pubnub.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "200 devices",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Real-time messaging - 200 devices",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ably-ablycomdocs",
+    "name": "Ably",
+    "url": "https://ably.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "6M msg/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Real-time messaging - 6M/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pusher-channels-pushercomdocschannels",
+    "name": "Pusher Channels",
+    "url": "https://pusher.com/docs/channels",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "200k msg/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Real-time messaging - 200k/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "getstream-getstreamiodocs",
+    "name": "GetStream",
+    "url": "https://getstream.io/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Activity feeds + chat",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "apphitect-apphitectcom",
+    "name": "Apphitect",
+    "url": "https://apphitect.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat in-app + push",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "talkjs-talkjscomdocs",
+    "name": "TalkJS",
+    "url": "https://talkjs.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Chat in-app",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "zendesk-chat-developerzendeskcomapi-reference",
+    "name": "Zendesk Chat",
+    "url": "https://developer.zendesk.com/api-reference/live-chat/introduction",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Trial",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "intercom-developersintercomcom",
+    "name": "Intercom",
+    "url": "https://developers.intercom.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Trial",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Customer messaging",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "drift-devdriftcom",
+    "name": "Drift",
+    "url": "https://dev.drift.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Trial",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Conversational marketing",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "crisp-docscrispchat",
+    "name": "Crisp",
+    "url": "https://docs.crisp.chat",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat - 14 dias trial",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "tawk-wwwtawkto",
+    "name": "Tawk",
+    "url": "https://www.tawk.to",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat gratuito ilimitado",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "tidio-wwwtidiocom",
+    "name": "Tidio",
+    "url": "https://www.tidio.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat com IA",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "jivochat-wwwjivochatcom",
+    "name": "Jivochat",
+    "url": "https://www.jivochat.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "olark-wwwolarkcomdevelopers",
+    "name": "Olark",
+    "url": "https://www.olark.com/developers",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Trial",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "livechat-developerslivechatcom",
+    "name": "LiveChat",
+    "url": "https://developers.livechat.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Trial",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Live chat premium",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "khan-academy-api-explorerkhanacademyorg",
+    "name": "Khan Academy",
+    "url": "https://api-explorer.khanacademy.org",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Khan Academy (dados de exercícios/vídeos)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "coursera-buildingcourseraorg",
+    "name": "Coursera",
+    "url": "https://building.coursera.org",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Coursera para cursos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "edx-coursesedxorgapi",
+    "name": "edX",
+    "url": "https://courses.edx.org/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API edX cursos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "udemy-wwwudemycomdevelopers",
+    "name": "Udemy",
+    "url": "https://www.udemy.com/developers",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Udemy cursos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "openclassrooms-openclassroomscomenapi",
+    "name": "OpenClassrooms",
+    "url": "https://openclassrooms.com/en/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API OpenClassrooms",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cvs-pharmacy-wwwcvscomdeveloper",
+    "name": "CVS Pharmacy",
+    "url": "https://www.cvs.com/developer",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API farmácia CVS",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "goodrx-wwwgoodrxcomapi",
+    "name": "GoodRx",
+    "url": "https://www.goodrx.com/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Preços de medicamentos",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "mayo-clinic-wwwmayoclinicorgapi",
+    "name": "Mayo Clinic",
+    "url": "https://www.mayoclinic.org/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API clínica Mayo",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "zocdoc-wwwzocdoccomaboutdeveloper",
+    "name": "Zocdoc",
+    "url": "https://www.zocdoc.com/about/developer",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Zocdoc de agendamento",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "practo-wwwpractocomdevelopers",
+    "name": "Practo",
+    "url": "https://www.practo.com/developers",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API de saúde Practo",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "tomorrow-io-docstomorrowio",
+    "name": "Tomorrow.io",
+    "url": "https://docs.tomorrow.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "500 req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Weather API com IA - 500/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "stormglass-docsstormglassio",
+    "name": "StormGlass",
+    "url": "https://docs.stormglass.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "50 req/dia",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Weather marinho - 50/dia",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "aerisweather-wwwaerisweathercomdocs",
+    "name": "AerisWeather",
+    "url": "https://www.aerisweather.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Weather API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "climacell-tomorrow-io-wwwclimacellcoapi",
+    "name": "Climacell (Tomorrow.io)",
+    "url": "https://www.climacell.co/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Weather API hyperlocal",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "pirate-weather-pirateweathernet",
+    "name": "Pirate Weather",
+    "url": "https://pirateweather.net",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API compatível com Dark Sky",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cloudflare-dns-developerscloudflarecomdns",
+    "name": "Cloudflare DNS",
+    "url": "https://developers.cloudflare.com/dns",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Ilimitado",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "DNS 1.1.1.1 - API gratuita",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "hurricane-electric-dns-dnshenet",
+    "name": "Hurricane Electric DNS",
+    "url": "https://dns.he.net",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "DNS hosting gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "desec-deseciodocs",
+    "name": "deSEC",
+    "url": "https://desec.io/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "DNS hosting gratuito com API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "luadns-luadnscomdocs",
+    "name": "LuaDNS",
+    "url": "https://luadns.com/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "DNS hosting gratuito",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "cloudns-wwwcloudnsnetwiki",
+    "name": "ClouDNS",
+    "url": "https://www.cloudns.net/wiki",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "4 dominios",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "DNS hosting - 4 dominios free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "1984-is-dns-1984hostingproductsdns",
+    "name": "1984.is DNS",
+    "url": "https://1984.hosting/products/dns",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "DNS privacy-first",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "browserless-wwwbrowserlessiodocs",
+    "name": "Browserless",
+    "url": "https://www.browserless.io/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Headless browser API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "scrapingbee-wwwscrapingbeecomdocumentation",
+    "name": "ScrapingBee",
+    "url": "https://www.scrapingbee.com/documentation",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Web scraping API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "scrapingant-docsscrapingantcom",
+    "name": "ScrapingAnt",
+    "url": "https://docs.scrapingant.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Web scraping + headless",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "diffbot-wwwdiffbotcomdevdocs",
+    "name": "Diffbot",
+    "url": "https://www.diffbot.com/dev/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Web data extraction com IA",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "scrapegraphai-scrapegraphaicom",
+    "name": "ScrapeGraphAI",
+    "url": "https://scrapegraphai.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Web scraping com LLM",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "zyte-scrapinghub-docszytecom",
+    "name": "Zyte (Scrapinghub)",
+    "url": "https://docs.zyte.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "10k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Web scraping profissional",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "apify-docsapifycom",
+    "name": "Apify",
+    "url": "https://docs.apify.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "$5 platform credits",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Web scraping platform",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "browsercat-browsercatcom",
+    "name": "BrowserCat",
+    "url": "https://browsercat.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Headless browser API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "browserbase-docsbrowserbasecom",
+    "name": "Browserbase",
+    "url": "https://docs.browserbase.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Headless browser serverless",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "steel-docssteeldev",
+    "name": "Steel",
+    "url": "https://docs.steel.dev",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Headless browser API",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "hyperbrowser-docshyperbrowserai",
+    "name": "Hyperbrowser",
+    "url": "https://docs.hyperbrowser.ai",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Headless browser + scraping",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "tuya-iot-developertuyacom",
+    "name": "Tuya IoT",
+    "url": "https://developer.tuya.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "10k req/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API IoT Tuya - 10k/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "particle-iot-docsparticleio",
+    "name": "Particle IoT",
+    "url": "https://docs.particle.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API IoT Particle",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "blynk-iot-docsblynkio",
+    "name": "Blynk IoT",
+    "url": "https://docs.blynk.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API IoT Blynk - 2k req/min",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "thingspeak-wwwmathworkscomhelpthingspeak",
+    "name": "ThingSpeak",
+    "url": "https://www.mathworks.com/help/thingspeak",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IoT analytics MathWorks",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "ubidots-docsubidotscom",
+    "name": "Ubidots",
+    "url": "https://docs.ubidots.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API IoT Ubidots - 3 devices",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "losant-docslosantcom",
+    "name": "Losant",
+    "url": "https://docs.losant.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IoT platform",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "eclipse-iot-ioteclipseorg",
+    "name": "Eclipse IoT",
+    "url": "https://iot.eclipse.org",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Open-source",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Eclipse IoT stack",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "adafruit-io-ioadafruitcomapidocs",
+    "name": "Adafruit IO",
+    "url": "https://io.adafruit.com/api/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "IoT Adafruit - 30 dados/min",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "arduino-iot-cloud-docsarduinocciot",
+    "name": "Arduino IoT Cloud",
+    "url": "https://docs.arduino.cc/iot",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Arduino IoT Cloud",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "esphome-esphomeio",
+    "name": "ESPHome",
+    "url": "https://esphome.io",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Open-source",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "ESPHome - firmware IoT",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "tasmota-tasmotagithubiodocs",
+    "name": "Tasmota",
+    "url": "https://tasmota.github.io/docs",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Open-source",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Tasmota - firmware IoT alternativo",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "deepl-api-developersdeeplcom",
+    "name": "DeepL API",
+    "url": "https://developers.deepl.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "500k chars/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Tradução DeepL - 500k/mês free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "yandex-translate-yandexcomdevtranslate",
+    "name": "Yandex Translate",
+    "url": "https://yandex.com/dev/translate",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "1M chars/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Tradução Yandex - 1M/mês",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "microsoft-translator-learnmicrosoftcomazureai-service",
+    "name": "Microsoft Translator",
+    "url": "https://learn.microsoft.com/azure/ai-services/translator",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "2M chars/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Tradução Microsoft - 2M/mês free",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "amazon-translate-docsawsamazoncomtranslate",
+    "name": "Amazon Translate",
+    "url": "https://docs.aws.amazon.com/translate",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "2M chars/mês",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Tradução Amazon - 2M/mês (12 meses)",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "modernmt-wwwmodernmtcomapi",
+    "name": "ModernMT",
+    "url": "https://www.modernmt.com/api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Tradução adaptativa",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "reverso-wwwreversonettext-translation-ap",
+    "name": "Reverso",
+    "url": "https://www.reverso.net/text-translation-api",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Tier gratuito",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "API Reverso tradução",
+      "en": "",
+      "es": ""
+    }
+  },
+  {
+    "slug": "linguee-linguee-apiherokuappcom",
+    "name": "Linguee",
+    "url": "https://linguee-api.herokuapp.com",
+    "cat": {
+      "pt": "Fontes Complementares",
+      "en": "",
+      "es": ""
+    },
+    "tier": {
+      "pt": "Público",
+      "en": "",
+      "es": ""
+    },
+    "obs": {
+      "pt": "Traduções contextuais",
+      "en": "",
+      "es": ""
+    }
+  }
+]
