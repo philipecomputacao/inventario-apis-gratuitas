@@ -1,0 +1,40 @@
+name: Sync main → gh-pages
+
+# Toda vez que `main` recebe um push, este workflow faz fast-forward
+# de `gh-pages` para o HEAD de `main`. Como o GitHub Pages desse repo
+# serve da branch `gh-pages`, isso garante que cada commit em main
+# aparece no site sem precisar de sync manual.
+#
+# Por que fast-forward e não copia/sobrescrita: preserva o histórico
+# linear das duas branches. Se algum commit chegar direto em gh-pages
+# (não recomendado), o fast-forward falha em vez de apagar.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # botão manual em Actions → Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-gh-pages
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fast-forward gh-pages → main
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages:gh-pages
+          git checkout gh-pages
+          git merge --ff-only origin/main
+          git push origin gh-pages
