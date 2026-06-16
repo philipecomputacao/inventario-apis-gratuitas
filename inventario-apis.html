@@ -194,6 +194,66 @@
         cursor: pointer; font-size: 12px; font-weight: 600;
     }
     .toolbar button:hover { background: var(--bg3); border-color: var(--accent); }
+    .toolbar .filters {
+        display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+        width: 100%; margin-top: 10px; padding-top: 10px;
+        border-top: 1px dashed var(--border);
+    }
+    .toolbar .filters .filter-group {
+        position: relative; display: inline-block;
+    }
+    .toolbar .filters .filter-group > summary {
+        list-style: none; cursor: pointer;
+        background: var(--bg2); border: 1px solid var(--border);
+        color: var(--text); padding: 8px 12px; border-radius: 6px;
+        font-size: 12px; font-weight: 600; user-select: none;
+        display: inline-flex; align-items: center; gap: 6px;
+    }
+    .toolbar .filters .filter-group > summary::-webkit-details-marker { display: none; }
+    .toolbar .filters .filter-group > summary::after {
+        content: '▾'; font-size: 10px; color: var(--muted);
+        margin-left: 2px;
+    }
+    .toolbar .filters .filter-group[open] > summary {
+        background: var(--bg3); border-color: var(--accent); color: var(--accent);
+    }
+    .toolbar .filters .filter-group[open] > summary::after { content: '▴'; }
+    .toolbar .filters .filter-group > summary .count {
+        background: var(--accent); color: var(--logo-contrast);
+        font-size: 10px; padding: 1px 6px; border-radius: 999px;
+        font-weight: 700; min-width: 14px; text-align: center;
+    }
+    .toolbar .filters .filter-group > summary .count[data-active="0"] {
+        background: var(--bg3); color: var(--muted); border: 1px solid var(--border);
+    }
+    .toolbar .filters .filter-menu {
+        position: absolute; top: calc(100% + 6px); left: 0;
+        background: var(--bg2); border: 1px solid var(--border);
+        border-radius: 8px; box-shadow: var(--shadow-md);
+        padding: 10px 12px; min-width: 240px; max-height: 360px;
+        overflow-y: auto; z-index: 20;
+    }
+    .toolbar .filters .filter-menu label {
+        display: flex; align-items: center; gap: 8px;
+        padding: 4px 0; font-size: 12px; color: var(--text);
+        cursor: pointer; user-select: none;
+    }
+    .toolbar .filters .filter-menu label:hover { color: var(--accent); }
+    .toolbar .filters .filter-menu label input[type="checkbox"] {
+        accent-color: var(--accent); cursor: pointer;
+    }
+    .toolbar .filters .filter-menu .opt-count {
+        color: var(--muted); font-size: 11px; margin-left: auto;
+    }
+    .toolbar .filters .clear-btn {
+        background: var(--bg2); border: 1px solid var(--border);
+        color: var(--muted); padding: 8px 12px; border-radius: 6px;
+        cursor: pointer; font-size: 12px; font-weight: 600;
+    }
+    .toolbar .filters .clear-btn:hover { color: var(--accent); border-color: var(--accent); }
+    .toolbar .filters .clear-btn[data-has-active="true"] {
+        color: var(--accent); border-color: var(--accent);
+    }
     .section {
         margin-bottom: 28px; background: var(--bg2);
         border: 1px solid var(--border); border-radius: 12px;
@@ -511,6 +571,33 @@
             </div>
             <button id="expandAll" type="button">Expandir tudo</button>
             <button id="collapseAll" type="button">Recolher tudo</button>
+            <div class="filters" id="filters">
+                <details class="filter-group" id="filterLimitGroup">
+                    <summary id="filterLimitSummary">Limite Gratuito <span class="count" id="filterLimitCount" data-active="0">0</span></summary>
+                    <div class="filter-menu">
+                        <label><input type="checkbox" data-filter-limit="varia"><span>🔄 Varia conforme plano</span><span class="opt-count" data-opt-count="varia"></span></label>
+                        <label><input type="checkbox" data-filter-limit="publico"><span>🔓 Publico</span><span class="opt-count" data-opt-count="publico"></span></label>
+                        <label><input type="checkbox" data-filter-limit="tier"><span>🎫 Tier gratuito</span><span class="opt-count" data-opt-count="tier"></span></label>
+                        <label><input type="checkbox" data-filter-limit="gov-gov"><span>🏛️ Gov-a-Gov</span><span class="opt-count" data-opt-count="gov-gov"></span></label>
+                        <label><input type="checkbox" data-filter-limit="ilimitado"><span>♾️ Ilimitado</span><span class="opt-count" data-opt-count="ilimitado"></span></label>
+                        <label><input type="checkbox" data-filter-limit="sandbox"><span>🧪 Sandbox</span><span class="opt-count" data-opt-count="sandbox"></span></label>
+                        <label><input type="checkbox" data-filter-limit="opensource"><span>🆓 Open-source</span><span class="opt-count" data-opt-count="opensource"></span></label>
+                        <label><input type="checkbox" data-filter-limit="rate-limit"><span>📊 Com limite (req/min, X/mes, etc.)</span><span class="opt-count" data-opt-count="rate-limit"></span></label>
+                        <label><input type="checkbox" data-filter-limit="trial"><span>⏳ Trial</span><span class="opt-count" data-opt-count="trial"></span></label>
+                        <label><input type="checkbox" data-filter-limit="monetario"><span>💰 Credito gratis ($5 free, etc.)</span><span class="opt-count" data-opt-count="monetario"></span></label>
+                        <label><input type="checkbox" data-filter-limit="outros"><span>🗃️ Outros</span><span class="opt-count" data-opt-count="outros"></span></label>
+                    </div>
+                </details>
+                <details class="filter-group" id="filterKeyGroup">
+                    <summary id="filterKeySummary">Requer Chave? <span class="count" id="filterKeyCount" data-active="0">0</span></summary>
+                    <div class="filter-menu">
+                        <label><input type="checkbox" data-filter-key="sim"><span>✅ Sim</span><span class="opt-count" data-opt-count-key="sim"></span></label>
+                        <label><input type="checkbox" data-filter-key="nao"><span>❌ Nao</span><span class="opt-count" data-opt-count-key="nao"></span></label>
+                        <label><input type="checkbox" data-filter-key="desc"><span>❓ Nao / Desconhecido</span><span class="opt-count" data-opt-count-key="desc"></span></label>
+                    </div>
+                </details>
+                <button class="clear-btn" id="clearFilters" type="button" data-has-active="false">Limpar filtros</button>
+            </div>
         </div>
 
         <div id="noResults" class="no-results hidden">
@@ -3617,12 +3704,93 @@
         const visibleEl = document.getElementById('visibleCount');
         const noRes = document.getElementById('noResults');
 
+        const categorizeLimit = (raw) => {
+            const t = (raw || '').toLowerCase().trim();
+            if (!t) return 'outros';
+            if (/varia conforme plano/.test(t)) return 'varia';
+            if (/^publico|^p[uú]blico/.test(t) || /\bp[uú]blico\b/.test(t)) return 'publico';
+            if (/tier gr[áa]tis\b|\btier gratuito\b|\btier free\b|\bfree tier\b|\bmau free\b/.test(t)) return 'tier';
+            if (/gov-a-gov/.test(t)) return 'gov-gov';
+            if (/ilimitad/.test(t)) return 'ilimitado';
+            if (/sandbox/.test(t)) return 'sandbox';
+            if (/open.source/.test(t) || /\bopen source\b/.test(t)) return 'opensource';
+            if (/\btrial\b/.test(t)) return 'trial';
+            if (/\$|r\$|€|£|¥|usd\b|brl\b|eur\b/.test(t) && /free|gr[áa]tis/.test(t)) return 'monetario';
+            if (/\d/.test(t) && /(req|request|min|sec|hour|dia|mes|m[êe]s|ano|year|k\/|m\/|g\/|tb|gb|mb|kb|user|cham|email|caract|query|call|nf|notify|pageview|event|mau|device)/.test(t)) return 'rate-limit';
+            if (/^free:\s/.test(t)) return 'rate-limit';
+            return 'outros';
+        };
+        const normalizeKey = (raw) => {
+            const t = (raw || '').toLowerCase().trim();
+            if (t === 'sim') return 'sim';
+            if (t === 'nao' || t === 'não') return t === 'não' ? 'desc' : 'nao';
+            return 'desc';
+        };
+
+        rows.forEach(r => {
+            const tierCell = r.querySelector('td.tier') || (function(){
+                const tds = r.querySelectorAll('td');
+                return tds[3] || null;
+            })();
+            const keyCell = r.querySelector('td.key') || (function(){
+                const tds = r.querySelectorAll('td');
+                return tds[4] || null;
+            })();
+            const tierText = tierCell ? tierCell.textContent : '';
+            const keyText = keyCell ? keyCell.textContent : '';
+            r.setAttribute('data-limit-cat', categorizeLimit(tierText));
+            r.setAttribute('data-key-norm', normalizeKey(keyText));
+        });
+
+        const limitCounters = {};
+        const keyCounters = { sim: 0, nao: 0, desc: 0 };
+        rows.forEach(r => {
+            const lc = r.getAttribute('data-limit-cat') || 'outros';
+            limitCounters[lc] = (limitCounters[lc] || 0) + 1;
+            const kc = r.getAttribute('data-key-norm') || 'desc';
+            keyCounters[kc] = (keyCounters[kc] || 0) + 1;
+        });
+        document.querySelectorAll('[data-opt-count]').forEach(el => {
+            const k = el.getAttribute('data-opt-count');
+            el.textContent = ' (' + (limitCounters[k] || 0) + ')';
+        });
+        document.querySelectorAll('[data-opt-count-key]').forEach(el => {
+            const k = el.getAttribute('data-opt-count-key');
+            el.textContent = ' (' + (keyCounters[k] || 0) + ')';
+        });
+
+        const activeLimits = new Set();
+        const activeKeys = new Set();
+        const limitCountEl = document.getElementById('filterLimitCount');
+        const keyCountEl = document.getElementById('filterKeyCount');
+        const clearBtn = document.getElementById('clearFilters');
+
+        const updateFilterBadges = () => {
+            const total = activeLimits.size + activeKeys.size;
+            if (limitCountEl) {
+                limitCountEl.textContent = activeLimits.size;
+                limitCountEl.setAttribute('data-active', activeLimits.size > 0 ? '1' : '0');
+            }
+            if (keyCountEl) {
+                keyCountEl.textContent = activeKeys.size;
+                keyCountEl.setAttribute('data-active', activeKeys.size > 0 ? '1' : '0');
+            }
+            if (clearBtn) clearBtn.setAttribute('data-has-active', total > 0 ? 'true' : 'false');
+        };
+
         function applyFilter(){
             const q = (search.value || '').trim().toLowerCase();
+            const hasLimitFilter = activeLimits.size > 0;
+            const hasKeyFilter = activeKeys.size > 0;
             let visibleRows = 0;
             rows.forEach(r => {
                 const hay = r.getAttribute('data-hay') || '';
-                const match = !q || hay.indexOf(q) !== -1;
+                const lc = r.getAttribute('data-limit-cat') || 'outros';
+                const kc = r.getAttribute('data-key-norm') || 'desc';
+                const matchText = !q || hay.indexOf(q) !== -1;
+                const matchLimit = !hasLimitFilter || activeLimits.has(lc);
+                const matchKey = !hasKeyFilter || activeKeys.has(kc);
+                const match = matchText && matchLimit && matchKey;
                 r.classList.toggle('hidden', !match);
                 if (match) visibleRows++;
             });
@@ -3635,6 +3803,37 @@
             visibleEl.textContent = visibleRows.toLocaleString('pt-BR');
             noRes.classList.toggle('hidden', visibleRows > 0);
         }
+
+        document.querySelectorAll('[data-filter-limit]').forEach(cb => {
+            cb.addEventListener('change', () => {
+                const v = cb.getAttribute('data-filter-limit');
+                if (cb.checked) activeLimits.add(v); else activeLimits.delete(v);
+                updateFilterBadges();
+                applyFilter();
+            });
+        });
+        document.querySelectorAll('[data-filter-key]').forEach(cb => {
+            cb.addEventListener('change', () => {
+                const v = cb.getAttribute('data-filter-key');
+                if (cb.checked) activeKeys.add(v); else activeKeys.delete(v);
+                updateFilterBadges();
+                applyFilter();
+            });
+        });
+        if (clearBtn) {
+            clearBtn.addEventListener('click', () => {
+                activeLimits.clear();
+                activeKeys.clear();
+                document.querySelectorAll('[data-filter-limit],[data-filter-key]').forEach(cb => { cb.checked = false; });
+                updateFilterBadges();
+                applyFilter();
+            });
+        }
+        document.addEventListener('click', (e) => {
+            document.querySelectorAll('.filter-group').forEach(g => {
+                if (g.open && !g.contains(e.target)) g.removeAttribute('open');
+            });
+        });
 
         if (search) search.addEventListener('input', applyFilter);
         applyFilter();
@@ -3732,6 +3931,23 @@
             "free.label": "FREE:",
             "expand.all": "Expandir todas",
             "collapse.all": "Recolher todas",
+            "filter.limit.title": "Limite Gratuito",
+            "filter.key.title": "Requer Chave?",
+            "filter.clear": "Limpar filtros",
+            "filter.limit.varia": "Varia conforme plano",
+            "filter.limit.publico": "Publico",
+            "filter.limit.tier": "Tier gratuito",
+            "filter.limit.gov-gov": "Gov-a-Gov",
+            "filter.limit.ilimitado": "Ilimitado",
+            "filter.limit.sandbox": "Sandbox",
+            "filter.limit.opensource": "Open-source",
+            "filter.limit.rate-limit": "Com limite (req/min, X/mes, etc.)",
+            "filter.limit.trial": "Trial",
+            "filter.limit.monetario": "Credito gratis ($5 free, etc.)",
+            "filter.limit.outros": "Outros",
+            "filter.key.sim": "Sim",
+            "filter.key.nao": "Nao",
+            "filter.key.desc": "Nao / Desconhecido",
             "lang.aria": "Seletor de idioma",
             "theme.aria": "Seletor de tema",
             "theme.auto": "Automatico (segue o sistema)",
@@ -3758,6 +3974,23 @@
             "free.label": "FREE:",
             "expand.all": "Expand all",
             "collapse.all": "Collapse all",
+            "filter.limit.title": "Free Tier",
+            "filter.key.title": "Requires Key?",
+            "filter.clear": "Clear filters",
+            "filter.limit.varia": "Varies by plan",
+            "filter.limit.publico": "Public",
+            "filter.limit.tier": "Free tier",
+            "filter.limit.gov-gov": "Gov-to-Gov",
+            "filter.limit.ilimitado": "Unlimited",
+            "filter.limit.sandbox": "Sandbox",
+            "filter.limit.opensource": "Open-source",
+            "filter.limit.rate-limit": "Rate-limited (req/min, X/month, etc.)",
+            "filter.limit.trial": "Trial",
+            "filter.limit.monetario": "Free credits ($5 free, etc.)",
+            "filter.limit.outros": "Other",
+            "filter.key.sim": "Yes",
+            "filter.key.nao": "No",
+            "filter.key.desc": "No / Unknown",
             "lang.aria": "Language selector",
             "theme.aria": "Theme selector",
             "theme.auto": "Auto (follows system)",
@@ -3784,6 +4017,23 @@
             "free.label": "FREE:",
             "expand.all": "Expandir todas",
             "collapse.all": "Contraer todas",
+            "filter.limit.title": "Limite Gratuito",
+            "filter.key.title": "Requiere Clave?",
+            "filter.clear": "Limpiar filtros",
+            "filter.limit.varia": "Varia segun el plan",
+            "filter.limit.publico": "Publico",
+            "filter.limit.tier": "Nivel gratuito",
+            "filter.limit.gov-gov": "Gob-a-Gob",
+            "filter.limit.ilimitado": "Ilimitado",
+            "filter.limit.sandbox": "Sandbox",
+            "filter.limit.opensource": "Codigo abierto",
+            "filter.limit.rate-limit": "Con limite (req/min, X/mes, etc.)",
+            "filter.limit.trial": "Prueba",
+            "filter.limit.monetario": "Credito gratis ($5 free, etc.)",
+            "filter.limit.outros": "Otros",
+            "filter.key.sim": "Si",
+            "filter.key.nao": "No",
+            "filter.key.desc": "No / Desconocido",
             "lang.aria": "Selector de idioma",
             "theme.aria": "Selector de tema",
             "theme.auto": "Auto (sigue el sistema)",
@@ -3858,6 +4108,38 @@
                 const n = m ? m[0] : '3194';
                 el.textContent = T.badge.total.replace('{n}', n);
             }
+        }
+
+        function translateFilters(lang) {
+            const T = CATALOG_TRANSLATIONS[lang];
+            const limitSummary = document.getElementById('filterLimitSummary');
+            if (limitSummary) limitSummary.textContent = T['filter.limit.title'];
+            const keySummary = document.getElementById('filterKeySummary');
+            if (keySummary) keySummary.textContent = T['filter.key.title'];
+            const clearBtn = document.getElementById('clearFilters');
+            if (clearBtn) clearBtn.textContent = T['filter.clear'];
+            document.querySelectorAll('[data-filter-limit]').forEach(cb => {
+                const k = cb.getAttribute('data-filter-limit');
+                const lbl = cb.closest('label');
+                if (!lbl) return;
+                const span = lbl.querySelector('span:not(.opt-count)');
+                if (span && T['filter.limit.' + k]) {
+                    const emoji = span.textContent.match(/^[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{1F300}-\u{1F5FF}]/u);
+                    const txt = T['filter.limit.' + k];
+                    span.textContent = (emoji ? emoji[0] + ' ' : '') + txt;
+                }
+            });
+            document.querySelectorAll('[data-filter-key]').forEach(cb => {
+                const k = cb.getAttribute('data-filter-key');
+                const lbl = cb.closest('label');
+                if (!lbl) return;
+                const span = lbl.querySelector('span:not(.opt-count)');
+                if (span && T['filter.key.' + k]) {
+                    const emoji = span.textContent.match(/^[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{1F300}-\u{1F5FF}]/u);
+                    const txt = T['filter.key.' + k];
+                    span.textContent = (emoji ? emoji[0] + ' ' : '') + txt;
+                }
+            });
         }
 
         function translateTables(lang) {
@@ -3958,6 +4240,7 @@
             translateChips(lang);
             translateHeaders(lang);
             translateTotalBadge(lang);
+            translateFilters(lang);
             // Traduz tabelas (obs, cat, tier) e secoes (h2)
             translateTables(lang);
             // Toast + microinteracao
