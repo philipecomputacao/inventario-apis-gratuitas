@@ -34,7 +34,7 @@
 - 🌗 **Light + Dark mode** com toggle 3-vias (Auto, Light, Dark) e resolucao no `<head>` (sem FOWT)
 - 🔍 **Busca em tempo real** com atalho `/`
 - 🎯 **Filtros inteligentes**: "Limite Gratuito" (11 categorias smart) + "Requer Chave?" (3 checkboxes), com contadores e combinacao AND
-- 📦 **HTML 100% autocontido** &mdash; zero build, zero dependencia, zero framework, **4.4 MB em 1 arquivo**
+- 📦 **HTML 100% autocontido** &mdash; zero build, zero dependencia, zero framework, **4.9 MB em 1 arquivo**
 - 🌙 Funciona **offline** depois do primeiro carregamento
 - 🖨️ Print-friendly (forca tema claro, esconde controles)
 - ♿ Acessivel (ARIA, semantica HTML5, `prefers-reduced-motion`, `prefers-color-scheme`)
@@ -50,7 +50,7 @@
 | **APIs do Governo Brasileiro** | 182 | Em 11 subcategorias, secao dedicada |
 | **Idiomas** | 3 | PT-BR (default), EN, ES |
 | **Strings traduzidas** | 43 chaves | x 3 idiomas = 129 traducoes |
-| **Tamanho HTML** | 4.4 MB | Self-contained |
+| **Tamanho HTML** | 4.9 MB | Self-contained |
 | **Dependencias externas** | 0 | Sem React, Bootstrap, jQuery |
 | **Build step** | 0 | HTML+CSS+JS puros |
 
@@ -95,7 +95,7 @@
 ```text
 .
 +- index.html              # Landing page (GitHub Pages entrypoint, 90 KB)
-+- inventario-apis.html    # Catalogo massivo (3.864+ APIs, 4.4 MB)
++- inventario-apis.html    # Catalogo massivo (3.864+ APIs, 4.9 MB)
 +- assets/                 # Foto de perfil, favicons (PNG inline no HTML)
 |   +- lpfotoperfil.jpg    # Original 460x460
 |   +- perfil-300.jpg      # Resize para 300x300
