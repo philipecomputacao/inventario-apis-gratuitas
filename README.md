@@ -30,7 +30,7 @@
 
 ## ✨ Destaques
 
-- 📚 **3.743 APIs** em 111 categorias — referência open-source em PT-BR
+- 📚 **4.205 APIs e serviços** em 127 categorias — referência open-source em PT-BR
 - 🇧🇷 **Seção dedicada de APIs do Governo Brasileiro** (BrasilAPI, Conecta gov.br, IBGE, BCB, CVM, IPEA, etc.)
 - 🌍 **3 idiomas** (PT-BR, EN, ES) com switcher + URL param + auto-detect via navegador
 - 🌗 **Light + Dark mode** com toggle 3-vias (Auto, Claro, Escuro), sem FOWT
@@ -47,8 +47,8 @@
 
 | Métrica | Valor |
 |---|---|
-| **APIs e serviços** | 3.743 |
-| **Categorias** | 111 |
+| **APIs e serviços** | 4.205 |
+| **Categorias** | 127 |
 | **Fontes mineradas** | 8 principais |
 | **Idiomas** | 3 (PT-BR, EN, ES) |
 | **Tamanho HTML** | 5,1 MB |
@@ -69,6 +69,27 @@
 | 8 | Governo | 95 |
 | 9 | Transporte | 83 |
 | 10 | Provedores Cloud (Limites Gratis) | 76 |
+
+### Categorias MCP (Model Context Protocol)
+
+| # | Categoria | MCPs |
+|---|---|---|
+| 1 | Servidores MCP - Desenvolvimento | 50 |
+| 2 | Servidores MCP - Pesquisa | 44 |
+| 3 | Servidores MCP - Banco de Dados | 40 |
+| 4 | Servidores MCP - Produtividade | 37 |
+| 5 | Servidores MCP - Outros | 33 |
+| 6 | Servidores MCP - Web Scraping | 30 |
+| 7 | Servidores MCP - Sistema de Arquivos | 30 |
+| 8 | Servidores MCP - Controle de Versão | 30 |
+| 9 | Servidores MCP - Memória | 29 |
+| 10 | Servidores MCP - Marketing | 28 |
+| 11 | Servidores MCP - Comunicação | 27 |
+| 12 | Servidores MCP - Finanças | 26 |
+| 13 | Servidores MCP - Serviço de Nuvem | 23 |
+| 14 | Servidores MCP - Armazenamento em Nuvem | 22 |
+| 15 | Servidores MCP - Design | 11 |
+| 16 | Servidores MCP - Governo Brasileiro | 2 |
 
 ---
 
@@ -193,6 +214,7 @@ O catálogo agrega APIs de **8 fontes principais**:
 - [BrasilAPI/BrasilAPI](https://brasilapi.com.br/docs) — endpoints abertos BR
 - [gov.br Catálogo Conecta](https://www.gov.br/conecta) — APIs gov-a-gov
 - [free-for-dev](https://github.com/ripienaar/free-for-dev) — SaaS com free tier
+- [mcpservers.org](https://mcpservers.org) — servidores Model Context Protocol com tier gratuito (MCPs)
 - Fontes especializadas (KO/CN/IR/CL, Awesome ML APIs, etc.)
 
 Veja `CHANGELOG.md` para o histórico de merges e contagens.

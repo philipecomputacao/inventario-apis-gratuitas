@@ -553,5 +553,85 @@
     "pt": "Visualizacao em Mapas",
     "en": "Map Visualization",
     "es": "Visualización en Mapas"
+  },
+  {
+    "pt": "Servidores MCP - Pesquisa",
+    "en": "MCP Servers - Search",
+    "es": "Servidores MCP - Busqueda"
+  },
+  {
+    "pt": "Servidores MCP - Memoria",
+    "en": "MCP Servers - Memory",
+    "es": "Servidores MCP - Memoria"
+  },
+  {
+    "pt": "Servidores MCP - Banco de Dados",
+    "en": "MCP Servers - Database",
+    "es": "Servidores MCP - Base de Datos"
+  },
+  {
+    "pt": "Servidores MCP - Web Scraping",
+    "en": "MCP Servers - Web Scraping",
+    "es": "Servidores MCP - Web Scraping"
+  },
+  {
+    "pt": "Servidores MCP - Produtividade",
+    "en": "MCP Servers - Productivity",
+    "es": "Servidores MCP - Productividad"
+  },
+  {
+    "pt": "Servidores MCP - Desenvolvimento",
+    "en": "MCP Servers - Development",
+    "es": "Servidores MCP - Desarrollo"
+  },
+  {
+    "pt": "Servidores MCP - Governo Brasileiro",
+    "en": "MCP Servers - Brazilian Government",
+    "es": "Servidores MCP - Gobierno Brasileno"
+  },
+  {
+    "pt": "Servidores MCP - Comunicacao",
+    "en": "MCP Servers - Communication",
+    "es": "Servidores MCP - Comunicacion"
+  },
+  {
+    "pt": "Servidores MCP - Marketing",
+    "en": "MCP Servers - Marketing",
+    "es": "Servidores MCP - Marketing"
+  },
+  {
+    "pt": "Servidores MCP - Design",
+    "en": "MCP Servers - Design",
+    "es": "Servidores MCP - Diseno"
+  },
+  {
+    "pt": "Servidores MCP - Financas",
+    "en": "MCP Servers - Finance",
+    "es": "Servidores MCP - Finanzas"
+  },
+  {
+    "pt": "Servidores MCP - Controle de Versao",
+    "en": "MCP Servers - Version Control",
+    "es": "Servidores MCP - Control de Versiones"
+  },
+  {
+    "pt": "Servidores MCP - Sistema de Arquivos",
+    "en": "MCP Servers - File System",
+    "es": "Servidores MCP - Sistema de Archivos"
+  },
+  {
+    "pt": "Servidores MCP - Servico de Nuvem",
+    "en": "MCP Servers - Cloud Service",
+    "es": "Servidores MCP - Servicio en la Nube"
+  },
+  {
+    "pt": "Servidores MCP - Armazenamento em Nuvem",
+    "en": "MCP Servers - Cloud Storage",
+    "es": "Servidores MCP - Almacenamiento en la Nube"
+  },
+  {
+    "pt": "Servidores MCP - Outros",
+    "en": "MCP Servers - Other",
+    "es": "Servidores MCP - Otros"
   }
 ]

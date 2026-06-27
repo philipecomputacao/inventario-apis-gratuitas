@@ -5,6 +5,41 @@ Todas as mudancas notaveis neste projeto.
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/),
 e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html) (informal).
 
+## [Unreleased] - 2026-06-27
+
+### Adicionado
+
+- **Servidores MCP (Model Context Protocol)**: 462 servidores (457 únicos) gratuitos / open source agregados de [mcpservers.org](https://mcpservers.org), distribuidos em 16 categorias:
+  - Servidores MCP - Desenvolvimento (50)
+  - Servidores MCP - Pesquisa (44)
+  - Servidores MCP - Banco de Dados (40)
+  - Servidores MCP - Produtividade (37)
+  - Servidores MCP - Outros (33)
+  - Servidores MCP - Web Scraping (30)
+  - Servidores MCP - Sistema de Arquivos (30)
+  - Servidores MCP - Controle de Versão (30)
+  - Servidores MCP - Memoria (29)
+  - Servidores MCP - Marketing (28)
+  - Servidores MCP - Comunicacao (27)
+  - Servidores MCP - Finanças (26)
+  - Servidores MCP - Servico de Nuvem (23)
+  - Servidores MCP - Armazenamento em Nuvem (22)
+  - Servidores MCP - Design (11)
+  - Servidores MCP - Governo Brasileiro (2)
+- **Traducoes PT-BR/EN/ES** para todas as 462 entradas (marcadas com `[EN-AUTO]`/`[ES-AUTO]` para revisao)
+- **16 novos links no sidebar** com emojis proprios
+- **Script `inject-mcp-servers.py`** (Python, idempotente, com `--replace` para re-execução)
+
+### Mudado
+
+- **Total de APIs**: 3.743 -> 4.205 (+462)
+- **Categorias**: 111 -> 127 (+16)
+- **Fontes**: 8 -> 9 (adicionado mcpservers.org)
+- **Tamanho HTML**: 5.1 MB -> ~6.2 MB
+- **page.title** atualizado de "3743" para "4205" em todos os contadores
+
+---
+
 ## [Unreleased] - 2026-06-16
 
 ### Adicionado
