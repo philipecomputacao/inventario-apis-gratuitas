@@ -9238,5 +9238,25 @@
       "en": "[EN-AUTO] Dados de tendências em tempo real do Google (Pesquisa, Imagens, Notícias, Shopping), YouTube, TikTok, Reddit, Amazon, Wikipedia, X (Twitter), LinkedIn, Spotify, GitHub, Steam, npm, App Store, sentimento de notícias e tráfego web através de uma única conexão MC",
       "es": "[ES-AUTO] Dados de tendências em tempo real do Google (Pesquisa, Imagens, Notícias, Shopping), YouTube, TikTok, Reddit, Amazon, Wikipedia, X (Twitter), LinkedIn, Spotify, GitHub, Steam, npm, App Store, sentimento de notícias e tráfego web através de uma única conexão MC"
     }
+  },
+  {
+    "slug": "mcp-mcp-trello-server",
+    "name": "mcp-trello-server",
+    "url": "https://github.com/smarthomeo/mcp-trello",
+    "cat": {
+      "pt": "Servidores MCP - Produtividade",
+      "en": "MCP Servers - Productivity",
+      "es": "Servidores MCP - Productividad"
+    },
+    "tier": {
+      "pt": "Open Source (MIT)",
+      "en": "Open Source (MIT)",
+      "es": "Codigo Abierto (MIT)"
+    },
+    "obs": {
+      "pt": "MCP server open source para Trello: gerencia boards, lists, cards, labels e checklists de qualquer agente de IA. Requer API key + token do Trello (gerado em trello.com/power-ups/admin/)",
+      "en": "Open source MCP server for Trello: manage boards, lists, cards, labels and checklists from any AI agent. Requires Trello API key + token (generated at trello.com/power-ups/admin/)",
+      "es": "Servidor MCP open source para Trello: gestiona boards, lists, cards, labels y checklists desde cualquier agente de IA. Requiere API key + token de Trello (generado en trello.com/power-ups/admin/)"
+    }
   }
 ]

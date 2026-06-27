@@ -30,7 +30,7 @@
 
 ## ✨ Destaques
 
-- 📚 **4.205 APIs e serviços** em 127 categorias — referência open-source em PT-BR
+- 📚 **4.206 APIs e serviços** em 127 categorias — referência open-source em PT-BR
 - 🇧🇷 **Seção dedicada de APIs do Governo Brasileiro** (BrasilAPI, Conecta gov.br, IBGE, BCB, CVM, IPEA, etc.)
 - 🌍 **3 idiomas** (PT-BR, EN, ES) com switcher + URL param + auto-detect via navegador
 - 🌗 **Light + Dark mode** com toggle 3-vias (Auto, Claro, Escuro), sem FOWT
@@ -47,7 +47,7 @@
 
 | Métrica | Valor |
 |---|---|
-| **APIs e serviços** | 4.205 |
+| **APIs e serviços** | 4.206 |
 | **Categorias** | 127 |
 | **Fontes mineradas** | 8 principais |
 | **Idiomas** | 3 (PT-BR, EN, ES) |
