@@ -37,6 +37,8 @@ e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 
 - **Fontes**: 8 -> 9 (adicionado mcpservers.org)
 - **Tamanho HTML**: 5.1 MB -> ~6.2 MB
 - **page.title** atualizado de "3743" para "4205" em todos os contadores
+- **index.html (landing page)**: contadores 3.864 -> 4.205, categorias 112 -> 127, fontes 15 -> 16, tamanho 5.0 MB -> 5.9 MB, adicionado mcpservers.org em hero + secao Fontes + footer (PT/EN/ES)
+- **i18n landing page**: traducoes EN e ES adicionadas para source8 ("mcpservers.org")
 
 ---
 
